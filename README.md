@@ -2,6 +2,8 @@
 
 B站《凡人修仙传》数据统计。
 
+B站爬虫协议：<https://www.bilibili.com/robots.txt>，看了下本项目不涉及该规则。如有侵权，请联系我删除。
+
 ## 相关信息
 
 https://www.bilibili.com/bangumi/media/md28223043#detail

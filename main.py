@@ -10,16 +10,20 @@ from spider import SpiderUtil
 
 if __name__ == '__main__':
     print('程序开始了……')
-    photoType = "21"
-    photoType = "22"
-    pageIndex = "1"
+
+    # season_id: 番剧季节ID
+    season_id = 28747
 
     blogList = [];
-    categoryList = SpiderUtil.getCategoryList(photoType, pageIndex)
-    for category in categoryList:
-        print(category)
+    lists = SpiderUtil.get_bilibili_episodes(season_id)
+    print('lists数量：'+str(len(lists)))
+    for item in lists:
+        # print(item)
+        print(item['id'])
+        # continue
+        break
         # 获取该分类的所有博客列表
-        blogs = SpiderUtil.getCategoryBlogs(category)
+        blogs = SpiderUtil.getCategoryBlogs(item)
         # blogList.append(blogs)
         blogList = blogList + blogs
         print("blogList：" + str(len(blogList)))

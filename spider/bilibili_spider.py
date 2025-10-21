@@ -87,7 +87,7 @@ def get_bilibili_episodes(season_id: int, url="https://api.bilibili.com/pgc/web/
         episodes = data.get("result", {}).get("main_section", {}).get("episodes", [])
         # print(episodes)
         # 只保留需要的属性
-        episodes = fileutil.list_retain_attributes(episodes,['id','long_title','share_url','long_title'])
+        episodes = fileutil.list_retain_attributes(episodes,['id','long_title','share_url','long_title','title'])
 
         return episodes
 

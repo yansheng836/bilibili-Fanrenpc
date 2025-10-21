@@ -6,7 +6,8 @@
 @file: main.py
 @time: 2025/10/20
 """
-from spider import SpiderUtil
+from spider import bilibili_spider
+from util import fileutil
 
 if __name__ == '__main__':
     print('程序开始了……\n')
@@ -15,18 +16,21 @@ if __name__ == '__main__':
     season_id = 28747
 
     blogList = []
-    lists = SpiderUtil.get_bilibili_episodes(season_id)
+    lists = bilibili_spider.get_bilibili_episodes(season_id)
     print('lists数量：' + str(len(lists)))
+
+    fileutil.write_arr_to_json(lists,'./bilibili_episodes.json')
     for item in lists:
         # print(item)
         print(item['id'])
         # continue
         # break
         # 获取该分类的所有博客列表
-        item_stat = SpiderUtil.get_bilibili_episode_info(item['id'])
+        item_stat = bilibili_spider.get_bilibili_episode_info(item['id'])
         print(item_stat)
         item['stat'] = item_stat
         print(item)
-        break
+        # break
+    fileutil.write_arr_to_json(lists, './bilibili_episodes_infos.json')
 
     print('\n程序结束！')

@@ -3,14 +3,13 @@
 """
 # 文件工具类
 @author: yansheng
-@file: SpiderUtil.py
+@file: bilibili_spider.py
 @time: 2023/01/01
 """
 
 import os
 import re
 import requests
-# import util.spider_util as spider_util
 from lxml import html
 
 etree = html.etree
@@ -26,11 +25,11 @@ def dealwith_filename(path):
     path = path.strip()
     # 去除尾部 \ 符号
     path = path.rstrip("\\")
-    '''
+    """
     windows下文件名中不能含有：\\ / : * ? " < > | 英文的这些字符 ，这里使用"'"、"-"进行替换。
     :?| 用-替换
     "<> 用'替换
-    '''
+    """
     # 对于文件夹，有没有.好像都是同一个文件
     # replace方法默认替换所有匹配项
     path = path.replace(":", "-").replace("?", "-").replace("|", "-")
@@ -97,7 +96,7 @@ def get_suffix_from_url(url):
     return suffix
 
 
-def download_image_with_dir(img_url, dir_path, pathname):
+def download_image_with_dir(img_url, dir_path, pathname, timeout_image=10):
     """
     下载图片
     :param img_url: 照片URL
@@ -129,7 +128,7 @@ def download_image_with_dir(img_url, dir_path, pathname):
         connect.keep_alive = False
         # img = connect.get(img_url, headers=spider_util.image_header, timeout=spider_util.timeout_image,
         #                   allow_redirects=False)
-        img = connect.get(img_url, timeout=spider_util.timeout_image, allow_redirects=False, verify=False)
+        img = connect.get(img_url, timeout=timeout_image, allow_redirects=False, verify=False)
         # print(img)
         # print(img.status_code)
     # except requests.exceptions.RequestException as e:
@@ -161,7 +160,7 @@ def download_image_with_dir(img_url, dir_path, pathname):
         print('哎，请求图片失败了，状态码为：%s，图片地址为：%s' % (str(img.status_code), img_url))
 
 
-def download_image(img_url, image_path):
+def download_image(img_url, image_path, image_header={}, timeout_image=10):
     """
     下载图片
     :param img_url: 照片URL
@@ -184,8 +183,7 @@ def download_image(img_url, image_path):
     try:
         # img = requests.get(img_url, image_header, timeout=timeout_image)
         requests.packages.urllib3.disable_warnings()
-        img = requests.get(img_url, headers=spider_util.image_header, timeout=spider_util.timeout_image,
-                           allow_redirects=False, verify=False)
+        img = requests.get(img_url, headers=image_header, timeout=timeout_image, allow_redirects=False, verify=False)
     # except requests.exceptions.RequestException as e:
     except Exception as e:
         print('哎，请求图片失败了……')
@@ -276,6 +274,25 @@ def write_arr_to_csv(arr, filename):
         print(e)
 
 
+def write_arr_to_json(arr, filename):
+    """
+    将数据写到JSON文件
+    :param arr: 数据
+    :param filename:文件名
+    :return:
+    """
+    import json
+
+    if arr is None:
+        print('arr 不能为空')
+        return
+    if filename is None:
+        print('filename 不能为空')
+        return
+    with open(filename, 'w', encoding='utf-8') as file:
+        json.dump(arr, file, ensure_ascii=False, indent=4)
+
+
 def read_arr_from_csv(filename):
     """
     从csv文件中读取对象数组
@@ -328,3 +345,31 @@ def is_file_content_equal(filename, md_content):
             return True
         else:
             return False
+
+
+def list_remove_attributes(data_list, remove_keys):
+    """高效移除字典列表中指定键
+
+    Args:
+        data_list: 字典列表
+        remove_keys: 要移除的键列表
+
+    Returns:
+        处理后的新列表（不修改原数据）
+    """
+    return [{k: v for k, v in d.items() if k not in remove_keys}
+            for d in data_list]
+
+
+def list_retain_attributes(data_list, retain_keys):
+    """高效保留字典列表中指定键
+
+    Args:
+        data_list: 字典列表
+        retain_keys: 要保留的键列表
+
+    Returns:
+        处理后的新列表（不修改原数据）
+    """
+    return [{k: d[k] for k in retain_keys if k in d}
+            for d in data_list]

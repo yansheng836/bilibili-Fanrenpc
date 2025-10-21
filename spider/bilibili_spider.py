@@ -3,15 +3,16 @@
 """
 爬虫工具类
 @author: yansheng
-@file: SpiderUtil.py
+@file: bilibili_spider.py
 @time: 2025/10/20
 """
 import requests
-import os
-import re
+# import os
+# import re
 import json
 from typing import Dict, List, Any
 from lxml import html
+from util import fileutil
 
 etree = html.etree
 
@@ -84,6 +85,9 @@ def get_bilibili_episodes(season_id: int, url="https://api.bilibili.com/pgc/web/
 
         # 优化8: 使用get方法避免KeyError
         episodes = data.get("result", {}).get("main_section", {}).get("episodes", [])
+        # print(episodes)
+        # 只保留需要的属性
+        episodes = fileutil.list_retain_attributes(episodes,['id','long_title','share_url','long_title'])
 
         return episodes
 

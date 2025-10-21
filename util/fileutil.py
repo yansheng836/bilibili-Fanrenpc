@@ -328,4 +328,3 @@ def is_file_content_equal(filename, md_content):
             return True
         else:
             return False
-

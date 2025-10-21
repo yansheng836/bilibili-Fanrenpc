@@ -98,57 +98,56 @@ def get_bilibili_episodes(season_id: int, url="https://api.bilibili.com/pgc/web/
         return []
 
 
-def get_bilibili_episodes(season_id: int, url="https://api.bilibili.com/pgc/web/season/section", headers=HEADERS,
-                          buvid3: str = BUVID3) -> List[Dict[str, Any]]:
+def get_bilibili_episode_info(ep_id: int, url="https://api.bilibili.com/pgc/season/episode/web/info", headers=HEADERS,
+                              buvid3: str = BUVID3) -> List[Dict[str, Any]]:
     """
-    获取B站番剧的episodes数据
+    获取番剧单集详细信息
 
     Args:
-        season_id: 番剧季节ID
-        buvid3: 用户cookie中的buvid3参数
+        ep_id: 番剧单集ID
 
     Returns:
-        episodes数据列表
+        包含episode_id和stat等信息的字典，失败返回None
     """
     # 优化1: 使用常量定义URL和headers，避免重复字符串创建
-    BASE_URL = url
+    BASE_URL = url + '?ep_id=' + str(ep_id)
+    # print('BASE_URL:' + BASE_URL)
 
     # 优化2: 预定义headers字典，减少内存分配
     # headers = headers
 
-    # 优化3: 使用参数字典，便于维护和扩展
-    params = {"season_id": season_id}
+    # 优化4: 设置cookie
+    cookies = {"buvid3": buvid3}
+
+    # 优化5: 使用参数字典
+    params = {"ep_id": ep_id}
 
     try:
-        # 优化4: 添加超时设置，避免请求阻塞
+        # 优化6: 添加超时和重试机制
         response = requests.get(
             BASE_URL,
             headers=headers,
-            params=params,
+            # params=params,
             timeout=10
         )
-
-        # 优化5: 使用response.raise_for_status()进行错误检查
+        # print(response)
+        # print(response.text)
         response.raise_for_status()
 
-        # 优化6: 直接使用response.json()避免额外的json.loads调用
         data = response.json()
+        # print(data)
 
-        # 优化7: 添加数据验证，确保数据结构正确
+        # 优化7: 验证API返回状态
         if data.get("code") != 0:
-            raise ValueError(f"API返回错误: {data.get('message', '未知错误')}")
+            print(f"API返回错误: {data.get('message', '未知错误')}")
+            return None
 
-        # 优化8: 使用get方法避免KeyError
-        episodes = data.get("result", {}).get("main_section", {}).get("episodes", [])
-
-        return episodes
+        return data.get("data", {}).get("stat", {})
 
     except requests.exceptions.RequestException as e:
         print(f"请求失败: {e}")
-        return []
+        # print(e)
+        return None
     except json.JSONDecodeError as e:
         print(f"JSON解析失败: {e}")
-        return []
-    except Exception as e:
-        print(f"未知错误: {e}")
-        return []
+        return None

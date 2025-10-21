@@ -9,6 +9,7 @@
 
 import os
 import re
+import json
 import requests
 from lxml import html
 
@@ -373,3 +374,47 @@ def list_retain_attributes(data_list, retain_keys):
     """
     return [{k: d[k] for k in retain_keys if k in d}
             for d in data_list]
+
+
+def process_bilibili_data(data, sort_attributes, top_n=10):
+    """
+    读取data数组数据，按指定属性排序并返回前N项
+
+    参数:
+        data: data数组数据
+        sort_attributes: 排序属性列表，如['stat.coin', 'stat.dm']
+        top_n: 返回结果数量，默认为10
+
+    返回:
+        排序后的前N项数据列表
+    """
+    try:
+
+        # 验证数据格式
+        # if not isinstance(data, list) or not all('stat' in item for item in data):
+        #     raise ValueError("JSON数据格式不符合要求")
+
+        # 按多个属性排序（降序）
+        for attr in reversed(sort_attributes):
+            # 处理嵌套属性（如'stat.coin'）
+            keys = attr.split('.')
+            data.sort(
+                key=lambda x: get_nested_value(x, keys),
+                reverse=True
+            )
+
+        # 返回前N项
+        if top_n == 0:
+            return data
+        return data[:top_n]
+
+    except Exception as e:
+        print(f"处理数据时出错: {e}")
+        return []
+
+
+def get_nested_value(obj, keys):
+    """获取嵌套字典中的值"""
+    for key in keys:
+        obj = obj.get(key, {})
+    return obj if isinstance(obj, (int, float)) else 0

@@ -46,7 +46,8 @@ jobs:
 
     # Commit all changed files to the repository
     - name: Commit to the repo
-#      run: |
+      run: |
+        echo 'Commit to the repo'
 #        git config --global user.name "jstrieb/github-stats"
 #        git config --global user.email "github-stats[bot]@jstrieb.github.io"
 #        git status

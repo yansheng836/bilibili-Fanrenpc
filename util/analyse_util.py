@@ -91,7 +91,7 @@ def draw_bar(data, value_type='view', title='这是默认图标名，也是文�
     # 创建示例数据
     # print(data)
     # categories = ['产品A', '产品B', '产品C', '产品D', '产品E']
-    categories = [item["title"] + '-' + item["long_title"] for item in data]
+    categories = [item["title"] + '.' + item["long_title"].replace('重制版', '') for item in data]
     # values = [230, 450, 560, 780, 320]
     # values = [item["stat"]["view"] for item in data]
     values = [item["stat"][value_type] for item in data]
@@ -100,12 +100,15 @@ def draw_bar(data, value_type='view', title='这是默认图标名，也是文�
     # 创建图形和坐标轴，设置大小
     fig, ax = plt.subplots(figsize=(10, 6))
 
-    # 绘制柱状图
+    # 绘制柱状图：柱子宽度用 width=0.5
     bars = ax.bar(categories, values, color=colors, edgecolor='black', alpha=0.8)
 
+    # 设置x轴刻度字体大小
+    plt.xticks(fontsize=8)
+
     # 设置标题和标签
-    ax.set_title(title, fontsize=16, pad=20)
-    ax.set_xlabel(x_title, fontsize=4)
+    ax.set_title(title, fontsize=12, pad=20)
+    ax.set_xlabel(x_title, fontsize=12)
     ax.set_ylabel(y_title, fontsize=12)
 
     # 在柱子上方添加数据标签
@@ -119,7 +122,7 @@ def draw_bar(data, value_type='view', title='这是默认图标名，也是文�
     # 添加网格线
     ax.grid(axis='y', alpha=0.3, linestyle='--')
 
-    # 优化布局并保存
+    # 优化布局(自动调整布局)并保存
     plt.tight_layout()
     image_path = './images/' + title + '.png'
     plt.savefig(image_path, dpi=300, bbox_inches='tight', facecolor='white', edgecolor='none')  # 设置背景

@@ -29,8 +29,9 @@ def format_number_string(number_str):
 
 def get_md_content_table(data, title):
     """
-    辅助函数：创建文件夹
-    :param path: 文件夹名
+    将数组数据转成markdown格式的表格数据
+    :param data: 数组
+    :param title: 表头
     :return:
     """
     content = '## ' + title + '\n\n'
@@ -50,7 +51,7 @@ def get_md_content_table(data, title):
                       format_number_string(item['stat']['reply']))
     # 如果是汇总的，添加汇总行
     if 'TOP10' not in title:
-        print('汇总行')
+        # print('汇总行')
         content = content + '|%s|%s|%s|%s|%s|%s|%s|%s|%s|\n' \
                   % (
                       '汇总', ' ',
@@ -66,3 +67,58 @@ def get_md_content_table(data, title):
     # print(format_number_string('122'))
     # print(format_number_string('12233333'))
     return content
+
+
+def draw_bar(data, value_type='view', title='这是默认图标名，也是文件名', x_title='集数', y_title='数量'):
+    """
+    将数组数据转成图片
+    :param data: 数据
+    :param title: 这是默认图标名，也是文件名
+    :param x_title: x轴默认名称
+    :param y_title: y轴默认名称
+    :return:
+    """
+
+    import matplotlib.pyplot as plt
+    import numpy as np
+
+    # 设置中文字体支持（解决中文显示问题）
+    plt.rcParams['font.sans-serif'] = ['SimHei', 'Noto Sans CJK JP']
+    plt.rcParams['axes.unicode_minus'] = False  # 解决负号显示问题
+
+    # 创建示例数据
+    print(data)
+    # categories = ['产品A', '产品B', '产品C', '产品D', '产品E']
+    categories = [item["title"] + '-' + item["long_title"] for item in data]
+    # values = [230, 450, 560, 780, 320]
+    # values = [item["stat"]["view"] for item in data]
+    values = [item["stat"][value_type] for item in data]
+    colors = plt.cm.tab10(np.arange(len(values)))  # 使用色彩映射
+
+    # 创建图形和坐标轴，设置大小
+    fig, ax = plt.subplots(figsize=(10, 6))
+
+    # 绘制柱状图
+    bars = ax.bar(categories, values, color=colors, edgecolor='black', alpha=0.8)
+
+    # 设置标题和标签
+    ax.set_title(title, fontsize=16, pad=20)
+    ax.set_xlabel(x_title, fontsize=10)
+    ax.set_ylabel(y_title, fontsize=12)
+
+    # 在柱子上方添加数据标签
+    for bar, value in zip(bars, values):
+        height = bar.get_height()
+        ax.text(bar.get_x() + bar.get_width() / 2., height + 10, f'{value}', ha='center', va='bottom', fontsize=11)
+
+    # 设置y轴范围，使图表更美观
+    ax.set_ylim(0, max(values) * 1.15)
+
+    # 添加网格线
+    ax.grid(axis='y', alpha=0.3, linestyle='--')
+
+    # 优化布局并保存
+    plt.tight_layout()
+    plt.savefig('./images/' + title + '.png', dpi=300, bbox_inches='tight', facecolor='white', edgecolor='none')  # 设置背景
+    print("进阶柱状图已保存为 'advanced_bar_chart.png'")
+    plt.show()

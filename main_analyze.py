@@ -7,8 +7,8 @@
 @time: 2025/10/21
 """
 import json
-from util import analyse_util
 from util import fileutil
+from util import analyse_util
 
 if __name__ == "__main__":
     print('程序开始了……\n')
@@ -23,6 +23,7 @@ if __name__ == "__main__":
     # 1. 总
     md_content = analyse_util.get_md_content_table(lists, '总数据统计')
     # print(md_content)
+    # analyse_util.draw_bar(lists, '总数据统计')
 
     with open('./temp.md', 'w', encoding='utf-8') as f:
         f.write(md_content)
@@ -34,6 +35,10 @@ if __name__ == "__main__":
     #     print(f"ID: {item['id']}, view: {item['stat']['view']}")
     lists_by_view_md_content = analyse_util.get_md_content_table(lists_by_view, '播放量TOP10')
     print(lists_by_view_md_content)
+    # 画图
+    analyse_util.draw_bar(lists_by_view,'view', '播放量TOP10')
+    analyse_util.draw_bar(lists_by_view,'coin', '播放量TOP10')
+    exit()
 
     lists_by_like = fileutil.process_bilibili_data(lists, ['stat.like'], 10)
     lists_by_like_md_content = analyse_util.get_md_content_table(lists_by_like, '点赞数TOP10')

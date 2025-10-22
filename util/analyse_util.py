@@ -85,7 +85,7 @@ def draw_bar(data, value_type='view', title='这是默认图标名，也是文�
     import numpy as np
 
     # 设置中文字体支持（解决中文显示问题）
-    plt.rcParams['font.sans-serif'] = ['SimHei', 'Noto Sans CJK JP']
+    plt.rcParams['font.sans-serif'] = ['SimHei', 'Noto Sans CJK JP', 'Consolas']
     plt.rcParams['axes.unicode_minus'] = False  # 解决负号显示问题
 
     # 创建示例数据
@@ -114,6 +114,8 @@ def draw_bar(data, value_type='view', title='这是默认图标名，也是文�
     # 在柱子上方添加数据标签
     for bar, value in zip(bars, values):
         height = bar.get_height()
+        # 转成万分位加逗号格式 1,2345；后面发现处理之后数字不好看，先不处理了
+        # value = format_number_string(value)
         ax.text(bar.get_x() + bar.get_width() / 2., height + 10, f'{value}', ha='center', va='bottom', fontsize=11)
 
     # 设置y轴范围，使图表更美观

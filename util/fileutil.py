@@ -10,6 +10,7 @@
 import os
 import re
 # import json
+import datetime
 import requests
 from lxml import html
 
@@ -63,6 +64,40 @@ def mkdirs(path):
         # 如果目录存在则不创建，并提示目录已存在
         # print('文件夹\'' + path + '\'目录已存在！')
         return False
+
+
+def move_file_by_updatetime(filepath, target_dirpath='', target_filename='', data_format='%Y-%m-%d'):
+    """
+    移动文件
+    :param filepath:
+    :param target_dirpath: 文件夹名
+    :param target_filepath:
+    :return:
+    """
+    if not os.path.exists(filepath):
+        print('%s 文件不存在，直接返回。' % filepath)
+        return
+
+    if target_filename == '':
+        # 1. 获取文件的最近修改时间戳
+        modify_timestamp = os.path.getmtime(filepath)  # 返回自Epoch以来的秒数（浮点数）
+        # print(modify_timestamp)
+
+        # 2. 将时间戳转换为可读格式，并生成时间后缀（格式示例：20251022143045）
+        dt_object = datetime.datetime.fromtimestamp(modify_timestamp)  # 转换为datetime对象
+        time_suffix = dt_object.strftime(data_format)  # 格式化为字符串作为后缀 %Y%m%d%H%M%S
+        # print(dt_object)
+        # print(time_suffix)
+        name_part, ext = os.path.splitext(filepath)
+        target_filename = name_part + '-' + time_suffix + ext
+        # print(target_filename)
+
+    if not os.path.exists(target_dirpath):
+        mkdirs(target_dirpath)
+    target_filepath = target_dirpath + target_filename
+    # print(target_filepath)
+
+    os.rename(filepath, target_filepath)
 
 
 def remove_empty_dirs(dirpath):

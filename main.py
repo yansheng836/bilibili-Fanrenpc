@@ -33,4 +33,4 @@ if __name__ == '__main__':
         # break
     fileutil.write_arr_to_json(lists, './bilibili_episodes_infos.json')
 
-    print('\n程序结束！')
+    print('\n爬取数据完成！')

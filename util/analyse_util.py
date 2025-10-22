@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 """
-# 分析工具类
+# 数据分析工具类
 @author: yansheng
 @file: analyse_util.py
 @time: 2025/10/21

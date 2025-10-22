@@ -8,13 +8,15 @@ B站爬虫协议：<https://www.bilibili.com/robots.txt>，看了下本项目不
 
 GitHub：<https://github.com/yansheng836/bilibili-Fanrenpc>
 
+GitHub README详见：<https://github.com/yansheng836/bilibili-Fanrenpc/blob/main/README2.md>
+
 在线网站：<https://yansheng836.github.io/bilibili-Fanrenpc>
 
-## B站《凡人修仙传》主页
+## B站《凡人修仙传》动漫主页
 
-B站《凡人修仙传》主页：<https://www.bilibili.com/bangumi/media/md28223043>
+B站《凡人修仙传》动漫主页：<https://www.bilibili.com/bangumi/media/md28223043>
 
-
+简介：【每周六11:00更新正片，11:15更新下集预告】看机智的凡人小子韩立如何稳健发展、步步为营，战魔道、夺至宝、驰骋星海、快意恩仇，成为纵横三界的强者。他日仙界重相逢，一声道友尽沧桑。
 
 <!-- START_TOC_GENERATED -->
 

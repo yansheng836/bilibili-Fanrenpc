@@ -35,6 +35,7 @@ def get_md_content_table(data, title):
     :return:
     """
     content = '## ' + title + '\n\n'
+    content = content + '### 表格数据\n\n'
     content = content + '|集数|名称|播放量|点赞数|投币数|收藏数|弹幕数|分享数|评论数|\n'
     content = content + '| :--: | :-------------: | --------: | :----: | -----: | -----: | -----: | -----: | -----: |\n'
 
@@ -73,6 +74,7 @@ def draw_bar(data, value_type='view', title='这是默认图标名，也是文�
     """
     将数组数据转成图片
     :param data: 数据
+    :param value_type: 数据类型
     :param title: 这是默认图标名，也是文件名
     :param x_title: x轴默认名称
     :param y_title: y轴默认名称
@@ -87,7 +89,7 @@ def draw_bar(data, value_type='view', title='这是默认图标名，也是文�
     plt.rcParams['axes.unicode_minus'] = False  # 解决负号显示问题
 
     # 创建示例数据
-    print(data)
+    # print(data)
     # categories = ['产品A', '产品B', '产品C', '产品D', '产品E']
     categories = [item["title"] + '-' + item["long_title"] for item in data]
     # values = [230, 450, 560, 780, 320]
@@ -103,7 +105,7 @@ def draw_bar(data, value_type='view', title='这是默认图标名，也是文�
 
     # 设置标题和标签
     ax.set_title(title, fontsize=16, pad=20)
-    ax.set_xlabel(x_title, fontsize=10)
+    ax.set_xlabel(x_title, fontsize=4)
     ax.set_ylabel(y_title, fontsize=12)
 
     # 在柱子上方添加数据标签
@@ -119,6 +121,7 @@ def draw_bar(data, value_type='view', title='这是默认图标名，也是文�
 
     # 优化布局并保存
     plt.tight_layout()
-    plt.savefig('./images/' + title + '.png', dpi=300, bbox_inches='tight', facecolor='white', edgecolor='none')  # 设置背景
-    print("进阶柱状图已保存为 'advanced_bar_chart.png'")
-    plt.show()
+    image_path = './images/' + title + '.png'
+    plt.savefig(image_path, dpi=300, bbox_inches='tight', facecolor='white', edgecolor='none')  # 设置背景
+    print("进阶柱状图已保存为 %s" % image_path)
+    # plt.show()

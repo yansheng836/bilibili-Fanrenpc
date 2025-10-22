@@ -1,23 +1,3 @@
-# B站《凡人修仙传》数据统计
-
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/yansheng836/bilibili-Fanrenpc/main.yml?style=flat&label=gen) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/yansheng836/bilibili-Fanrenpc) [![GitHub Issues](https://img.shields.io/github/issues/yansheng836/bilibili-Fanrenpc)](https://github.com/yansheng836/bilibili-Fanrenpc/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/yansheng836/bilibili-Fanrenpc)](https://github.com/yansheng836/bilibili-Fanrenpc/pulls) [![GitHub Tag](https://img.shields.io/github/v/tag/yansheng836/bilibili-Fanrenpc)](https://github.com/yansheng836/bilibili-Fanrenpc/tags) [![GitHub Release](https://img.shields.io/github/v/release/yansheng836/bilibili-Fanrenpc)](https://github.com/yansheng836/bilibili-Fanrenpc/releases) ![GitHub Repo stars](https://img.shields.io/github/stars/yansheng836/bilibili-Fanrenpc) ![GitHub forks](https://img.shields.io/github/forks/yansheng836/bilibili-Fanrenpc) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4460db83948f4592ab825e8e900ec79f)](https://app.codacy.com/gh/yansheng836/bilibili-Fanrenpc/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) [![GitHub License](https://img.shields.io/github/license/yansheng836/bilibili-Fanrenpc)](https://github.com/yansheng836/bilibili-Fanrenpc/blob/main/LICENSE.txt)
-
-B站《凡人修仙传》数据统计，并对部分TOP数据进行了可视化。每天晚上0点自动更新。
-
-B站爬虫协议：<https://www.bilibili.com/robots.txt>，看了下本项目不违反该规则。如有侵权，请及时联系我进行删除。
-
-GitHub：<https://github.com/yansheng836/bilibili-Fanrenpc>
-
-在线网站：<https://yansheng836.github.io/bilibili-Fanrenpc>
-
-## B站《凡人修仙传》主页
-
-B站《凡人修仙传》主页：<https://www.bilibili.com/bangumi/media/md28223043>
-
-
-
-<!-- START_TOC_GENERATED -->
-
 ## B站《凡人修仙传》动漫总数据统计
 
 ### 表格数据
@@ -339,4 +319,3 @@ B站《凡人修仙传》主页：<https://www.bilibili.com/bangumi/media/md2822
 
 ![评论数TOP10](./images/评论数TOP10.png)
 
-<!-- END_TOC_GENERATED -->

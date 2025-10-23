@@ -190,6 +190,28 @@ findfont: Generic family 'sans-serif' not found because none of the following fa
   plt.tight_layout()
 ```
 
+发现还会报错，权限不够，加sudo
+
+https://github.com/yansheng836/bilibili-Fanrenpc/actions/runs/18739846288/job/53453705577
+
+```
+  # matplotlib中文乱码，需要安装字体包
+  apt-get install -y fonts-wqy-microhei
+  python3 -m pip install --upgrade pip setuptools wheel
+  python3 -m pip install -r requirements.txt
+  shell: /usr/bin/bash -e {0}
+  env:
+    pythonLocation: /opt/hostedtoolcache/Python/3.8.18/x64
+    PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.8.18/x64/lib/pkgconfig
+    Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.8.18/x64
+    Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.8.18/x64
+    Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.8.18/x64
+    LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.8.18/x64/lib
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+Error: Process completed with exit code 100.
+```
+
 ### 3.CI问题：git status 中文乱码
 
 <https://github.com/yansheng836/bilibili-Fanrenpc/actions/runs/18737555742/job/53447278813>

@@ -2,9 +2,9 @@ name: Daily Execution of Main Script
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main,fix-ci ]
   schedule:
-    - cron: '0 0 * * *'  # 每天UTC时间凌晨0点
+  - cron: '0 0 * * *'  # 每天UTC时间凌晨0点
   workflow_dispatch:
 
 permissions:
@@ -30,7 +30,7 @@ jobs:
     - name: Install requirements
       run: |
         # matplotlib中文乱码，需要安装字体包
-        apt-get install -y fonts-wqy-microhei
+        sudo apt-get install -y fonts-wqy-microhei
         python3 -m pip install --upgrade pip setuptools wheel
         python3 -m pip install -r requirements.txt
 

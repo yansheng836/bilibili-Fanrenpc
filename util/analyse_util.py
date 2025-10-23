@@ -85,8 +85,9 @@ def draw_bar(data, value_type='view', title='这是默认图标名，也是文�
     import numpy as np
 
     # 设置中文字体支持（解决中文显示问题）
-    plt.rcParams['font.sans-serif'] = ['SimHei', 'Noto Sans CJK JP', 'Consolas']
-    plt.rcParams['axes.unicode_minus'] = False  # 解决负号显示问题
+    plt.rcParams['font.sans-serif'] = ['SimHei', 'Noto Sans CJK JP', 'WenQuanYi Zen Hei', ]
+    # 解决负号显示问题
+    plt.rcParams['axes.unicode_minus'] = False
 
     # 创建示例数据
     # print(data)
@@ -95,7 +96,8 @@ def draw_bar(data, value_type='view', title='这是默认图标名，也是文�
     # values = [230, 450, 560, 780, 320]
     # values = [item["stat"]["view"] for item in data]
     values = [item["stat"][value_type] for item in data]
-    colors = plt.cm.tab10(np.arange(len(values)))  # 使用色彩映射
+    # 使用色彩映射
+    colors = plt.cm.tab10(np.arange(len(values)))
 
     # 创建图形和坐标轴，设置大小
     fig, ax = plt.subplots(figsize=(10, 6))

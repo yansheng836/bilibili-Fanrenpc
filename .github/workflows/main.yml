@@ -26,11 +26,16 @@ jobs:
         architecture: 'x64'
         cache: 'pip'
 
+    # 安装字体
+    - name: Install Chinese Fonts
+      run: |
+        # matplotlib中文乱码，需要安装字体包
+        sudo apt-get update
+        sudo apt-get install -y fonts-wqy-zenhei fonts-wqy-microhei fonts-noto-cjk
+
     # Install dependencies with `pip`
     - name: Install requirements
       run: |
-        # matplotlib中文乱码，需要安装字体包
-        sudo apt-get install -y fonts-wqy-microhei
         python3 -m pip install --upgrade pip setuptools wheel
         python3 -m pip install -r requirements.txt
 

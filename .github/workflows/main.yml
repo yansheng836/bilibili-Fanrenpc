@@ -2,9 +2,9 @@ name: Daily Execution of Main Script
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main,fix-ci ]
   schedule:
-    - cron: '0 0 * * *'  # 每天UTC时间凌晨0点
+  - cron: '0 0 * * *'  # 每天UTC时间凌晨0点
   workflow_dispatch:
 
 permissions:
@@ -26,6 +26,13 @@ jobs:
         architecture: 'x64'
         cache: 'pip'
 
+    # 安装字体
+    - name: Install Chinese Fonts
+      run: |
+        # matplotlib中文乱码，需要安装字体包
+        sudo apt-get update
+        sudo apt-get install -y fonts-wqy-zenhei fonts-wqy-microhei fonts-noto-cjk
+
     # Install dependencies with `pip`
     - name: Install requirements
       run: |
@@ -36,7 +43,7 @@ jobs:
     - name: Spider data and dealwith
       run: |
         python3 --version
-        python3 main.py
+        #python3 main.py
         python3 main_analyze.py
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
@@ -51,6 +58,9 @@ jobs:
         echo 'Commit to the repo'
         git config --global user.name "yansheng836/bilibili-Fanrenpc"
         git config --global user.email "bilibili-Fanrenpc[bot]@yansheng836.github.io"
+        # 兼容git status中文乱码问题
+        git config --global core.quotepath false
+
         git status
         git add .
         # Force the build to succeed, even if no files were changed

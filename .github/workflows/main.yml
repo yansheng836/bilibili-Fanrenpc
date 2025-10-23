@@ -37,6 +37,7 @@ jobs:
       run: |
         python3 --version
         python3 main.py
+        python3 main_analyze.py
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -48,10 +49,10 @@ jobs:
     - name: Commit to the repo
       run: |
         echo 'Commit to the repo'
-#        git config --global user.name "jstrieb/github-stats"
-#        git config --global user.email "github-stats[bot]@jstrieb.github.io"
-#        git status
-#        git add .
-#        # Force the build to succeed, even if no files were changed
-#        git commit -m 'Update generated files' || true
-#        git push
+        git config --global user.name "yansheng836/bilibili-Fanrenpc"
+        git config --global user.email "bilibili-Fanrenpc[bot]@yansheng836.github.io"
+        git status
+        git add .
+        # Force the build to succeed, even if no files were changed
+        git commit -m 'Update generated files' || true
+        git push

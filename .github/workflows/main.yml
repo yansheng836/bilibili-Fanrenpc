@@ -29,6 +29,8 @@ jobs:
     # Install dependencies with `pip`
     - name: Install requirements
       run: |
+        # matplotlib中文乱码，需要安装字体包
+        apt-get install -y fonts-wqy-microhei
         python3 -m pip install --upgrade pip setuptools wheel
         python3 -m pip install -r requirements.txt
 
@@ -36,7 +38,7 @@ jobs:
     - name: Spider data and dealwith
       run: |
         python3 --version
-        python3 main.py
+        #python3 main.py
         python3 main_analyze.py
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
@@ -51,6 +53,9 @@ jobs:
         echo 'Commit to the repo'
         git config --global user.name "yansheng836/bilibili-Fanrenpc"
         git config --global user.email "bilibili-Fanrenpc[bot]@yansheng836.github.io"
+        # 兼容git status中文乱码问题
+        git config --global core.quotepath false
+
         git status
         git add .
         # Force the build to succeed, even if no files were changed

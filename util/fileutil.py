@@ -97,7 +97,11 @@ def move_file_by_updatetime(filepath, target_dirpath='', target_filename='', dat
     target_filepath = target_dirpath + target_filename
     # print(target_filepath)
 
-    os.rename(filepath, target_filepath)
+    # 如果目标文件存在，直接替换；否则重命名（否则，如果存在会报错：FileExistsError: [WinError 183] 当文件已存在时，无法创建该文件。）
+    if os.path.exists(target_filepath):
+        os.replace(filepath, target_filepath)
+    else:
+        os.rename(filepath, target_filepath)
 
 
 def remove_empty_dirs(dirpath):

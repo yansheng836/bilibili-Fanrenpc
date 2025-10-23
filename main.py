@@ -19,11 +19,11 @@ if __name__ == '__main__':
     lists = bilibili_spider.get_bilibili_episodes(season_id)
     print('lists数量：' + str(len(lists)))
 
-    fileutil.write_arr_to_json(lists,'./bilibili_episodes.json')
+    fileutil.write_arr_to_json(lists, './bilibili_episodes.json')
     for item in lists:
-        break
+        # break
         # print(item)
-        print(item['id'])
+        print('item:' + str(item['id']))
         # continue
         # break
         # 获取该分类的所有博客列表
@@ -36,8 +36,8 @@ if __name__ == '__main__':
     # 如果正常爬取，而且之前已经后了JSON文件，备份旧数据到 backup_jsondata 目录中
     # 数据文件
     json_file = "bilibili_episodes_infos.json"
-    fileutil.move_file_by_updatetime(json_file,'./backup_jsondata/')
+    fileutil.move_file_by_updatetime(json_file, './backup_jsondata/')
 
-    fileutil.write_arr_to_json(lists, './bilibili_episodes_infos.json')
+    fileutil.write_arr_to_json(lists, json_file)
 
     print('\n爬取数据完成！')

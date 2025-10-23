@@ -36,13 +36,15 @@ def get_md_content_table(data, title):
     """
     content = '## ' + title + '\n\n'
     content = content + '### 表格数据\n\n'
-    content = content + '|集数|名称|播放量|点赞数|投币数|收藏数|弹幕数|分享数|评论数|\n'
-    content = content + '| :--: | :-------------: | --------: | :----: | -----: | -----: | -----: | -----: | -----: |\n'
+    content = content + '|类型|集数|名称|播放量|点赞数|投币数|收藏数|弹幕数|分享数|评论数|\n'
+    content = content + '| :--: | :--: | :-------------: | --------: | :----: | -----: | -----: | -----: | -----: | -----: |\n'
 
     for item in data:
-        content = content + '|%s|%s|%s|%s|%s|%s|%s|%s|%s|\n' \
+        content = content + '|%s|%s|%s|%s|%s|%s|%s|%s|%s|%s|\n' \
                   % (
-                      item['title'], item['long_title'],
+                      item['type_title'],
+                      item['title'],
+                      item['long_title'],
                       format_number_string(item['stat']['view']),
                       format_number_string(item['stat']['like']),
                       format_number_string(item['stat']['coin']),
@@ -53,9 +55,9 @@ def get_md_content_table(data, title):
     # 如果是汇总的，添加汇总行
     if 'TOP10' not in title:
         # print('汇总行')
-        content = content + '|%s|%s|%s|%s|%s|%s|%s|%s|%s|\n' \
+        content = content + '|%s|%s|%s|%s|%s|%s|%s|%s|%s|%s|\n' \
                   % (
-                      '汇总', ' ',
+                      '汇总', ' ',' ',
                       format_number_string(sum(item["stat"]["view"] for item in data)),
                       format_number_string(sum(item["stat"]["like"] for item in data)),
                       format_number_string(sum(item["stat"]["coin"] for item in data)),
@@ -92,7 +94,7 @@ def draw_bar(data, value_type='view', title='这是默认图标名，也是文�
     # 创建示例数据
     # print(data)
     # categories = ['产品A', '产品B', '产品C', '产品D', '产品E']
-    categories = [item["title"] + '.' + item["long_title"].replace('重制版', '') for item in data]
+    categories = [item["title"] + '.' + item["long_title"].replace(' ', '') for item in data]
     # values = [230, 450, 560, 780, 320]
     # values = [item["stat"]["view"] for item in data]
     values = [item["stat"][value_type] for item in data]
@@ -106,7 +108,7 @@ def draw_bar(data, value_type='view', title='这是默认图标名，也是文�
     bars = ax.bar(categories, values, color=colors, edgecolor='black', alpha=0.8)
 
     # 设置x轴刻度字体大小
-    plt.xticks(fontsize=8)
+    plt.xticks(fontsize=7)
 
     # 设置标题和标签
     ax.set_title(title, fontsize=12, pad=20)

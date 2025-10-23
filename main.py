@@ -13,7 +13,8 @@ if __name__ == '__main__':
     print('程序开始了……\n')
 
     # season_id: 番剧季节ID
-    season_id = 28747
+    season_id = 28747 #凡人修仙传
+    # season_id = 21082961 #牧神记，todo 一开始想观察下是否兼容其他剧，发现接口没数据，如果需要支持，需要进一步排查。
 
     # 1.获取主列表信息
     lists = bilibili_spider.get_bilibili_episodes(season_id)

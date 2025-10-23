@@ -43,8 +43,8 @@ HEADERS = {
 BUVID3 = ''
 
 
-def get_bilibili_episodes(season_id: int, url="https://api.bilibili.com/pgc/web/season/section", headers=HEADERS,
-                          buvid3: str = BUVID3) -> List[Dict[str, Any]]:
+def get_bilibili_episodes(season_id: int, types=[0, 1, 2], url="https://api.bilibili.com/pgc/web/season/section",
+                          headers=HEADERS, buvid3: str = BUVID3) -> List[Dict[str, Any]]:
     """
     获取B站番剧的episodes数据
 
@@ -75,6 +75,7 @@ def get_bilibili_episodes(season_id: int, url="https://api.bilibili.com/pgc/web/
 
         # 优化5: 使用response.raise_for_status()进行错误检查
         response.raise_for_status()
+        # print(response.text)
 
         # 优化6: 直接使用response.json()避免额外的json.loads调用
         data = response.json()
@@ -84,10 +85,42 @@ def get_bilibili_episodes(season_id: int, url="https://api.bilibili.com/pgc/web/
             raise ValueError(f"API返回错误: {data.get('message', '未知错误')}")
 
         # 优化8: 使用get方法避免KeyError
-        episodes = data.get("result", {}).get("main_section", {}).get("episodes", [])
+        # 用于区分类型：0 正片 ，1 预告，2 特别花絮
+        if types == []:
+            print(' type 不能为[]!')
+            return []
+        else:
+            episodes = []
+            if 0 in types:
+                print('0 in type')
+                episodes_tmp = data.get("result", {}).get("main_section", {}).get("episodes", [])
+                # 优化代码：添加类型属性
+                for obj in episodes_tmp:
+                    obj['type'] = 0
+                    obj['type_title'] = '正片'
+                episodes = episodes + episodes_tmp
+            if 1 in types:
+                print('1 in type')
+                episodes_tmp = (data.get("result", {}).get("section", []))[0].get("episodes", [])
+                # 优化代码：添加类型属性
+                for obj in episodes_tmp:
+                    obj['type'] = 1
+                    obj['type_title'] = '预告'
+                episodes = episodes + episodes_tmp
+            if 2 in types:
+                print('2 in type')
+                episodes_tmp = (data.get("result", {}).get("section", []))[1].get("episodes", [])
+                # 优化代码：添加类型属性
+                for obj in episodes_tmp:
+                    obj['type'] = 2
+                    obj['type_title'] = '特别花絮'
+                episodes = episodes + episodes_tmp
+
         # print(episodes)
         # 只保留需要的属性
-        episodes = fileutil.list_retain_attributes(episodes,['id','long_title','share_url','long_title','title'])
+        episodes = fileutil.list_retain_attributes(episodes,
+                                                   ['id', 'long_title', 'share_url', 'long_title', 'title', 'type',
+                                                    'type_title'])
 
         return episodes
 

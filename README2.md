@@ -105,7 +105,7 @@ curl ^"https://api.bilibili.com/pgc/web/season/section?season_id=28747^" ^
 
 ### 爬取单个数据
 
-https://www.bilibili.com/bangumi/play/ep1231573?from_spmid=666.19.0.0
+<https://www.bilibili.com/bangumi/play/ep1231573?from_spmid=666.19.0.0>
 
 #### 请求
 
@@ -178,11 +178,11 @@ curl ^"https://api.bilibili.com/pgc/season/episode/web/info?ep_id=1231573^" ^
 
 2025年10月22日10:01:28 统计了下，总的播放量是35亿左右，但是官方10-18发了51亿的海报，不知道具体是在哪里有缺漏（不知道是不是一些预告、或者是花絮之类的、因为部分章节进行了重置，也有可能是这个原因。），待进一步排查。
 
-### 2.CI问题：Matplotlib不能显示中文
+### 2.CI问题：Matplotlib画图中文乱码
 
 <https://github.com/yansheng836/bilibili-Fanrenpc/actions/runs/18737555742/job/53447278813>
 
-存在比较多类似下面的日志，查了下，缺少对应的字体（图片中文乱码），需要安装`apt-get install -y fonts-wqy-microhei`。
+存在比较多类似下面的日志，查了下，缺少对应的字体（图片中文乱码），需要安装`apt-get install -y fonts-wqy-zenhei fonts-wqy-microhei fonts-noto-cjk`。
 
 ```plain
 findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei, Noto Sans CJK JP, Consolas
@@ -190,11 +190,11 @@ findfont: Generic family 'sans-serif' not found because none of the following fa
   plt.tight_layout()
 ```
 
-发现还会报错，权限不够，加sudo
+尝试后，发现还会报错，权限不够，加sudo：`sudo apt-get install -y fonts-wqy-zenhei fonts-wqy-microhei fonts-noto-cjk`。
 
-https://github.com/yansheng836/bilibili-Fanrenpc/actions/runs/18739846288/job/53453705577
+详见：<https://github.com/yansheng836/bilibili-Fanrenpc/actions/runs/18739846288/job/53453705577>
 
-```
+```plain
   # matplotlib中文乱码，需要安装字体包
   apt-get install -y fonts-wqy-microhei
   python3 -m pip install --upgrade pip setuptools wheel
@@ -219,32 +219,19 @@ Error: Process completed with exit code 100.
 git status中文乱码，需要配置环境`git config --global core.quotepath false`。
 
 ```plain
-22Changes not staged for commit:
-23
+Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
-24
   (use "git restore <file>..." to discard changes in working directory)
-25
 	modified:   "B\347\253\231\343\200\212\345\207\241\344\272\272\344\277\256\344\273\231\344\274\240\343\200\213\345\212\250\346\274\253\346\200\273\346\225\260\346\215\256\347\273\237\350\256\241.md"
-26
 	modified:   README.md
-27
 	modified:   bilibili_episodes.json
-28
 	modified:   bilibili_episodes_infos.json
-29
 	modified:   "images/\345\210\206\344\272\253\346\225\260TOP10.png"
-30
 	modified:   "images/\345\274\271\345\271\225\346\225\260TOP10.png"
-31
 	modified:   "images/\346\212\225\345\270\201\346\225\260TOP10.png"
-32
 	modified:   "images/\346\222\255\346\224\276\351\207\217TOP10.png"
-33
 	modified:   "images/\346\224\266\350\227\217\346\225\260TOP10.png"
-34
 	modified:   "images/\347\202\271\350\265\236\346\225\260TOP10.png"
-35
 	modified:   "images/\350\257\204\350\256\272\346\225\260TOP10.png"
 ```
 
@@ -256,26 +243,19 @@ git status中文乱码，需要配置环境`git config --global core.quotepath f
 | :--: | :-----------------: | --------: | :----: | -----: | -----: | -----: | -----: | -----: |
 |  1   | 凡人风起天南1重制版 | 145668244 | 486504 |        |        |        |        |        |
 |  2   | 凡人风起天南2重制版 |  28146733 | 143472 |        |        |        |        |        |
-|      |                     |           |        |        |        |        |        |        |
+|  ……  |         ……          |           |        |        |        |        |        |        |
 | 汇总 |                     |           |        |        |        |        |        |        |
 
 ### 播放量TOP10
 
-
 ### 点赞数TOP10
-
 
 ### 投币数TOP10
 
-
 ### 收藏数TOP10
-
 
 ### 弹幕数TOP10
 
-
 ### 分享数TOP10
 
-
 ### 评论数TOP10
-

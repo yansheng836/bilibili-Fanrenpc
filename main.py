@@ -15,7 +15,7 @@ if __name__ == '__main__':
     # season_id: 番剧季节ID
     season_id = 28747
 
-    blogList = []
+    # 1.获取主列表信息
     lists = bilibili_spider.get_bilibili_episodes(season_id)
     print('lists数量：' + str(len(lists)))
 
@@ -23,21 +23,23 @@ if __name__ == '__main__':
     for item in lists:
         # break
         # print(item)
-        print('item:' + str(item['id']))
+        print('正在获取 item：%s 数据...' % str(item['id']))
         # continue
         # break
-        # 获取该分类的所有博客列表
+        # 2.获取每集的统计数据
         item_stat = bilibili_spider.get_bilibili_episode_info(item['id'])
         # print(item_stat)
         item['stat'] = item_stat
         # print(item)
         # break
 
+    # 3.备份文件
     # 如果正常爬取，而且之前已经后了JSON文件，备份旧数据到 backup_jsondata 目录中
     # 数据文件
     json_file = "bilibili_episodes_infos.json"
     fileutil.move_file_by_updatetime(json_file, './backup_jsondata/')
 
+    # 4.写数据到json文件中
     fileutil.write_arr_to_json(lists, json_file)
 
     print('\n爬取数据完成！')

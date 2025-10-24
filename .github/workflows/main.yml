@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main,fix-ci ]
   schedule:
-  - cron: '0 0 * * *'  # 每天UTC时间凌晨0点
+    - cron: '0 0 * * *'  # 每天UTC时间凌晨0点
   workflow_dispatch:
 
 permissions:

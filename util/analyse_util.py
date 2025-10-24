@@ -55,6 +55,7 @@ def get_md_content_table(data, title):
     # 如果是汇总的，添加汇总行
     if 'TOP10' not in title:
         # print('汇总行')
+        content = content + '|汇总|||播放量|点赞数|投币数|收藏数|弹幕数|分享数|评论数|\n'
         content = content + '|%s|%s|%s|%s|%s|%s|%s|%s|%s|%s|\n' \
                   % (
                       '汇总', ' ',' ',
@@ -94,7 +95,8 @@ def draw_bar(data, value_type='view', title='这是默认图标名，也是文�
     # 创建示例数据
     # print(data)
     # categories = ['产品A', '产品B', '产品C', '产品D', '产品E']
-    categories = [item["title"] + '.' + item["long_title"].replace(' ', '') for item in data]
+    # 尽量简化x轴的中文，避免互相重叠
+    categories = [item["title"] + '.' + item["long_title"].replace('凡人风起天南', '风起天南').replace(' ', '') for item in data]
     # values = [230, 450, 560, 780, 320]
     # values = [item["stat"]["view"] for item in data]
     values = [item["stat"][value_type] for item in data]

@@ -93,4 +93,6 @@ if __name__ == "__main__":
     with open(readme_path, 'w', encoding='utf-8') as f:
         f.write(readme_md_content)
 
+    print('\n将数据更新到README文件完成！')
+
     print('\n统计数据完成！')

@@ -180,6 +180,8 @@ curl ^"https://api.bilibili.com/pgc/season/episode/web/info?ep_id=1231573^" ^
 
 2025年10月23日17:08:26 发现确实是有区分的，加入预告、特别花絮之后，播放量是43亿。
 
+2025年10月24日16:22:23 添加《虚天战纪》、《2020版 1-21集》之后，播放量是49亿。
+
 ### 2.CI问题：Matplotlib画图中文乱码
 
 <https://github.com/yansheng836/bilibili-Fanrenpc/actions/runs/18737555742/job/53447278813>

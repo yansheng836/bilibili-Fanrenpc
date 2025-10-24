@@ -43,7 +43,8 @@ HEADERS = {
 BUVID3 = ''
 
 
-def get_bilibili_episodes(season_id: int, types=[0, 1, 2], url="https://api.bilibili.com/pgc/web/season/section",
+def get_bilibili_episodes(season_id: int, types=[0, 1, 2, 10, 2020],
+                          url="https://api.bilibili.com/pgc/web/season/section",
                           headers=HEADERS, buvid3: str = BUVID3) -> List[Dict[str, Any]]:
     """
     获取B站番剧的episodes数据
@@ -111,10 +112,35 @@ def get_bilibili_episodes(season_id: int, types=[0, 1, 2], url="https://api.bili
             if 2 in types:
                 print('2 in type')
                 episodes_tmp = (data.get("result", {}).get("section", []))[1].get("episodes", [])
+                # print(episodes_tmp)
                 # 优化代码：添加类型属性
                 for obj in episodes_tmp:
                     obj['type'] = 2
                     obj['type_title'] = '特别花絮'
+                episodes = episodes + episodes_tmp
+            # 这个暂时没找到数据，临时手动写的
+            filename = './bilibili_episodes_manual.json'
+            if 10 in types:
+                print('10 in type')
+                with open(filename, 'r', encoding='utf-8') as tmp_file:
+                    episodes_json = json.load(tmp_file)
+                # print(episodes_json)
+                episodes_tmp = []
+                for item in episodes_json:
+                    if item['type'] == 10:
+                        episodes_tmp.append(item)
+                # print(episodes_tmp)
+                episodes = episodes + episodes_tmp
+            if 2020 in types:
+                print('10 in type')
+                with open(filename, 'r', encoding='utf-8') as tmp_file:
+                    episodes_json = json.load(tmp_file)
+                # print(episodes_json)
+                episodes_tmp = []
+                for item in episodes_json:
+                    if item['type'] == 2020:
+                        episodes_tmp.append(item)
+                # print(episodes_tmp)
                 episodes = episodes + episodes_tmp
 
         # print(episodes)
@@ -191,8 +217,10 @@ def get_bilibili_episode_info(ep_id: int, url="https://api.bilibili.com/pgc/seas
         return None
 
 
-def get_bilibili_episode_info_html(ep_id: int, url="https://www.bilibili.com/bangumi/play/ep1231564?from_spmid=666.25.episode.0", headers=HEADERS,
-                              buvid3: str = BUVID3) -> List[Dict[str, Any]]:
+def get_bilibili_episode_info_html(ep_id: int,
+                                   url="https://www.bilibili.com/bangumi/play/ep1231564?from_spmid=666.25.episode.0",
+                                   headers=HEADERS,
+                                   buvid3: str = BUVID3) -> List[Dict[str, Any]]:
     """
     本来想从单级的播放列表中，获取官方的系列剧的详细；爬取后发现，右侧栏的数据不是纯页面，是后面动态加载的，暂时没找到具体接口，不知道怎么处理 todo
     """
@@ -221,7 +249,6 @@ def get_bilibili_episode_info_html(ep_id: int, url="https://www.bilibili.com/ban
         # print(response.text)
         response.raise_for_status()
         print(response.text)
-
 
         data = response.json()
         # print(data)

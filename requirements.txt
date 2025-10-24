@@ -1,5 +1,5 @@
 requests==2.32.3
-lxml==5.3.1
+lxml==6.0.2
 # ubuntu 好像没有3.9.2版本的，最新的是3.7.5，详见：https://github.com/yansheng836/bilibili-Fanrenpc/actions/runs/18704550458/job/53340094055
 #matplotlib==3.9.2
 matplotlib==3.7.5

@@ -178,6 +178,8 @@ curl ^"https://api.bilibili.com/pgc/season/episode/web/info?ep_id=1231573^" ^
 
 2025年10月22日10:01:28 统计了下，总的播放量是35亿左右，但是官方10-18发了51亿的海报，不知道具体是在哪里有缺漏（不知道是不是一些预告、或者是花絮之类的、因为部分章节进行了重置，也有可能是这个原因。），待进一步排查。
 
+2025年10月23日17:08:26 发现确实是有区分的，加入预告、特别花絮之后，播放量是43亿。
+
 ### 2.CI问题：Matplotlib画图中文乱码
 
 <https://github.com/yansheng836/bilibili-Fanrenpc/actions/runs/18737555742/job/53447278813>

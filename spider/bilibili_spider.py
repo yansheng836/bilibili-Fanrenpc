@@ -50,6 +50,7 @@ def get_bilibili_episodes(season_id: int, types=[0, 1, 2], url="https://api.bili
 
     Args:
         season_id: 番剧季节ID
+        types: 类型（数组）
         buvid3: 用户cookie中的buvid3参数
 
     Returns:
@@ -170,6 +171,57 @@ def get_bilibili_episode_info(ep_id: int, url="https://api.bilibili.com/pgc/seas
         # print(response)
         # print(response.text)
         response.raise_for_status()
+
+        data = response.json()
+        # print(data)
+
+        # 优化7: 验证API返回状态
+        if data.get("code") != 0:
+            print(f"API返回错误: {data.get('message', '未知错误')}")
+            return None
+
+        return data.get("data", {}).get("stat", {})
+
+    except requests.exceptions.RequestException as e:
+        print(f"请求失败: {e}")
+        # print(e)
+        return None
+    except json.JSONDecodeError as e:
+        print(f"JSON解析失败: {e}")
+        return None
+
+
+def get_bilibili_episode_info_html(ep_id: int, url="https://www.bilibili.com/bangumi/play/ep1231564?from_spmid=666.25.episode.0", headers=HEADERS,
+                              buvid3: str = BUVID3) -> List[Dict[str, Any]]:
+    """
+    本来想从单级的播放列表中，获取官方的系列剧的详细；爬取后发现，右侧栏的数据不是纯页面，是后面动态加载的，暂时没找到具体接口，不知道怎么处理 todo
+    """
+    # 优化1: 使用常量定义URL和headers，避免重复字符串创建
+    BASE_URL = url
+    # print('BASE_URL:' + BASE_URL)
+
+    # 优化2: 预定义headers字典，减少内存分配
+    # headers = headers
+
+    # 优化4: 设置cookie
+    cookies = {"buvid3": buvid3}
+
+    # 优化5: 使用参数字典
+    params = {"ep_id": ep_id}
+
+    try:
+        # 优化6: 添加超时和重试机制
+        response = requests.get(
+            BASE_URL,
+            headers=headers,
+            # params=params,
+            timeout=10
+        )
+        # print(response)
+        # print(response.text)
+        response.raise_for_status()
+        print(response.text)
+
 
         data = response.json()
         # print(data)

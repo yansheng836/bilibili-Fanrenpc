@@ -15,8 +15,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Set Beijing Timezone
+      uses: szenius/set-timezone@v1.2
+      with:
+        timezoneLinux: "Asia/Shanghai"
+
     # Check out repository under $GITHUB_WORKSPACE, so the job can access it
-    - uses: actions/checkout@v3
+    - name: Checkout code
+      uses: actions/checkout@v3
 
     # Run using Python 3.8 for consistency and aiohttp
     - name: Set up Python 3.8
@@ -43,7 +49,7 @@ jobs:
     - name: Spider data and dealwith
       run: |
         python3 --version
-        #python3 main.py
+        python3 main.py
         python3 main_analyze.py
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}

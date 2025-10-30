@@ -1376,26 +1376,10 @@
         "type_title": "预告"
     },
     {
-        "id": 1732211,
-        "long_title": "",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep1732211",
-        "title": "韩立温天仁决战花絮",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
         "id": 1545986,
         "long_title": "《归潮》",
         "share_url": "https://www.bilibili.com/bangumi/play/ep1545986",
         "title": "元瑶剧情曲",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
-        "id": 1528298,
-        "long_title": "决战清明",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep1528298",
-        "title": "韩立对阵温天仁",
         "type": 1,
         "type_title": "预告"
     },
@@ -1411,7 +1395,7 @@
         "id": 1427466,
         "long_title": "",
         "share_url": "https://www.bilibili.com/bangumi/play/ep1427466",
-        "title": "新春舞蹈秀",
+        "title": "2025新春舞蹈秀",
         "type": 1,
         "type_title": "预告"
     },
@@ -1432,10 +1416,74 @@
         "type_title": "预告"
     },
     {
+        "id": 1373446,
+        "long_title": "外海风云篇全新画面来袭！",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep1373446",
+        "title": "片头曲《不凡》",
+        "type": 1,
+        "type_title": "预告"
+    },
+    {
+        "id": 1373445,
+        "long_title": "外海风云篇全新画面来袭！",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep1373445",
+        "title": "片尾曲《凡人》",
+        "type": 1,
+        "type_title": "预告"
+    },
+    {
+        "id": 675376,
+        "long_title": "归期",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep675376",
+        "title": "插曲MV2",
+        "type": 1,
+        "type_title": "预告"
+    },
+    {
+        "id": 512014,
+        "long_title": "落英",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep512014",
+        "title": "插曲MV",
+        "type": 1,
+        "type_title": "预告"
+    },
+    {
+        "id": 429562,
+        "long_title": "《天地行》公开，戴荃倾情演唱",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep429562",
+        "title": "魔道争锋OP",
+        "type": 1,
+        "type_title": "预告"
+    },
+    {
+        "id": 342084,
+        "long_title": "《少年不凡》完整版MV",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep342084",
+        "title": "插曲",
+        "type": 1,
+        "type_title": "预告"
+    },
+    {
+        "id": 1732211,
+        "long_title": "",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep1732211",
+        "title": "韩立温天仁决战花絮",
+        "type": 1,
+        "type_title": "预告"
+    },
+    {
+        "id": 1528298,
+        "long_title": "决战清明",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep1528298",
+        "title": "韩立对阵温天仁",
+        "type": 1,
+        "type_title": "预告"
+    },
+    {
         "id": 1376163,
         "long_title": "韩立传音问候诸位道友！",
         "share_url": "https://www.bilibili.com/bangumi/play/ep1376163",
-        "title": "开播还有1天",
+        "title": "凡人外海风云角色来电7",
         "type": 1,
         "type_title": "预告"
     },
@@ -1443,15 +1491,7 @@
         "id": 1376162,
         "long_title": "元瑶传音问候诸位道友！",
         "share_url": "https://www.bilibili.com/bangumi/play/ep1376162",
-        "title": "开播还有2天",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
-        "id": 1373446,
-        "long_title": "全新画面来袭！",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep1373446",
-        "title": "片头曲《不凡》",
+        "title": "凡人外海风云角色来电6",
         "type": 1,
         "type_title": "预告"
     },
@@ -1459,7 +1499,7 @@
         "id": 1376161,
         "long_title": "紫灵传音问候诸位道友！",
         "share_url": "https://www.bilibili.com/bangumi/play/ep1376161",
-        "title": "开播还有3天",
+        "title": "凡人外海风云角色来电5",
         "type": 1,
         "type_title": "预告"
     },
@@ -1467,15 +1507,7 @@
         "id": 1373695,
         "long_title": "温天仁传音问候诸位道友！",
         "share_url": "https://www.bilibili.com/bangumi/play/ep1373695",
-        "title": "开播还有4天",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
-        "id": 1373445,
-        "long_title": "全新画面来袭！",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep1373445",
-        "title": "片尾曲《凡人》",
+        "title": "凡人外海风云角色来电4",
         "type": 1,
         "type_title": "预告"
     },
@@ -1483,7 +1515,7 @@
         "id": 1365977,
         "long_title": "风希来电问候诸位道友！",
         "share_url": "https://www.bilibili.com/bangumi/play/ep1365977",
-        "title": "开播还有5天",
+        "title": "凡人外海风云角色来电3",
         "type": 1,
         "type_title": "预告"
     },
@@ -1491,7 +1523,7 @@
         "id": 1365976,
         "long_title": "文思月来电问候诸位道友！",
         "share_url": "https://www.bilibili.com/bangumi/play/ep1365976",
-        "title": "开播还有6天",
+        "title": "凡人外海风云角色来电2",
         "type": 1,
         "type_title": "预告"
     },
@@ -1499,7 +1531,7 @@
         "id": 1365755,
         "long_title": "公孙杏来电问候诸位道友！",
         "share_url": "https://www.bilibili.com/bangumi/play/ep1365755",
-        "title": "开播还有7天",
+        "title": "凡人外海风云角色来电1",
         "type": 1,
         "type_title": "预告"
     },
@@ -1507,7 +1539,7 @@
         "id": 1349904,
         "long_title": "且看韩天尊驰骋外海！",
         "share_url": "https://www.bilibili.com/bangumi/play/ep1349904",
-        "title": "韩立角色PV",
+        "title": "外海风云韩立角色PV",
         "type": 1,
         "type_title": "预告"
     },
@@ -1515,15 +1547,7 @@
         "id": 1229048,
         "long_title": "妖族，就该有妖族的样子！",
         "share_url": "https://www.bilibili.com/bangumi/play/ep1229048",
-        "title": "风希角色PV",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
-        "id": 1189703,
-        "long_title": "1月18日 恭迎韩天尊归来！",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep1189703",
-        "title": "2025年番定档",
+        "title": "外海风云风希角色PV",
         "type": 1,
         "type_title": "预告"
     },
@@ -1560,18 +1584,10 @@
         "type_title": "预告"
     },
     {
-        "id": 788499,
-        "long_title": "妙音门vs极阴岛？韩立助拳？前瞻速览！",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep788499",
-        "title": "星海飞驰新画面公开",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
         "id": 787871,
         "long_title": "全新画面来袭",
         "share_url": "https://www.bilibili.com/bangumi/play/ep787871",
-        "title": "新年番片头曲《不凡》",
+        "title": "星海飞驰年番片头曲《不凡》",
         "type": 1,
         "type_title": "预告"
     },
@@ -1579,7 +1595,7 @@
         "id": 787788,
         "long_title": "全新画面来袭",
         "share_url": "https://www.bilibili.com/bangumi/play/ep787788",
-        "title": "新年番片尾曲《凡人》",
+        "title": "星海飞驰年番片尾曲《凡人》",
         "type": 1,
         "type_title": "预告"
     },
@@ -1592,26 +1608,10 @@
         "type_title": "预告"
     },
     {
-        "id": 781607,
-        "long_title": "11月25日11点不见不散！",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep781607",
-        "title": "新年番定档PV",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
-        "id": 775854,
-        "long_title": "恭迎韩天尊结丹归来！",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep775854",
-        "title": "新年番首支PV",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
         "id": 765002,
         "long_title": "修炼尘世中，终究平凡不平庸！",
         "share_url": "https://www.bilibili.com/bangumi/play/ep765002",
-        "title": "片头曲《不凡》发布！",
+        "title": "凡人星海飞驰片头曲《不凡》发布！",
         "type": 1,
         "type_title": "预告"
     },
@@ -1619,15 +1619,7 @@
         "id": 764823,
         "long_title": "聚散离合，一笑而过，你我皆凡人！",
         "share_url": "https://www.bilibili.com/bangumi/play/ep764823",
-        "title": "片尾曲《凡人》发布！",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
-        "id": 762415,
-        "long_title": "定档7月30日！",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep762415",
-        "title": "凡人星海飞驰序章",
+        "title": "凡人星海飞驰片尾曲《凡人》发布！",
         "type": 1,
         "type_title": "预告"
     },
@@ -1664,42 +1656,10 @@
         "type_title": "预告"
     },
     {
-        "id": 718247,
-        "long_title": "凡人修仙传风起天南重制版归来！",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep718247",
-        "title": "画质拉满，佳节官宣！",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
-        "id": 693353,
-        "long_title": "平凡少年修仙之路",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep693353",
-        "title": "全新PV",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
-        "id": 675376,
-        "long_title": "归期",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep675376",
-        "title": "插曲MV2",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
         "id": 512134,
         "long_title": "落英演唱者银临ID",
         "share_url": "https://www.bilibili.com/bangumi/play/ep512134",
-        "title": "花絮19",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
-        "id": 512014,
-        "long_title": "落英",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep512014",
-        "title": "插曲MV",
+        "title": "凡人再别天南花絮",
         "type": 1,
         "type_title": "预告"
     },
@@ -1707,7 +1667,7 @@
         "id": 478168,
         "long_title": "作者忘语官推点赞凡人京城篇！",
         "share_url": "https://www.bilibili.com/bangumi/play/ep478168",
-        "title": "花絮18",
+        "title": "魔道争锋花絮",
         "type": 1,
         "type_title": "预告"
     },
@@ -1715,7 +1675,7 @@
         "id": 470494,
         "long_title": "冯提莫探班动捕现场",
         "share_url": "https://www.bilibili.com/bangumi/play/ep470494",
-        "title": "幕后花絮",
+        "title": "魔道争锋幕后花絮",
         "type": 1,
         "type_title": "预告"
     },
@@ -1723,15 +1683,7 @@
         "id": 469750,
         "long_title": "修行人士放飞自我",
         "share_url": "https://www.bilibili.com/bangumi/play/ep469750",
-        "title": "花絮17",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
-        "id": 466250,
-        "long_title": "武戏抢先领略！京城激斗即将开启！",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep466250",
-        "title": "PV",
+        "title": "魔道争锋花絮",
         "type": 1,
         "type_title": "预告"
     },
@@ -1739,7 +1691,7 @@
         "id": 449600,
         "long_title": "前方高燃！《凡人》武术打戏测拍集锦",
         "share_url": "https://www.bilibili.com/bangumi/play/ep449600",
-        "title": "武打花絮",
+        "title": "魔道争锋武打花絮",
         "type": 1,
         "type_title": "预告"
     },
@@ -1747,15 +1699,7 @@
         "id": 430809,
         "long_title": "作者忘语助力",
         "share_url": "https://www.bilibili.com/bangumi/play/ep430809",
-        "title": "花絮",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
-        "id": 429562,
-        "long_title": "《天地行》公开，戴荃倾情演唱",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep429562",
-        "title": "魔道争锋OP",
+        "title": "魔道争锋花絮",
         "type": 1,
         "type_title": "预告"
     },
@@ -1763,7 +1707,7 @@
         "id": 428912,
         "long_title": "捕风又捉影，一幕一雕琢",
         "share_url": "https://www.bilibili.com/bangumi/play/ep428912",
-        "title": "幕后制作之动捕PV",
+        "title": "魔道争锋幕后制作之动捕PV",
         "type": 1,
         "type_title": "预告"
     },
@@ -1787,7 +1731,7 @@
         "id": 427372,
         "long_title": "各路道友速来品鉴一番",
         "share_url": "https://www.bilibili.com/bangumi/play/ep427372",
-        "title": "法器展示PV",
+        "title": "魔道争锋法器展示PV",
         "type": 1,
         "type_title": "预告"
     },
@@ -1800,18 +1744,10 @@
         "type_title": "预告"
     },
     {
-        "id": 426871,
-        "long_title": "11月14日修行之路再启程",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep426871",
-        "title": "年番定档",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
         "id": 385182,
         "long_title": "管云鹏客串凡人修仙传年番",
         "share_url": "https://www.bilibili.com/bangumi/play/ep385182",
-        "title": "花絮16",
+        "title": "燕家堡之战花絮4",
         "type": 1,
         "type_title": "预告"
     },
@@ -1819,7 +1755,7 @@
         "id": 385181,
         "long_title": "柳岩给道友们拜年啦",
         "share_url": "https://www.bilibili.com/bangumi/play/ep385181",
-        "title": "花絮15",
+        "title": "燕家堡之战花絮3",
         "type": 1,
         "type_title": "预告"
     },
@@ -1827,7 +1763,7 @@
         "id": 385179,
         "long_title": "动捕表情演员小姐姐们给各位道友拜年",
         "share_url": "https://www.bilibili.com/bangumi/play/ep385179",
-        "title": "花絮14",
+        "title": "燕家堡之战花絮2",
         "type": 1,
         "type_title": "预告"
     },
@@ -1835,23 +1771,7 @@
         "id": 384483,
         "long_title": "王蝉动捕演员刘珂君助力凡人修仙传特别篇",
         "share_url": "https://www.bilibili.com/bangumi/play/ep384483",
-        "title": "花絮13",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
-        "id": 374180,
-        "long_title": "1月31日，惊天一战！",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep374180",
-        "title": "特别篇定档",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
-        "id": 364518,
-        "long_title": "年番即将来袭",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep364518",
-        "title": "特别篇PV",
+        "title": "燕家堡之战花絮",
         "type": 1,
         "type_title": "预告"
     },
@@ -1859,7 +1779,7 @@
         "id": 348206,
         "long_title": "演员余梦寒 助力《凡人风起天南贰》",
         "share_url": "https://www.bilibili.com/bangumi/play/ep348206",
-        "title": "花絮12",
+        "title": "凡人风起天南花絮12",
         "type": 1,
         "type_title": "预告"
     },
@@ -1867,7 +1787,7 @@
         "id": 346871,
         "long_title": "网文大神耳根梦幻联动 助力《凡人风起天南贰》",
         "share_url": "https://www.bilibili.com/bangumi/play/ep346871",
-        "title": "花絮11",
+        "title": "凡人风起天南花絮11",
         "type": 1,
         "type_title": "预告"
     },
@@ -1875,15 +1795,7 @@
         "id": 345118,
         "long_title": "作者忘语助力《凡人风起天南贰》",
         "share_url": "https://www.bilibili.com/bangumi/play/ep345118",
-        "title": "花絮10",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
-        "id": 342084,
-        "long_title": "《少年不凡》完整版MV",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep342084",
-        "title": "插曲",
+        "title": "凡人风起天南花絮10",
         "type": 1,
         "type_title": "预告"
     },
@@ -1891,7 +1803,7 @@
         "id": 336336,
         "long_title": "【七夕】莫笑前尘多辜负，更待今生有情天！",
         "share_url": "https://www.bilibili.com/bangumi/play/ep336336",
-        "title": "花絮9",
+        "title": "凡人风起天南花絮9",
         "type": 1,
         "type_title": "预告"
     },
@@ -1899,7 +1811,7 @@
         "id": 336262,
         "long_title": "《凡人修仙传》ED演唱者段奥娟空降B站",
         "share_url": "https://www.bilibili.com/bangumi/play/ep336262",
-        "title": "花絮8",
+        "title": "凡人风起天南花絮8",
         "type": 1,
         "type_title": "预告"
     },
@@ -1907,7 +1819,7 @@
         "id": 336231,
         "long_title": "演员林琳奇助力《凡人风起天南》",
         "share_url": "https://www.bilibili.com/bangumi/play/ep336231",
-        "title": "花絮7",
+        "title": "凡人风起天南花絮7",
         "type": 1,
         "type_title": "预告"
     },
@@ -1915,7 +1827,7 @@
         "id": 335735,
         "long_title": "演员杨采盈应援《凡人风起天南》",
         "share_url": "https://www.bilibili.com/bangumi/play/ep335735",
-        "title": "花絮6",
+        "title": "凡人风起天南花絮6",
         "type": 1,
         "type_title": "预告"
     },
@@ -1923,7 +1835,7 @@
         "id": 334568,
         "long_title": "幕后故事：我们仍未知道那天厉飞羽是怎么掉下去的",
         "share_url": "https://www.bilibili.com/bangumi/play/ep334568",
-        "title": "花絮5",
+        "title": "凡人风起天南花絮5",
         "type": 1,
         "type_title": "预告"
     },
@@ -1931,7 +1843,7 @@
         "id": 333739,
         "long_title": "原著作者忘语庆开播",
         "share_url": "https://www.bilibili.com/bangumi/play/ep333739",
-        "title": "花絮4",
+        "title": "凡人风起天南花絮4",
         "type": 1,
         "type_title": "预告"
     },
@@ -1939,7 +1851,7 @@
         "id": 333627,
         "long_title": "厉飞雨表情演员郭品超庆开播",
         "share_url": "https://www.bilibili.com/bangumi/play/ep333627",
-        "title": "花絮3",
+        "title": "凡人风起天南花絮3",
         "type": 1,
         "type_title": "预告"
     },
@@ -1947,7 +1859,7 @@
         "id": 333628,
         "long_title": "涵云芝表情演员宋伊人庆开播",
         "share_url": "https://www.bilibili.com/bangumi/play/ep333628",
-        "title": "花絮2",
+        "title": "凡人风起天南花絮2",
         "type": 1,
         "type_title": "预告"
     },
@@ -1955,7 +1867,7 @@
         "id": 333555,
         "long_title": "众道友、配音演员共庆开播",
         "share_url": "https://www.bilibili.com/bangumi/play/ep333555",
-        "title": "花絮1",
+        "title": "凡人风起天南花絮1",
         "type": 1,
         "type_title": "预告"
     },
@@ -1971,7 +1883,7 @@
         "id": 333327,
         "long_title": "《凡人》公开，段奥娟倾情演唱",
         "share_url": "https://www.bilibili.com/bangumi/play/ep333327",
-        "title": "ED",
+        "title": "凡人风起天南ED",
         "type": 1,
         "type_title": "预告"
     },
@@ -1993,9 +1905,9 @@
     },
     {
         "id": 332562,
-        "long_title": "韩立篇，7月25日20点4集连播",
+        "long_title": "韩立篇",
         "share_url": "https://www.bilibili.com/bangumi/play/ep332562",
-        "title": "角色PV",
+        "title": "凡人风起天南角色PV",
         "type": 1,
         "type_title": "预告"
     },
@@ -2011,15 +1923,7 @@
         "id": 332256,
         "long_title": "《不凡》公开，终究平凡不平庸",
         "share_url": "https://www.bilibili.com/bangumi/play/ep332256",
-        "title": "OP",
-        "type": 1,
-        "type_title": "预告"
-    },
-    {
-        "id": 329515,
-        "long_title": "凡人风起天南，7月25日20点独家上线",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep329515",
-        "title": "定档预告",
+        "title": "凡人风起天南OP",
         "type": 1,
         "type_title": "预告"
     },
@@ -2027,9 +1931,17 @@
         "id": 291875,
         "long_title": "男主韩立形象首曝",
         "share_url": "https://www.bilibili.com/bangumi/play/ep291875",
-        "title": "特效展示PV",
+        "title": "凡人风起天南特效展示PV",
         "type": 1,
         "type_title": "预告"
+    },
+    {
+        "id": 329515,
+        "long_title": "",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep329515",
+        "title": "凡人风起天南预告PV",
+        "type": 2,
+        "type_title": "特别花絮"
     },
     {
         "id": 333629,
@@ -2129,9 +2041,25 @@
     },
     {
         "id": 381218,
-        "long_title": "1月31日中午11:00，2集连播",
+        "long_title": "",
         "share_url": "https://www.bilibili.com/bangumi/play/ep381218",
-        "title": "特别篇提档",
+        "title": "燕家堡之战开播预告",
+        "type": 2,
+        "type_title": "特别花絮"
+    },
+    {
+        "id": 364518,
+        "long_title": "狂乱之宴开启",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep364518",
+        "title": "燕家堡之战特别篇预告PV",
+        "type": 2,
+        "type_title": "特别花絮"
+    },
+    {
+        "id": 374180,
+        "long_title": "惊天一战！",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep374180",
+        "title": "燕家堡之战特别篇预告PV",
         "type": 2,
         "type_title": "特别花絮"
     },
@@ -2156,6 +2084,22 @@
         "long_title": "你可不许死，本小姐等你回来",
         "share_url": "https://www.bilibili.com/bangumi/play/ep383168",
         "title": "第21集预告",
+        "type": 2,
+        "type_title": "特别花絮"
+    },
+    {
+        "id": 426871,
+        "long_title": "修行之路再启程",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep426871",
+        "title": "魔道争锋年番预告PV",
+        "type": 2,
+        "type_title": "特别花絮"
+    },
+    {
+        "id": 466250,
+        "long_title": "武戏抢先领略！京城激斗即将开启！",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep466250",
+        "title": "魔道争锋年番预告PV2",
         "type": 2,
         "type_title": "特别花絮"
     },
@@ -2568,6 +2512,14 @@
         "type_title": "特别花絮"
     },
     {
+        "id": 718247,
+        "long_title": "",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep718247",
+        "title": "凡人修仙传风起天南重制版预告PV",
+        "type": 2,
+        "type_title": "特别花絮"
+    },
+    {
         "id": 732998,
         "long_title": "",
         "share_url": "https://www.bilibili.com/bangumi/play/ep732998",
@@ -2736,6 +2688,22 @@
         "type_title": "特别花絮"
     },
     {
+        "id": 693353,
+        "long_title": "平凡少年修仙之路",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep693353",
+        "title": "星海飞驰前瞻PV",
+        "type": 2,
+        "type_title": "特别花絮"
+    },
+    {
+        "id": 762415,
+        "long_title": "",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep762415",
+        "title": "星海飞驰序章预告PV",
+        "type": 2,
+        "type_title": "特别花絮"
+    },
+    {
         "id": 762807,
         "long_title": "",
         "share_url": "https://www.bilibili.com/bangumi/play/ep762807",
@@ -2764,6 +2732,30 @@
         "long_title": "",
         "share_url": "https://www.bilibili.com/bangumi/play/ep762810",
         "title": "星海飞驰序章第4集预告",
+        "type": 2,
+        "type_title": "特别花絮"
+    },
+    {
+        "id": 775854,
+        "long_title": "",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep775854",
+        "title": "星海飞驰年番预告PV1",
+        "type": 2,
+        "type_title": "特别花絮"
+    },
+    {
+        "id": 781607,
+        "long_title": "",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep781607",
+        "title": "星海飞驰年番预告PV2",
+        "type": 2,
+        "type_title": "特别花絮"
+    },
+    {
+        "id": 788499,
+        "long_title": "妙音门vs极阴岛？韩立助拳？前瞻速览！",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep788499",
+        "title": "星海飞驰年番预告PV3",
         "type": 2,
         "type_title": "特别花絮"
     },
@@ -3148,6 +3140,14 @@
         "long_title": "",
         "share_url": "https://www.bilibili.com/bangumi/play/ep788468",
         "title": "星海飞驰第48集预告",
+        "type": 2,
+        "type_title": "特别花絮"
+    },
+    {
+        "id": 1189703,
+        "long_title": "",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep1189703",
+        "title": "外海风云年番预告PV",
         "type": 2,
         "type_title": "特别花絮"
     },

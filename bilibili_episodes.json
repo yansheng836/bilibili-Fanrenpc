@@ -1320,6 +1320,14 @@
         "type_title": "正片"
     },
     {
+        "id": 1231574,
+        "long_title": "重返天南14",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep1231574",
+        "title": "166",
+        "type": 0,
+        "type_title": "正片"
+    },
+    {
         "id": 2082696,
         "long_title": "",
         "share_url": "https://www.bilibili.com/bangumi/play/ep2082696",
@@ -3476,6 +3484,14 @@
         "long_title": "",
         "share_url": "https://www.bilibili.com/bangumi/play/ep1391865",
         "title": "重返天南第14集预告",
+        "type": 2,
+        "type_title": "特别花絮"
+    },
+    {
+        "id": 1391866,
+        "long_title": "",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep1391866",
+        "title": "重返天南第15集预告",
         "type": 2,
         "type_title": "特别花絮"
     },

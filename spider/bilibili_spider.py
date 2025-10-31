@@ -267,3 +267,94 @@ def get_bilibili_episode_info_html(ep_id: int,
     except json.JSONDecodeError as e:
         print(f"JSON解析失败: {e}")
         return None
+
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
+from bs4 import BeautifulSoup
+from typing import List, Dict, Any
+
+
+def get_bilibili_episode_info_selenium(
+        ep_id: int,
+        url_template: str = "https://www.bilibili.com/bangumi/play/ep{}",
+        headless: bool = True  # 默认使用无头模式以提高效率
+) -> List[Dict[str, Any]]:
+    """
+    使用Selenium模拟Chrome浏览器爬取Bilibili剧集信息，处理JS动态加载内容。
+
+    Args:
+        ep_id: 剧集ID
+        url_template: URL模板，使用ep_id动态生成地址
+        headless: 是否使用无头模式（无界面浏览器），True可节省资源
+
+    Returns:
+        List[Dict[str, Any]]: 剧集信息列表，每个剧集为字典形式
+    """
+    # 动态生成URL，避免硬编码[5](@ref)
+    target_url = url_template.format(ep_id)
+    print('target_url:' + target_url)
+    target_url = 'https://www.bilibili.com/bangumi/play/ep1231564'
+    print('target_url:' + target_url)
+
+    # 配置Chrome选项[2,6](@ref)
+    chrome_options = Options()
+    if headless:
+        chrome_options.add_argument("--headless")  # 无头模式，不显示浏览器界面
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--no-sandbox")  # 提高兼容性
+    chrome_options.add_argument("--disable-dev-shm-usage")
+
+    # 初始化浏览器驱动（请确保ChromeDriver已安装并配置到PATH）[2](@ref)
+    driver = webdriver.Chrome(options=chrome_options)
+
+    try:
+        # 访问目标页面
+        driver.get(target_url)
+
+        # 使用显式等待，确保动态内容加载完成（等待特定元素出现）[2,6](@ref)
+        wait = WebDriverWait(driver, timeout=10)  # 最多等待10秒
+        # 示例：等待剧集列表容器加载（需根据实际页面调整选择器）
+        episode_container = wait.until(
+            # EC.presence_of_element_located((By.CLASS_NAME, "episode-list"))  # 替换为实际类名
+            # EC.presence_of_element_located((By.CLASS_NAME, "eplist_ep_list_wrapper__Sy5N8"))  # 替换为实际类名
+            EC.presence_of_element_located((By.CLASS_NAME, "eplist_module"))  # 替换为实际类名
+        )
+
+        # 可选：模拟滚动或点击操作以触发更多动态加载[2](@ref)
+        # driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        # time.sleep(2)  # 短暂等待滚动加载
+
+        # 获取渲染完成的页面HTML
+        page_html = driver.page_source
+        print('page_html')
+        print(page_html)
+
+        # 使用BeautifulSoup解析HTML（替代原JSON解析）[3,6](@ref)
+        soup = BeautifulSoup(page_html, 'html.parser')
+        print('soup')
+        print(soup)
+
+        # 提取剧集信息（需根据Bilibili实际页面结构调整选择器）
+        episodes = []
+        episode_elements = soup.find_all('div', class_='episode-item')  # 示例类名，需替换
+
+        for ep_element in episode_elements:
+            episode_info = {}
+            # 示例提取字段（根据页面元素调整）
+            title_elem = ep_element.find('span', class_='title')
+            if title_elem:
+                episode_info['title'] = title_elem.get_text(strip=True)
+            # 添加其他字段（如播放量、时长等）
+            episodes.append(episode_info)
+
+        return episodes if episodes else []  # 确保返回空列表而非None
+
+    # except Exception as e:
+    #     print(f"Selenium爬取失败: {e}")
+    #     return []
+    finally:
+        driver.quit()  # 确保关闭浏览器释放资源[6](@ref)

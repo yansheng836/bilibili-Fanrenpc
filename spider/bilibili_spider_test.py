@@ -45,5 +45,6 @@ if __name__ == '__main__':
 
     # 测试爬取页面
     # lists = bilibili_spider.get_bilibili_episode_info_html(season_id)
+    lists = bilibili_spider.get_bilibili_episode_info_selenium(season_id)
 
-    get_json_data()
+    # get_json_data()

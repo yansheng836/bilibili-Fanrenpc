@@ -182,6 +182,61 @@ curl ^"https://api.bilibili.com/pgc/season/episode/web/info?ep_id=1231573^" ^
 
 2025年10月24日16:22:23 添加《虚天战纪》、《2020版 1-21集》之后，播放量是49亿。
 
+#### 进一步分析
+
+根目录没有这些相关的剧情，但是在具体播放也有，例如：<https://www.bilibili.com/bangumi/play/ep733316?from_spmid=666.19.0.0> 的右侧列表中有对应的剧情清单，需要搞清楚这部分数据来源。
+
+抓到了相关的js来源（不确定是否正确）：
+
+https://s1.hdslb.com/bfs/static/ogv/video3/_next/static/chunks/1437.b659c162c4897b1d.js
+
+网页上看最外层是：`eplist_ep_list_wrapper__Sy5N8`，具体可参考如下内容：
+
+```html
+<div class="eplist_ep_list_wrapper__Sy5N8">
+    正剧标签
+</div>
+
+<div class="eplist_ep_list_wrapper__Sy5N8" id="eplist_module">
+    <div class="SectionSelector_SectionSelector__TZ_QZ">类型</div>
+    <div class="imageList_wrap___f73Z">列表</div>
+</div>
+```
+
+根据`imageList_wrap___f73Z`找到了上面这个js文件（但是看不懂……）。
+
+```js
+    569: function (e) {
+        e.exports = {
+            wrap: "imageList_wrap___f73Z"
+        }
+    },
+```
+
+相关腾讯元宝问答：https://yuanbao.tencent.com/chat/naQivTmsDa/229ec9af-29fe-4951-b2d1-f819c91e2e5c
+
+---
+
+页面上看：最外层 eplist_ep_list_wrapper__Sy5N8，但是爬取这个 html 发现，都没有这个标签！
+
+最接近的标签 plp-r sticky，是 eplist_ep_list_wrapper__Sy5N8 的上一层。
+
+```html
+<div class="plp-r sticky">
+    <div id="pc-cashier-wrapper-normal" style="width:100%;margin-bottom:14px"></div>
+    <div id="danmukuBox" style="display:block" class="DanmukuBox_wrap___eG0H"></div>
+    <div class="EpListSkeleton_blockWrap__h8zw6"></div>
+    <div class="RecommendSkeleton_blockWrap__lKeue"></div>
+</div>
+<div class="navTools_floatNavExp__iNll7" style="bottom:224px">
+    <div class="navTools_navMenu__I5qkt"></div>
+</div>
+```
+
+
+
+
+
 ### 2.CI问题：Matplotlib画图中文乱码
 
 <https://github.com/yansheng836/bilibili-Fanrenpc/actions/runs/18737555742/job/53447278813>

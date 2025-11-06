@@ -316,7 +316,7 @@ def get_bilibili_episode_info_selenium(
         driver.get(target_url)
 
         # 使用显式等待，确保动态内容加载完成（等待特定元素出现）[2,6](@ref)
-        wait = WebDriverWait(driver, timeout=10)  # 最多等待10秒
+        wait = WebDriverWait(driver, timeout=20)  # 最多等待10秒
         # 示例：等待剧集列表容器加载（需根据实际页面调整选择器）
         episode_container = wait.until(
             # EC.presence_of_element_located((By.CLASS_NAME, "episode-list"))  # 替换为实际类名
@@ -358,3 +358,113 @@ def get_bilibili_episode_info_selenium(
     #     return []
     finally:
         driver.quit()  # 确保关闭浏览器释放资源[6](@ref)
+
+
+def get_bilibili_episode_info_selenium_improved(
+        ep_id: int,
+        url_template: str = "https://www.bilibili.com/bangumi/play/ep{}",
+        headless: bool = True
+) -> List[Dict[str, Any]]:
+    """
+    改进版：使用更健壮的等待策略爬取Bilibili剧集信息。
+    """
+
+    from selenium import webdriver
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
+    from selenium.common.exceptions import TimeoutException, NoSuchElementException
+    from selenium.webdriver.chrome.options import Options
+    from bs4 import BeautifulSoup
+    import time
+
+    target_url = url_template.format(ep_id)
+    target_url = 'https://www.bilibili.com/bangumi/play/ep1231564'
+    print(f"尝试访问: {target_url}")
+
+    # 1. 配置浏览器选项 - 优化页面加载策略
+    chrome_options = Options()
+    if headless:
+        chrome_options.add_argument("--headless=new")  # 使用新版无头模式[1](@ref)
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    # 设置页面加载策略为"eager"，不等待所有资源加载完毕[1,8](@ref)
+    chrome_options.page_load_strategy = "eager"
+
+    # 2. 设置页面加载和脚本执行的全局超时[1,5](@ref)
+    driver = webdriver.Chrome(options=chrome_options)
+    driver.set_page_load_timeout(20)  # 页面加载超时设为20秒
+    driver.set_script_timeout(10)  # 异步脚本执行超时
+
+    try:
+        # 3. 访问目标页面，并使用try-except处理可能的加载超时[1](@ref)
+        try:
+            driver.get(target_url)
+        except TimeoutException:
+            print("页面加载超时，尝试停止加载继续执行...")
+            driver.execute_script("window.stop()")  # 强制停止加载[1](@ref)
+
+        # 4. 使用更灵活、条件更明确的显式等待[7](@ref)
+        wait = WebDriverWait(driver, 15)  # 总超时时间略微增加至15秒
+
+        # 方案A（首选）：等待一个更常见、更稳定的页面基础结构元素
+        # 例如，等待页面主体内容区域或一个已知的容器加载完成
+        try:
+            # 这里以等待播放器容器为例，您需要根据B站实际页面结构调整选择器
+            main_container = wait.until(
+                # EC.presence_of_element_located((By.CSS_SELECTOR, "[class*='player'], [class*='video'], .bpx-player-container"))
+                EC.presence_of_element_located((By.ID, "eplist_module"))  # 替换为实际类名
+            )
+            print("成功定位到页面主容器。")
+        except TimeoutException:
+            print("警告：未能找到预期的主容器，尝试直接解析当前页面。")
+
+        # 方案B：如果确定要等待右侧剧集列表，需要验证其正确选择器
+        # 通过浏览器开发者工具检查元素，确认其类名或ID
+        # 例如，可能是 '.series-list', '.list-wrapper', '#series-list' 等
+        # episode_container = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "episode-list")))
+
+        # 5. 可选：短暂等待以确保动态内容完全渲染
+        time.sleep(2)
+
+        # 6. 获取最终页面源码并解析
+        page_html = driver.page_source
+        soup = BeautifulSoup(page_html, 'html.parser')
+        print('soup')
+        print(soup)
+
+        # ... (后续解析剧集信息的代码保持不变) ...
+        episodes = []
+        # 重要：使用浏览器开发者工具，找到正确的剧集列表项选择器
+        episode_elements = soup.find_all('div', class_='episode-item')  # 此为示例，需替换
+        # 如果没有找到，尝试其他选择器，例如：
+        # episode_elements = soup.select('.list-box li')  # 使用CSS选择器
+
+        for ep_element in episode_elements:
+            episode_info = {}
+            # 提取信息，同样需要根据实际HTML结构调整
+            title_elem = ep_element.find('span', class_='title')
+            if title_elem:
+                episode_info['title'] = title_elem.get_text(strip=True)
+            episodes.append(episode_info)
+
+        if not episodes:
+            print("未解析到任何剧集信息，请检查选择器。")
+            # 打印部分HTML源码以供调试[7](@ref)
+            print("调试信息 - 页面标题:", driver.title)
+            # 可以将 page_html 保存到文件仔细检查
+            # with open("debug_page.html", "w", encoding="utf-8") as f:
+            #     f.write(page_html)
+
+        return episodes
+
+    except TimeoutException as e:
+        print(f"操作超时: {e}")
+        # 可以添加重试逻辑[1](@ref)
+        return []
+    except Exception as e:
+        print(f"发生未知错误: {e}")
+        return []
+    finally:
+        driver.quit()

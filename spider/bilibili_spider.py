@@ -269,15 +269,6 @@ def get_bilibili_episode_info_html(ep_id: int,
         return None
 
 
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.options import Options
-from bs4 import BeautifulSoup
-from typing import List, Dict, Any
-
-
 def get_bilibili_episode_info_selenium(
         ep_id: int,
         url_template: str = "https://www.bilibili.com/bangumi/play/ep{}",
@@ -294,6 +285,15 @@ def get_bilibili_episode_info_selenium(
     Returns:
         List[Dict[str, Any]]: 剧集信息列表，每个剧集为字典形式
     """
+    
+    from selenium import webdriver
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
+    from selenium.webdriver.chrome.options import Options
+    from bs4 import BeautifulSoup
+    from typing import List, Dict, Any
+    
     # 动态生成URL，避免硬编码[5](@ref)
     target_url = url_template.format(ep_id)
     print('target_url:' + target_url)

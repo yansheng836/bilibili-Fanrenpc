@@ -1352,6 +1352,14 @@
         "type_title": "正片"
     },
     {
+        "id": 1231578,
+        "long_title": "重返天南18",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep1231578",
+        "title": "170",
+        "type": 0,
+        "type_title": "正片"
+    },
+    {
         "id": 2366022,
         "long_title": "第二季度与诸君重逢",
         "share_url": "https://www.bilibili.com/bangumi/play/ep2366022",
@@ -3556,6 +3564,14 @@
         "long_title": "",
         "share_url": "https://www.bilibili.com/bangumi/play/ep1391869",
         "title": "重返天南第18集预告",
+        "type": 2,
+        "type_title": "特别花絮"
+    },
+    {
+        "id": 1391870,
+        "long_title": "",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep1391870",
+        "title": "重返天南第19集预告",
         "type": 2,
         "type_title": "特别花絮"
     },

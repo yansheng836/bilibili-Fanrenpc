@@ -7,13 +7,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 366903,
-            "dm": 159442,
-            "favorite": 185538,
-            "like": 511015,
-            "reply": 32821,
-            "share": 52438,
-            "view": 152596257
+            "coin": 366545,
+            "dm": 159215,
+            "favorite": 185320,
+            "like": 510512,
+            "reply": 32768,
+            "share": 52356,
+            "view": 152470211
         }
     },
     {
@@ -24,13 +24,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 149177,
-            "dm": 59108,
-            "favorite": 27810,
-            "like": 149922,
-            "reply": 3116,
-            "share": 3640,
-            "view": 29579311
+            "coin": 149039,
+            "dm": 59039,
+            "favorite": 27789,
+            "like": 149793,
+            "reply": 3113,
+            "share": 3633,
+            "view": 29551248
         }
     },
     {
@@ -41,13 +41,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 123515,
-            "dm": 71199,
-            "favorite": 20472,
-            "like": 118332,
-            "reply": 2044,
-            "share": 2312,
-            "view": 21422627
+            "coin": 123414,
+            "dm": 71092,
+            "favorite": 20459,
+            "like": 118239,
+            "reply": 2041,
+            "share": 2311,
+            "view": 21400355
         }
     },
     {
@@ -58,13 +58,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 116038,
-            "dm": 28825,
-            "favorite": 18560,
-            "like": 109027,
-            "reply": 1865,
+            "coin": 115953,
+            "dm": 28670,
+            "favorite": 18550,
+            "like": 108923,
+            "reply": 1864,
             "share": 2040,
-            "view": 20192244
+            "view": 20167004
         }
     },
     {
@@ -75,13 +75,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 105559,
-            "dm": 27555,
-            "favorite": 18106,
-            "like": 104004,
-            "reply": 1499,
-            "share": 1908,
-            "view": 20096813
+            "coin": 105471,
+            "dm": 27505,
+            "favorite": 18095,
+            "like": 103926,
+            "reply": 1497,
+            "share": 1906,
+            "view": 20075871
         }
     },
     {
@@ -92,13 +92,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 101242,
-            "dm": 28044,
-            "favorite": 16891,
-            "like": 98302,
+            "coin": 101166,
+            "dm": 28014,
+            "favorite": 16885,
+            "like": 98214,
             "reply": 1399,
-            "share": 1828,
-            "view": 19135109
+            "share": 1827,
+            "view": 19114904
         }
     },
     {
@@ -109,13 +109,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 95366,
-            "dm": 68028,
-            "favorite": 16942,
-            "like": 96193,
-            "reply": 1610,
+            "coin": 95291,
+            "dm": 67939,
+            "favorite": 16929,
+            "like": 96102,
+            "reply": 1605,
             "share": 1515,
-            "view": 22629337
+            "view": 22609721
         }
     },
     {
@@ -126,13 +126,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 91393,
-            "dm": 33720,
-            "favorite": 15282,
-            "like": 88611,
-            "reply": 1424,
-            "share": 1478,
-            "view": 17785573
+            "coin": 91308,
+            "dm": 33663,
+            "favorite": 15271,
+            "like": 88519,
+            "reply": 1415,
+            "share": 1477,
+            "view": 17765959
         }
     },
     {
@@ -143,13 +143,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 90854,
-            "dm": 45114,
-            "favorite": 16273,
-            "like": 95888,
-            "reply": 1692,
-            "share": 1780,
-            "view": 18156170
+            "coin": 90784,
+            "dm": 45046,
+            "favorite": 16263,
+            "like": 95800,
+            "reply": 1687,
+            "share": 1778,
+            "view": 18136769
         }
     },
     {
@@ -160,13 +160,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 91188,
-            "dm": 34524,
-            "favorite": 16028,
-            "like": 94789,
-            "reply": 1893,
-            "share": 1685,
-            "view": 19157396
+            "coin": 91102,
+            "dm": 34492,
+            "favorite": 16014,
+            "like": 94685,
+            "reply": 1878,
+            "share": 1680,
+            "view": 19137693
         }
     },
     {
@@ -177,13 +177,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 92872,
-            "dm": 45311,
-            "favorite": 17202,
-            "like": 102656,
-            "reply": 1793,
-            "share": 1840,
-            "view": 19669825
+            "coin": 92807,
+            "dm": 45211,
+            "favorite": 17194,
+            "like": 102567,
+            "reply": 1781,
+            "share": 1835,
+            "view": 19647814
         }
     },
     {
@@ -194,13 +194,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 84751,
-            "dm": 28019,
-            "favorite": 14475,
-            "like": 86985,
-            "reply": 1208,
-            "share": 1254,
-            "view": 15597776
+            "coin": 84691,
+            "dm": 27980,
+            "favorite": 14466,
+            "like": 86909,
+            "reply": 1206,
+            "share": 1252,
+            "view": 15577558
         }
     },
     {
@@ -211,13 +211,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 84245,
-            "dm": 36604,
-            "favorite": 14152,
-            "like": 85544,
+            "coin": 84171,
+            "dm": 36569,
+            "favorite": 14143,
+            "like": 85449,
             "reply": 970,
-            "share": 1187,
-            "view": 15239883
+            "share": 1185,
+            "view": 15216131
         }
     },
     {
@@ -228,13 +228,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 80916,
-            "dm": 64616,
-            "favorite": 14056,
-            "like": 80840,
-            "reply": 1193,
-            "share": 1062,
-            "view": 15575604
+            "coin": 80863,
+            "dm": 64530,
+            "favorite": 14049,
+            "like": 80765,
+            "reply": 1187,
+            "share": 1061,
+            "view": 15557248
         }
     },
     {
@@ -245,13 +245,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 87426,
-            "dm": 93888,
-            "favorite": 15736,
-            "like": 88687,
-            "reply": 1780,
-            "share": 1442,
-            "view": 16667880
+            "coin": 87348,
+            "dm": 93735,
+            "favorite": 15721,
+            "like": 88598,
+            "reply": 1778,
+            "share": 1441,
+            "view": 16646917
         }
     },
     {
@@ -262,13 +262,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 78693,
-            "dm": 40452,
-            "favorite": 12622,
-            "like": 79578,
+            "coin": 78629,
+            "dm": 40344,
+            "favorite": 12613,
+            "like": 79508,
             "reply": 977,
             "share": 1059,
-            "view": 14865854
+            "view": 14847137
         }
     },
     {
@@ -279,13 +279,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 79828,
-            "dm": 29458,
-            "favorite": 13018,
-            "like": 79677,
-            "reply": 1162,
+            "coin": 79768,
+            "dm": 29400,
+            "favorite": 13006,
+            "like": 79607,
+            "reply": 1161,
             "share": 1022,
-            "view": 14832131
+            "view": 14809453
         }
     },
     {
@@ -296,13 +296,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 81388,
-            "dm": 151312,
-            "favorite": 14218,
-            "like": 84966,
+            "coin": 81317,
+            "dm": 151073,
+            "favorite": 14205,
+            "like": 84879,
             "reply": 1361,
-            "share": 1102,
-            "view": 15994375
+            "share": 1101,
+            "view": 15974590
         }
     },
     {
@@ -313,13 +313,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 75285,
-            "dm": 49681,
-            "favorite": 12686,
-            "like": 77806,
+            "coin": 75226,
+            "dm": 49584,
+            "favorite": 12676,
+            "like": 77731,
             "reply": 961,
-            "share": 1011,
-            "view": 14348925
+            "share": 1009,
+            "view": 14330353
         }
     },
     {
@@ -330,13 +330,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 74693,
-            "dm": 73647,
-            "favorite": 12214,
-            "like": 75082,
-            "reply": 1103,
-            "share": 937,
-            "view": 13962292
+            "coin": 74632,
+            "dm": 73563,
+            "favorite": 12207,
+            "like": 75011,
+            "reply": 1101,
+            "share": 935,
+            "view": 13944506
         }
     },
     {
@@ -347,13 +347,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 83384,
-            "dm": 62673,
-            "favorite": 13476,
-            "like": 84733,
-            "reply": 2142,
-            "share": 1208,
-            "view": 15214112
+            "coin": 83315,
+            "dm": 62572,
+            "favorite": 13469,
+            "like": 84647,
+            "reply": 2140,
+            "share": 1206,
+            "view": 15194967
         }
     },
     {
@@ -364,13 +364,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 389158,
-            "dm": 491159,
-            "favorite": 44646,
-            "like": 387495,
+            "coin": 389074,
+            "dm": 490908,
+            "favorite": 44629,
+            "like": 387385,
             "reply": 14170,
-            "share": 12325,
-            "view": 36105890
+            "share": 12323,
+            "view": 36084567
         }
     },
     {
@@ -381,13 +381,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 237349,
-            "dm": 123844,
-            "favorite": 25177,
-            "like": 239145,
+            "coin": 237298,
+            "dm": 123777,
+            "favorite": 25167,
+            "like": 239075,
             "reply": 5351,
             "share": 6985,
-            "view": 25876462
+            "view": 25858556
         }
     },
     {
@@ -398,13 +398,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 262948,
-            "dm": 174731,
-            "favorite": 27339,
-            "like": 259620,
+            "coin": 262880,
+            "dm": 174553,
+            "favorite": 27331,
+            "like": 259545,
             "reply": 10117,
-            "share": 7929,
-            "view": 26966629
+            "share": 7928,
+            "view": 26949278
         }
     },
     {
@@ -415,13 +415,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 390367,
-            "dm": 110324,
-            "favorite": 39283,
-            "like": 346573,
-            "reply": 24685,
-            "share": 12371,
-            "view": 28584762
+            "coin": 390305,
+            "dm": 110273,
+            "favorite": 39272,
+            "like": 346498,
+            "reply": 24681,
+            "share": 12367,
+            "view": 28567006
         }
     },
     {
@@ -432,13 +432,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 281344,
-            "dm": 325704,
-            "favorite": 29582,
-            "like": 298341,
+            "coin": 281270,
+            "dm": 325461,
+            "favorite": 29576,
+            "like": 298263,
             "reply": 19724,
-            "share": 8536,
-            "view": 28277581
+            "share": 8534,
+            "view": 28259714
         }
     },
     {
@@ -449,13 +449,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 236951,
-            "dm": 329768,
-            "favorite": 25289,
-            "like": 261324,
-            "reply": 15444,
-            "share": 7103,
-            "view": 28521491
+            "coin": 236881,
+            "dm": 329515,
+            "favorite": 25276,
+            "like": 261249,
+            "reply": 15442,
+            "share": 7101,
+            "view": 28503757
         }
     },
     {
@@ -466,13 +466,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 212971,
-            "dm": 191372,
-            "favorite": 22515,
-            "like": 245791,
+            "coin": 212907,
+            "dm": 191234,
+            "favorite": 22503,
+            "like": 245729,
             "reply": 12340,
             "share": 6128,
-            "view": 26960024
+            "view": 26942710
         }
     },
     {
@@ -483,13 +483,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 230033,
-            "dm": 285619,
-            "favorite": 25278,
-            "like": 267156,
-            "reply": 11737,
-            "share": 6845,
-            "view": 31248462
+            "coin": 229970,
+            "dm": 285415,
+            "favorite": 25265,
+            "like": 267084,
+            "reply": 11736,
+            "share": 6843,
+            "view": 31231138
         }
     },
     {
@@ -500,13 +500,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 208427,
-            "dm": 145644,
-            "favorite": 22013,
-            "like": 236982,
+            "coin": 208376,
+            "dm": 145548,
+            "favorite": 22006,
+            "like": 236921,
             "reply": 10366,
             "share": 6119,
-            "view": 26446154
+            "view": 26428938
         }
     },
     {
@@ -517,13 +517,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 237416,
-            "dm": 140698,
-            "favorite": 23597,
-            "like": 256063,
+            "coin": 237338,
+            "dm": 140592,
+            "favorite": 23590,
+            "like": 255995,
             "reply": 9665,
-            "share": 6773,
-            "view": 26910418
+            "share": 6771,
+            "view": 26893130
         }
     },
     {
@@ -534,13 +534,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 220305,
-            "dm": 142156,
-            "favorite": 22244,
-            "like": 243847,
-            "reply": 9659,
-            "share": 6516,
-            "view": 27703127
+            "coin": 220244,
+            "dm": 142035,
+            "favorite": 22238,
+            "like": 243777,
+            "reply": 9658,
+            "share": 6515,
+            "view": 27685705
         }
     },
     {
@@ -551,13 +551,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 202626,
-            "dm": 173206,
-            "favorite": 21962,
-            "like": 233679,
-            "reply": 11874,
-            "share": 5850,
-            "view": 26588366
+            "coin": 202565,
+            "dm": 173073,
+            "favorite": 21954,
+            "like": 233617,
+            "reply": 11871,
+            "share": 5849,
+            "view": 26571918
         }
     },
     {
@@ -568,13 +568,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 208155,
-            "dm": 170483,
-            "favorite": 22279,
-            "like": 237168,
+            "coin": 208090,
+            "dm": 170333,
+            "favorite": 22269,
+            "like": 237104,
             "reply": 7657,
-            "share": 5983,
-            "view": 26353053
+            "share": 5980,
+            "view": 26334938
         }
     },
     {
@@ -585,13 +585,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 235732,
-            "dm": 139033,
-            "favorite": 24563,
-            "like": 251028,
+            "coin": 235674,
+            "dm": 138936,
+            "favorite": 24554,
+            "like": 250963,
             "reply": 8612,
-            "share": 7040,
-            "view": 27093944
+            "share": 7039,
+            "view": 27075819
         }
     },
     {
@@ -602,13 +602,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 266561,
-            "dm": 114890,
-            "favorite": 26468,
-            "like": 265417,
+            "coin": 266491,
+            "dm": 114840,
+            "favorite": 26455,
+            "like": 265355,
             "reply": 11690,
-            "share": 8103,
-            "view": 28254929
+            "share": 8101,
+            "view": 28237777
         }
     },
     {
@@ -619,13 +619,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 246545,
-            "dm": 136864,
-            "favorite": 24105,
-            "like": 258412,
+            "coin": 246498,
+            "dm": 136756,
+            "favorite": 24098,
+            "like": 258352,
             "reply": 8407,
-            "share": 7385,
-            "view": 26273251
+            "share": 7384,
+            "view": 26256506
         }
     },
     {
@@ -636,13 +636,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 220102,
-            "dm": 171395,
-            "favorite": 22980,
-            "like": 243747,
+            "coin": 220065,
+            "dm": 171249,
+            "favorite": 22969,
+            "like": 243687,
             "reply": 8450,
             "share": 6558,
-            "view": 26867614
+            "view": 26850887
         }
     },
     {
@@ -653,13 +653,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 247532,
-            "dm": 331485,
-            "favorite": 26327,
-            "like": 276582,
-            "reply": 11160,
-            "share": 7465,
-            "view": 25337019
+            "coin": 247472,
+            "dm": 331255,
+            "favorite": 26316,
+            "like": 276506,
+            "reply": 11157,
+            "share": 7464,
+            "view": 25320135
         }
     },
     {
@@ -670,13 +670,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 253074,
-            "dm": 207237,
-            "favorite": 25542,
-            "like": 272615,
-            "reply": 10556,
-            "share": 7709,
-            "view": 25346434
+            "coin": 253022,
+            "dm": 207100,
+            "favorite": 25536,
+            "like": 272544,
+            "reply": 10555,
+            "share": 7708,
+            "view": 25329533
         }
     },
     {
@@ -687,13 +687,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 253493,
-            "dm": 146958,
-            "favorite": 23954,
-            "like": 248835,
-            "reply": 12843,
-            "share": 7512,
-            "view": 26032765
+            "coin": 253428,
+            "dm": 146873,
+            "favorite": 23945,
+            "like": 248768,
+            "reply": 12842,
+            "share": 7511,
+            "view": 26016213
         }
     },
     {
@@ -704,13 +704,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 820660,
-            "dm": 216106,
-            "favorite": 75101,
-            "like": 584902,
-            "reply": 28351,
+            "coin": 820530,
+            "dm": 216020,
+            "favorite": 75078,
+            "like": 584777,
+            "reply": 28348,
             "share": 25800,
-            "view": 29547809
+            "view": 29527678
         }
     },
     {
@@ -721,13 +721,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 308285,
-            "dm": 132358,
-            "favorite": 27454,
-            "like": 294145,
-            "reply": 10174,
-            "share": 9182,
-            "view": 30534756
+            "coin": 308224,
+            "dm": 132273,
+            "favorite": 27446,
+            "like": 294071,
+            "reply": 10172,
+            "share": 9181,
+            "view": 30517748
         }
     },
     {
@@ -738,13 +738,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 364872,
-            "dm": 282558,
-            "favorite": 31321,
-            "like": 319897,
+            "coin": 364762,
+            "dm": 282288,
+            "favorite": 31306,
+            "like": 319804,
             "reply": 14855,
-            "share": 10433,
-            "view": 24263494
+            "share": 10432,
+            "view": 24247365
         }
     },
     {
@@ -755,13 +755,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 504149,
-            "dm": 201754,
-            "favorite": 43774,
-            "like": 395601,
-            "reply": 15504,
+            "coin": 504025,
+            "dm": 201601,
+            "favorite": 43761,
+            "like": 395500,
+            "reply": 15503,
             "share": 15392,
-            "view": 24806032
+            "view": 24789696
         }
     },
     {
@@ -772,13 +772,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 491093,
-            "dm": 252462,
-            "favorite": 45563,
-            "like": 435675,
-            "reply": 16680,
-            "share": 14400,
-            "view": 25661097
+            "coin": 490965,
+            "dm": 252247,
+            "favorite": 45547,
+            "like": 435552,
+            "reply": 16678,
+            "share": 14399,
+            "view": 25643645
         }
     },
     {
@@ -789,13 +789,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 373496,
-            "dm": 143852,
-            "favorite": 36564,
-            "like": 346906,
+            "coin": 373407,
+            "dm": 143713,
+            "favorite": 36542,
+            "like": 346824,
             "reply": 12001,
             "share": 11128,
-            "view": 26010252
+            "view": 25992223
         }
     },
     {
@@ -806,13 +806,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 352929,
-            "dm": 98184,
-            "favorite": 34022,
-            "like": 317579,
+            "coin": 352889,
+            "dm": 98139,
+            "favorite": 34010,
+            "like": 317523,
             "reply": 14100,
             "share": 11140,
-            "view": 24346927
+            "view": 24330186
         }
     },
     {
@@ -823,13 +823,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 330596,
-            "dm": 123876,
-            "favorite": 34017,
-            "like": 314643,
-            "reply": 11844,
+            "coin": 330538,
+            "dm": 123809,
+            "favorite": 34007,
+            "like": 314570,
+            "reply": 11843,
             "share": 10099,
-            "view": 25260641
+            "view": 25243856
         }
     },
     {
@@ -840,13 +840,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 289236,
-            "dm": 98759,
-            "favorite": 26983,
-            "like": 275876,
-            "reply": 10994,
+            "coin": 289180,
+            "dm": 98692,
+            "favorite": 26971,
+            "like": 275811,
+            "reply": 10993,
             "share": 8945,
-            "view": 24337028
+            "view": 24320105
         }
     },
     {
@@ -857,13 +857,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 557111,
-            "dm": 420207,
-            "favorite": 52272,
-            "like": 448080,
-            "reply": 25752,
-            "share": 17695,
-            "view": 25045317
+            "coin": 556985,
+            "dm": 419897,
+            "favorite": 52247,
+            "like": 447959,
+            "reply": 25749,
+            "share": 17693,
+            "view": 25028122
         }
     },
     {
@@ -874,13 +874,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 294429,
-            "dm": 151988,
-            "favorite": 27761,
-            "like": 274071,
-            "reply": 14757,
+            "coin": 294388,
+            "dm": 151797,
+            "favorite": 27753,
+            "like": 274014,
+            "reply": 14756,
             "share": 8893,
-            "view": 24298315
+            "view": 24281957
         }
     },
     {
@@ -891,13 +891,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 309040,
-            "dm": 97344,
-            "favorite": 29805,
-            "like": 292807,
-            "reply": 13078,
-            "share": 9630,
-            "view": 24472600
+            "coin": 309006,
+            "dm": 97311,
+            "favorite": 29798,
+            "like": 292753,
+            "reply": 13077,
+            "share": 9629,
+            "view": 24456973
         }
     },
     {
@@ -908,13 +908,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 292473,
-            "dm": 102578,
-            "favorite": 26385,
-            "like": 266487,
+            "coin": 292429,
+            "dm": 102533,
+            "favorite": 26376,
+            "like": 266434,
             "reply": 14912,
-            "share": 9090,
-            "view": 23354691
+            "share": 9089,
+            "view": 23339163
         }
     },
     {
@@ -925,13 +925,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 291002,
-            "dm": 92014,
-            "favorite": 27580,
-            "like": 269420,
-            "reply": 15441,
-            "share": 8830,
-            "view": 23144961
+            "coin": 290939,
+            "dm": 91972,
+            "favorite": 27571,
+            "like": 269355,
+            "reply": 15437,
+            "share": 8829,
+            "view": 23127565
         }
     },
     {
@@ -942,13 +942,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 250373,
-            "dm": 93608,
-            "favorite": 24120,
-            "like": 239833,
+            "coin": 250314,
+            "dm": 93567,
+            "favorite": 24113,
+            "like": 239767,
             "reply": 15969,
-            "share": 7340,
-            "view": 23154753
+            "share": 7336,
+            "view": 23138769
         }
     },
     {
@@ -959,13 +959,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 301355,
-            "dm": 207391,
-            "favorite": 31760,
-            "like": 280660,
+            "coin": 301271,
+            "dm": 207212,
+            "favorite": 31751,
+            "like": 280567,
             "reply": 29443,
-            "share": 8414,
-            "view": 22906007
+            "share": 8411,
+            "view": 22890143
         }
     },
     {
@@ -976,13 +976,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 247487,
-            "dm": 206970,
-            "favorite": 28418,
-            "like": 261353,
-            "reply": 18302,
-            "share": 6864,
-            "view": 24951098
+            "coin": 247392,
+            "dm": 206846,
+            "favorite": 28398,
+            "like": 261258,
+            "reply": 18300,
+            "share": 6861,
+            "view": 24934402
         }
     },
     {
@@ -993,13 +993,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 199805,
-            "dm": 195212,
-            "favorite": 21211,
-            "like": 218479,
-            "reply": 11429,
-            "share": 5565,
-            "view": 25503471
+            "coin": 199757,
+            "dm": 195053,
+            "favorite": 21206,
+            "like": 218416,
+            "reply": 11424,
+            "share": 5563,
+            "view": 25486477
         }
     },
     {
@@ -1010,13 +1010,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 226328,
-            "dm": 120996,
-            "favorite": 24125,
-            "like": 228281,
-            "reply": 9390,
-            "share": 6370,
-            "view": 26953019
+            "coin": 226257,
+            "dm": 120894,
+            "favorite": 24113,
+            "like": 228214,
+            "reply": 9389,
+            "share": 6369,
+            "view": 26933667
         }
     },
     {
@@ -1027,13 +1027,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 226063,
-            "dm": 321476,
-            "favorite": 26795,
-            "like": 245647,
-            "reply": 11456,
-            "share": 6820,
-            "view": 34014964
+            "coin": 225985,
+            "dm": 321098,
+            "favorite": 26779,
+            "like": 245562,
+            "reply": 11455,
+            "share": 6818,
+            "view": 33986413
         }
     },
     {
@@ -1044,13 +1044,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 190437,
-            "dm": 235755,
-            "favorite": 21000,
-            "like": 213067,
-            "reply": 8914,
-            "share": 5170,
-            "view": 27231025
+            "coin": 190365,
+            "dm": 235481,
+            "favorite": 20985,
+            "like": 212983,
+            "reply": 8913,
+            "share": 5168,
+            "view": 27210308
         }
     },
     {
@@ -1061,13 +1061,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 260608,
-            "dm": 187026,
-            "favorite": 30046,
-            "like": 259954,
-            "reply": 15899,
-            "share": 7825,
-            "view": 29348741
+            "coin": 260518,
+            "dm": 186864,
+            "favorite": 30032,
+            "like": 259845,
+            "reply": 15894,
+            "share": 7823,
+            "view": 29324152
         }
     },
     {
@@ -1078,13 +1078,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 268357,
-            "dm": 172308,
-            "favorite": 30718,
-            "like": 272000,
-            "reply": 9743,
-            "share": 7699,
-            "view": 30362889
+            "coin": 268246,
+            "dm": 172184,
+            "favorite": 30705,
+            "like": 271878,
+            "reply": 9742,
+            "share": 7693,
+            "view": 30339984
         }
     },
     {
@@ -1095,13 +1095,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 184512,
-            "dm": 138806,
-            "favorite": 21032,
-            "like": 200372,
+            "coin": 184453,
+            "dm": 138664,
+            "favorite": 21026,
+            "like": 200305,
             "reply": 7213,
-            "share": 5010,
-            "view": 26827940
+            "share": 5009,
+            "view": 26807369
         }
     },
     {
@@ -1112,13 +1112,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 230868,
-            "dm": 277345,
-            "favorite": 26756,
-            "like": 238752,
-            "reply": 12976,
-            "share": 6466,
-            "view": 25499609
+            "coin": 230795,
+            "dm": 277114,
+            "favorite": 26742,
+            "like": 238663,
+            "reply": 12975,
+            "share": 6464,
+            "view": 25479966
         }
     },
     {
@@ -1129,13 +1129,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 194620,
-            "dm": 134092,
-            "favorite": 22293,
-            "like": 209304,
+            "coin": 194565,
+            "dm": 133956,
+            "favorite": 22280,
+            "like": 209213,
             "reply": 9547,
             "share": 5093,
-            "view": 26176647
+            "view": 26156806
         }
     },
     {
@@ -1146,13 +1146,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 199591,
-            "dm": 91327,
-            "favorite": 21650,
-            "like": 210146,
+            "coin": 199545,
+            "dm": 91272,
+            "favorite": 21640,
+            "like": 210066,
             "reply": 9353,
-            "share": 5407,
-            "view": 24145554
+            "share": 5406,
+            "view": 24126499
         }
     },
     {
@@ -1163,13 +1163,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 239581,
-            "dm": 98404,
-            "favorite": 24585,
-            "like": 229832,
+            "coin": 239527,
+            "dm": 98320,
+            "favorite": 24582,
+            "like": 229752,
             "reply": 10933,
-            "share": 6725,
-            "view": 24944663
+            "share": 6720,
+            "view": 24925195
         }
     },
     {
@@ -1180,13 +1180,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 215863,
-            "dm": 111280,
-            "favorite": 22029,
-            "like": 211441,
+            "coin": 215811,
+            "dm": 111207,
+            "favorite": 22024,
+            "like": 211380,
             "reply": 10241,
             "share": 5583,
-            "view": 24589539
+            "view": 24570120
         }
     },
     {
@@ -1197,13 +1197,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 191164,
-            "dm": 129730,
-            "favorite": 21147,
-            "like": 195132,
-            "reply": 10800,
-            "share": 4973,
-            "view": 25412140
+            "coin": 191113,
+            "dm": 129644,
+            "favorite": 21137,
+            "like": 195062,
+            "reply": 10799,
+            "share": 4972,
+            "view": 25393004
         }
     },
     {
@@ -1214,13 +1214,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 348963,
-            "dm": 171814,
-            "favorite": 39623,
-            "like": 335672,
+            "coin": 348889,
+            "dm": 171676,
+            "favorite": 39621,
+            "like": 335581,
             "reply": 28594,
-            "share": 10730,
-            "view": 38413694
+            "share": 10728,
+            "view": 38391968
         }
     },
     {
@@ -1231,13 +1231,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 465526,
-            "dm": 222019,
-            "favorite": 53421,
-            "like": 398392,
-            "reply": 18204,
-            "share": 19919,
-            "view": 33310300
+            "coin": 465402,
+            "dm": 221854,
+            "favorite": 53396,
+            "like": 398258,
+            "reply": 18200,
+            "share": 19917,
+            "view": 33287102
         }
     },
     {
@@ -1248,13 +1248,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 412901,
-            "dm": 99178,
-            "favorite": 43598,
-            "like": 330286,
-            "reply": 10573,
-            "share": 5446,
-            "view": 26962567
+            "coin": 412746,
+            "dm": 99107,
+            "favorite": 43580,
+            "like": 330138,
+            "reply": 10572,
+            "share": 5442,
+            "view": 26941414
         }
     },
     {
@@ -1265,13 +1265,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 246911,
-            "dm": 176794,
-            "favorite": 27007,
-            "like": 228943,
-            "reply": 7676,
-            "share": 3108,
-            "view": 27793851
+            "coin": 246822,
+            "dm": 176624,
+            "favorite": 26998,
+            "like": 228837,
+            "reply": 7677,
+            "share": 3107,
+            "view": 27771673
         }
     },
     {
@@ -1282,13 +1282,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 337582,
-            "dm": 337795,
-            "favorite": 40609,
-            "like": 314946,
+            "coin": 337475,
+            "dm": 337435,
+            "favorite": 40591,
+            "like": 314732,
             "reply": 21429,
-            "share": 6391,
-            "view": 42354586
+            "share": 6390,
+            "view": 42327025
         }
     },
     {
@@ -1299,13 +1299,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 282726,
-            "dm": 435483,
-            "favorite": 35723,
-            "like": 269659,
-            "reply": 11582,
-            "share": 12074,
-            "view": 32152260
+            "coin": 282620,
+            "dm": 435050,
+            "favorite": 35705,
+            "like": 269537,
+            "reply": 11581,
+            "share": 12070,
+            "view": 32125866
         }
     },
     {
@@ -1316,13 +1316,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 170493,
-            "dm": 84915,
-            "favorite": 19959,
-            "like": 165191,
+            "coin": 170426,
+            "dm": 84854,
+            "favorite": 19952,
+            "like": 165124,
             "reply": 6544,
-            "share": 2522,
-            "view": 20177769
+            "share": 2521,
+            "view": 20159939
         }
     },
     {
@@ -1333,13 +1333,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 174974,
-            "dm": 126167,
-            "favorite": 21226,
-            "like": 173593,
+            "coin": 174902,
+            "dm": 125998,
+            "favorite": 21215,
+            "like": 173520,
             "reply": 5651,
             "share": 2308,
-            "view": 20345361
+            "view": 20328301
         }
     },
     {
@@ -1350,13 +1350,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 165974,
-            "dm": 70167,
-            "favorite": 19902,
-            "like": 158229,
+            "coin": 165923,
+            "dm": 70070,
+            "favorite": 19893,
+            "like": 158153,
             "reply": 6044,
             "share": 2188,
-            "view": 19520044
+            "view": 19502645
         }
     },
     {
@@ -1367,13 +1367,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 162539,
-            "dm": 80116,
-            "favorite": 20326,
-            "like": 155874,
-            "reply": 5154,
-            "share": 1952,
-            "view": 20308961
+            "coin": 162473,
+            "dm": 80001,
+            "favorite": 20321,
+            "like": 155771,
+            "reply": 5152,
+            "share": 1951,
+            "view": 20290993
         }
     },
     {
@@ -1384,13 +1384,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 257484,
-            "dm": 80198,
-            "favorite": 28338,
-            "like": 212661,
+            "coin": 257394,
+            "dm": 80101,
+            "favorite": 28327,
+            "like": 212573,
             "reply": 8090,
-            "share": 3399,
-            "view": 19827571
+            "share": 3398,
+            "view": 19810307
         }
     },
     {
@@ -1401,13 +1401,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 176238,
-            "dm": 86123,
-            "favorite": 20080,
-            "like": 173083,
+            "coin": 176170,
+            "dm": 86045,
+            "favorite": 20074,
+            "like": 173005,
             "reply": 4697,
-            "share": 1803,
-            "view": 18287551
+            "share": 1798,
+            "view": 18270412
         }
     },
     {
@@ -1418,13 +1418,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 207444,
-            "dm": 113496,
-            "favorite": 23039,
-            "like": 190855,
+            "coin": 207378,
+            "dm": 113336,
+            "favorite": 23030,
+            "like": 190776,
             "reply": 5589,
-            "share": 1991,
-            "view": 19807994
+            "share": 1990,
+            "view": 19790686
         }
     },
     {
@@ -1435,13 +1435,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 203478,
-            "dm": 69451,
-            "favorite": 22872,
-            "like": 186156,
+            "coin": 203385,
+            "dm": 69392,
+            "favorite": 22859,
+            "like": 186060,
             "reply": 4545,
-            "share": 2062,
-            "view": 19858258
+            "share": 2060,
+            "view": 19837787
         }
     },
     {
@@ -1452,13 +1452,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 311986,
-            "dm": 160290,
-            "favorite": 43113,
-            "like": 257467,
-            "reply": 8940,
-            "share": 7641,
-            "view": 20463189
+            "coin": 311867,
+            "dm": 160003,
+            "favorite": 43096,
+            "like": 257352,
+            "reply": 8941,
+            "share": 7640,
+            "view": 20445624
         }
     },
     {
@@ -1469,13 +1469,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 249329,
-            "dm": 116982,
-            "favorite": 30804,
-            "like": 227886,
-            "reply": 6378,
-            "share": 3381,
-            "view": 19754856
+            "coin": 249224,
+            "dm": 116864,
+            "favorite": 30788,
+            "like": 227783,
+            "reply": 6376,
+            "share": 3380,
+            "view": 19737049
         }
     },
     {
@@ -1486,13 +1486,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 184138,
-            "dm": 145448,
-            "favorite": 22278,
-            "like": 187172,
-            "reply": 2977,
-            "share": 2161,
-            "view": 19801509
+            "coin": 184065,
+            "dm": 145289,
+            "favorite": 22259,
+            "like": 187097,
+            "reply": 2970,
+            "share": 2160,
+            "view": 19783396
         }
     },
     {
@@ -1503,13 +1503,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 168288,
-            "dm": 64463,
-            "favorite": 20073,
-            "like": 166644,
+            "coin": 168221,
+            "dm": 64409,
+            "favorite": 20065,
+            "like": 166571,
             "reply": 4372,
             "share": 2061,
-            "view": 19062289
+            "view": 19044659
         }
     },
     {
@@ -1520,13 +1520,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 182953,
-            "dm": 111863,
-            "favorite": 21359,
-            "like": 172038,
-            "reply": 6165,
+            "coin": 182882,
+            "dm": 111730,
+            "favorite": 21344,
+            "like": 171948,
+            "reply": 6164,
             "share": 2817,
-            "view": 19320837
+            "view": 19302358
         }
     },
     {
@@ -1537,13 +1537,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 167267,
-            "dm": 81039,
-            "favorite": 20479,
-            "like": 164570,
-            "reply": 3327,
-            "share": 1971,
-            "view": 19196862
+            "coin": 167207,
+            "dm": 80919,
+            "favorite": 20466,
+            "like": 164501,
+            "reply": 3326,
+            "share": 1970,
+            "view": 19179778
         }
     },
     {
@@ -1554,13 +1554,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 174610,
-            "dm": 110942,
-            "favorite": 25258,
-            "like": 173143,
+            "coin": 174547,
+            "dm": 110797,
+            "favorite": 25252,
+            "like": 173060,
             "reply": 6881,
             "share": 2597,
-            "view": 21637624
+            "view": 21620544
         }
     },
     {
@@ -1571,13 +1571,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 203416,
-            "dm": 76621,
-            "favorite": 23248,
-            "like": 183315,
-            "reply": 8923,
+            "coin": 203347,
+            "dm": 76524,
+            "favorite": 23235,
+            "like": 183238,
+            "reply": 8922,
             "share": 2742,
-            "view": 18716525
+            "view": 18698689
         }
     },
     {
@@ -1588,13 +1588,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 208190,
-            "dm": 32865,
-            "favorite": 23500,
-            "like": 191820,
-            "reply": 6470,
-            "share": 2749,
-            "view": 19669697
+            "coin": 208119,
+            "dm": 32792,
+            "favorite": 23485,
+            "like": 191738,
+            "reply": 6466,
+            "share": 2748,
+            "view": 19651714
         }
     },
     {
@@ -1605,13 +1605,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 198119,
-            "dm": 86507,
-            "favorite": 22989,
-            "like": 185464,
-            "reply": 5799,
-            "share": 2499,
-            "view": 19097858
+            "coin": 198037,
+            "dm": 86408,
+            "favorite": 22982,
+            "like": 185385,
+            "reply": 5798,
+            "share": 2496,
+            "view": 19080145
         }
     },
     {
@@ -1622,13 +1622,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 177930,
-            "dm": 242979,
-            "favorite": 22397,
-            "like": 178776,
-            "reply": 5156,
-            "share": 2265,
-            "view": 20447696
+            "coin": 177849,
+            "dm": 242647,
+            "favorite": 22385,
+            "like": 178695,
+            "reply": 5155,
+            "share": 2262,
+            "view": 20429274
         }
     },
     {
@@ -1639,13 +1639,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 186374,
-            "dm": 79811,
-            "favorite": 22665,
-            "like": 176779,
+            "coin": 186292,
+            "dm": 79719,
+            "favorite": 22654,
+            "like": 176689,
             "reply": 4730,
-            "share": 2371,
-            "view": 19699878
+            "share": 2369,
+            "view": 19681457
         }
     },
     {
@@ -1656,13 +1656,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 170715,
-            "dm": 86372,
-            "favorite": 23788,
-            "like": 162919,
+            "coin": 170656,
+            "dm": 86299,
+            "favorite": 23774,
+            "like": 162842,
             "reply": 4603,
-            "share": 2207,
-            "view": 20036581
+            "share": 2206,
+            "view": 20018303
         }
     },
     {
@@ -1673,13 +1673,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 174386,
-            "dm": 77115,
-            "favorite": 22769,
-            "like": 164929,
+            "coin": 174330,
+            "dm": 77006,
+            "favorite": 22751,
+            "like": 164862,
             "reply": 4381,
-            "share": 2047,
-            "view": 18067174
+            "share": 2045,
+            "view": 18049588
         }
     },
     {
@@ -1690,13 +1690,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 257853,
-            "dm": 221396,
-            "favorite": 32491,
-            "like": 221093,
+            "coin": 257763,
+            "dm": 221166,
+            "favorite": 32471,
+            "like": 220980,
             "reply": 5007,
-            "share": 2733,
-            "view": 18782375
+            "share": 2732,
+            "view": 18763614
         }
     },
     {
@@ -1707,13 +1707,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 156770,
-            "dm": 140074,
-            "favorite": 20323,
-            "like": 147188,
+            "coin": 156710,
+            "dm": 139879,
+            "favorite": 20315,
+            "like": 147116,
             "reply": 3726,
             "share": 1923,
-            "view": 17564304
+            "view": 17546654
         }
     },
     {
@@ -1724,13 +1724,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 143544,
-            "dm": 104932,
-            "favorite": 18727,
-            "like": 136515,
-            "reply": 3509,
+            "coin": 143482,
+            "dm": 104805,
+            "favorite": 18714,
+            "like": 136447,
+            "reply": 3508,
             "share": 1523,
-            "view": 17800058
+            "view": 17781556
         }
     },
     {
@@ -1741,13 +1741,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 145274,
-            "dm": 76174,
-            "favorite": 19840,
-            "like": 142586,
+            "coin": 145214,
+            "dm": 76095,
+            "favorite": 19829,
+            "like": 142505,
             "reply": 3362,
-            "share": 1624,
-            "view": 19853627
+            "share": 1622,
+            "view": 19835050
         }
     },
     {
@@ -1758,13 +1758,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 152505,
-            "dm": 94452,
-            "favorite": 20401,
-            "like": 149190,
+            "coin": 152446,
+            "dm": 94347,
+            "favorite": 20390,
+            "like": 149114,
             "reply": 3202,
             "share": 1416,
-            "view": 19488363
+            "view": 19469339
         }
     },
     {
@@ -1775,13 +1775,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 172916,
-            "dm": 44944,
-            "favorite": 22665,
-            "like": 157470,
-            "reply": 3853,
-            "share": 2036,
-            "view": 18771248
+            "coin": 172844,
+            "dm": 44915,
+            "favorite": 22652,
+            "like": 157385,
+            "reply": 3852,
+            "share": 2035,
+            "view": 18752002
         }
     },
     {
@@ -1792,13 +1792,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 160444,
-            "dm": 168124,
-            "favorite": 22886,
-            "like": 155564,
-            "reply": 3485,
+            "coin": 160398,
+            "dm": 167939,
+            "favorite": 22875,
+            "like": 155490,
+            "reply": 3484,
             "share": 1839,
-            "view": 20467596
+            "view": 20448505
         }
     },
     {
@@ -1809,13 +1809,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 146455,
-            "dm": 82449,
-            "favorite": 19273,
-            "like": 137652,
+            "coin": 146406,
+            "dm": 82334,
+            "favorite": 19260,
+            "like": 137578,
             "reply": 3945,
             "share": 1416,
-            "view": 17929994
+            "view": 17910847
         }
     },
     {
@@ -1826,13 +1826,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 150385,
-            "dm": 141762,
-            "favorite": 19775,
-            "like": 143779,
+            "coin": 150336,
+            "dm": 141578,
+            "favorite": 19766,
+            "like": 143713,
             "reply": 2906,
-            "share": 1474,
-            "view": 19097502
+            "share": 1472,
+            "view": 19078876
         }
     },
     {
@@ -1843,13 +1843,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 375431,
-            "dm": 156067,
-            "favorite": 62262,
-            "like": 291463,
-            "reply": 13165,
-            "share": 9203,
-            "view": 18917912
+            "coin": 375223,
+            "dm": 155868,
+            "favorite": 62219,
+            "like": 291281,
+            "reply": 13156,
+            "share": 9200,
+            "view": 18899129
         }
     },
     {
@@ -1860,13 +1860,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 173900,
-            "dm": 47370,
-            "favorite": 21917,
-            "like": 163802,
+            "coin": 173855,
+            "dm": 47333,
+            "favorite": 21909,
+            "like": 163738,
             "reply": 3125,
             "share": 1622,
-            "view": 17433555
+            "view": 17413900
         }
     },
     {
@@ -1877,13 +1877,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 168535,
-            "dm": 107958,
-            "favorite": 21367,
-            "like": 154385,
+            "coin": 168456,
+            "dm": 107823,
+            "favorite": 21352,
+            "like": 154300,
             "reply": 2916,
             "share": 1578,
-            "view": 17599559
+            "view": 17580645
         }
     },
     {
@@ -1894,13 +1894,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 188268,
-            "dm": 109122,
-            "favorite": 24013,
-            "like": 164739,
+            "coin": 188194,
+            "dm": 109038,
+            "favorite": 24003,
+            "like": 164645,
             "reply": 4899,
-            "share": 2334,
-            "view": 17989673
+            "share": 2333,
+            "view": 17970731
         }
     },
     {
@@ -1911,13 +1911,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 411434,
-            "dm": 55458,
-            "favorite": 52583,
-            "like": 302095,
+            "coin": 411257,
+            "dm": 55413,
+            "favorite": 52556,
+            "like": 301897,
             "reply": 8583,
-            "share": 6126,
-            "view": 19576513
+            "share": 6123,
+            "view": 19556869
         }
     },
     {
@@ -1928,13 +1928,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 200748,
-            "dm": 70709,
-            "favorite": 24617,
-            "like": 174014,
-            "reply": 5073,
+            "coin": 200657,
+            "dm": 70578,
+            "favorite": 24602,
+            "like": 173924,
+            "reply": 5072,
             "share": 1814,
-            "view": 17636411
+            "view": 17617706
         }
     },
     {
@@ -1945,13 +1945,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 165498,
-            "dm": 76640,
-            "favorite": 21399,
-            "like": 150199,
+            "coin": 165406,
+            "dm": 76540,
+            "favorite": 21385,
+            "like": 150114,
             "reply": 4266,
             "share": 1618,
-            "view": 18285509
+            "view": 18265123
         }
     },
     {
@@ -1962,13 +1962,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 187465,
-            "dm": 78997,
-            "favorite": 23669,
-            "like": 162264,
-            "reply": 4766,
-            "share": 1969,
-            "view": 17612332
+            "coin": 187384,
+            "dm": 78937,
+            "favorite": 23658,
+            "like": 162192,
+            "reply": 4764,
+            "share": 1968,
+            "view": 17592982
         }
     },
     {
@@ -1979,13 +1979,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 187269,
-            "dm": 209526,
-            "favorite": 25167,
-            "like": 165499,
-            "reply": 6261,
+            "coin": 187181,
+            "dm": 209285,
+            "favorite": 25153,
+            "like": 165394,
+            "reply": 6265,
             "share": 2175,
-            "view": 18430791
+            "view": 18411386
         }
     },
     {
@@ -1996,13 +1996,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 219656,
-            "dm": 257510,
-            "favorite": 33491,
-            "like": 212758,
-            "reply": 5009,
-            "share": 2817,
-            "view": 20304988
+            "coin": 219539,
+            "dm": 257171,
+            "favorite": 33466,
+            "like": 212616,
+            "reply": 5007,
+            "share": 2815,
+            "view": 20284216
         }
     },
     {
@@ -2013,13 +2013,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 172176,
-            "dm": 129253,
-            "favorite": 22835,
-            "like": 160782,
+            "coin": 172091,
+            "dm": 129075,
+            "favorite": 22819,
+            "like": 160673,
             "reply": 2878,
-            "share": 1552,
-            "view": 18083896
+            "share": 1550,
+            "view": 18063528
         }
     },
     {
@@ -2030,13 +2030,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 182758,
-            "dm": 92589,
-            "favorite": 23995,
-            "like": 170527,
+            "coin": 182650,
+            "dm": 92492,
+            "favorite": 23980,
+            "like": 170410,
             "reply": 4046,
-            "share": 1562,
-            "view": 18607261
+            "share": 1561,
+            "view": 18585907
         }
     },
     {
@@ -2047,13 +2047,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 175551,
-            "dm": 73049,
-            "favorite": 22631,
-            "like": 158358,
+            "coin": 175463,
+            "dm": 72972,
+            "favorite": 22615,
+            "like": 158236,
             "reply": 3641,
             "share": 1370,
-            "view": 17886708
+            "view": 17865626
         }
     },
     {
@@ -2064,13 +2064,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 174280,
-            "dm": 76890,
-            "favorite": 24243,
-            "like": 161527,
+            "coin": 174199,
+            "dm": 76796,
+            "favorite": 24229,
+            "like": 161434,
             "reply": 2868,
-            "share": 1554,
-            "view": 19519712
+            "share": 1552,
+            "view": 19498214
         }
     },
     {
@@ -2081,13 +2081,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 191981,
-            "dm": 41869,
-            "favorite": 25371,
-            "like": 171128,
-            "reply": 2960,
-            "share": 1508,
-            "view": 19465594
+            "coin": 191908,
+            "dm": 41815,
+            "favorite": 25360,
+            "like": 171016,
+            "reply": 2959,
+            "share": 1507,
+            "view": 19443256
         }
     },
     {
@@ -2098,13 +2098,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 299866,
-            "dm": 221129,
-            "favorite": 42113,
-            "like": 255093,
+            "coin": 299758,
+            "dm": 220989,
+            "favorite": 42094,
+            "like": 254923,
             "reply": 12770,
-            "share": 3875,
-            "view": 27808119
+            "share": 3872,
+            "view": 27780767
         }
     },
     {
@@ -2115,13 +2115,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 290860,
-            "dm": 364645,
-            "favorite": 42590,
-            "like": 264562,
-            "reply": 8851,
+            "coin": 290744,
+            "dm": 364403,
+            "favorite": 42570,
+            "like": 264417,
+            "reply": 8848,
             "share": 9270,
-            "view": 26870596
+            "view": 26841549
         }
     },
     {
@@ -2132,13 +2132,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 231346,
-            "dm": 143316,
-            "favorite": 32053,
-            "like": 192570,
+            "coin": 231255,
+            "dm": 143186,
+            "favorite": 32043,
+            "like": 192459,
             "reply": 11364,
-            "share": 3361,
-            "view": 19513015
+            "share": 3359,
+            "view": 19486146
         }
     },
     {
@@ -2149,13 +2149,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 170439,
-            "dm": 75252,
-            "favorite": 24218,
-            "like": 161070,
-            "reply": 5392,
-            "share": 1989,
-            "view": 18504218
+            "coin": 170349,
+            "dm": 75133,
+            "favorite": 24208,
+            "like": 160973,
+            "reply": 5390,
+            "share": 1987,
+            "view": 18480746
         }
     },
     {
@@ -2166,13 +2166,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 158946,
-            "dm": 116072,
-            "favorite": 22288,
-            "like": 151523,
-            "reply": 3652,
-            "share": 1843,
-            "view": 19310894
+            "coin": 158888,
+            "dm": 115920,
+            "favorite": 22281,
+            "like": 151440,
+            "reply": 3651,
+            "share": 1840,
+            "view": 19288214
         }
     },
     {
@@ -2183,13 +2183,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 159314,
-            "dm": 88327,
-            "favorite": 21980,
-            "like": 138831,
-            "reply": 4258,
-            "share": 2511,
-            "view": 17471008
+            "coin": 159252,
+            "dm": 88198,
+            "favorite": 21969,
+            "like": 138749,
+            "reply": 4253,
+            "share": 2510,
+            "view": 17449541
         }
     },
     {
@@ -2200,13 +2200,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 162100,
-            "dm": 131588,
-            "favorite": 21705,
-            "like": 140117,
+            "coin": 162027,
+            "dm": 131449,
+            "favorite": 21695,
+            "like": 140028,
             "reply": 3758,
-            "share": 1704,
-            "view": 16263694
+            "share": 1701,
+            "view": 16242824
         }
     },
     {
@@ -2217,13 +2217,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 188522,
-            "dm": 60608,
-            "favorite": 24892,
-            "like": 156186,
+            "coin": 188440,
+            "dm": 60541,
+            "favorite": 24881,
+            "like": 156097,
             "reply": 8564,
             "share": 2765,
-            "view": 16382006
+            "view": 16360340
         }
     },
     {
@@ -2234,13 +2234,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 207202,
-            "dm": 82259,
-            "favorite": 26893,
-            "like": 175922,
-            "reply": 10710,
+            "coin": 207117,
+            "dm": 82131,
+            "favorite": 26881,
+            "like": 175814,
+            "reply": 10706,
             "share": 2609,
-            "view": 17895302
+            "view": 17873204
         }
     },
     {
@@ -2251,13 +2251,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 191446,
-            "dm": 157076,
-            "favorite": 27363,
-            "like": 167089,
+            "coin": 191378,
+            "dm": 156803,
+            "favorite": 27343,
+            "like": 166988,
             "reply": 5870,
-            "share": 2162,
-            "view": 18225749
+            "share": 2160,
+            "view": 18204197
         }
     },
     {
@@ -2268,13 +2268,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 196511,
-            "dm": 219344,
-            "favorite": 25771,
-            "like": 165324,
+            "coin": 196430,
+            "dm": 219083,
+            "favorite": 25764,
+            "like": 165216,
             "reply": 9421,
-            "share": 1972,
-            "view": 17275891
+            "share": 1967,
+            "view": 17252812
         }
     },
     {
@@ -2285,13 +2285,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 197141,
-            "dm": 184984,
-            "favorite": 25824,
-            "like": 168247,
-            "reply": 7144,
-            "share": 1861,
-            "view": 17611392
+            "coin": 197057,
+            "dm": 184780,
+            "favorite": 25818,
+            "like": 168149,
+            "reply": 7143,
+            "share": 1859,
+            "view": 17585810
         }
     },
     {
@@ -2302,13 +2302,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 238488,
-            "dm": 245854,
-            "favorite": 33302,
-            "like": 198176,
-            "reply": 11164,
+            "coin": 238362,
+            "dm": 245550,
+            "favorite": 33285,
+            "like": 198050,
+            "reply": 11165,
             "share": 2630,
-            "view": 18469625
+            "view": 18443834
         }
     },
     {
@@ -2319,13 +2319,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 297783,
-            "dm": 206829,
-            "favorite": 38921,
-            "like": 231595,
-            "reply": 13144,
-            "share": 4948,
-            "view": 17743699
+            "coin": 297648,
+            "dm": 206633,
+            "favorite": 38899,
+            "like": 231464,
+            "reply": 13142,
+            "share": 4946,
+            "view": 17718490
         }
     },
     {
@@ -2336,13 +2336,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 254687,
-            "dm": 334779,
-            "favorite": 32744,
-            "like": 207143,
-            "reply": 10758,
+            "coin": 254579,
+            "dm": 334295,
+            "favorite": 32729,
+            "like": 206994,
+            "reply": 10757,
             "share": 2747,
-            "view": 18175947
+            "view": 18149496
         }
     },
     {
@@ -2353,13 +2353,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 247133,
-            "dm": 86755,
-            "favorite": 32726,
-            "like": 195349,
-            "reply": 8225,
-            "share": 2264,
-            "view": 18322558
+            "coin": 247036,
+            "dm": 86671,
+            "favorite": 32714,
+            "like": 195229,
+            "reply": 8222,
+            "share": 2262,
+            "view": 18298022
         }
     },
     {
@@ -2370,13 +2370,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 213536,
-            "dm": 79704,
-            "favorite": 28181,
-            "like": 173217,
-            "reply": 7367,
-            "share": 1675,
-            "view": 17376593
+            "coin": 213455,
+            "dm": 79602,
+            "favorite": 28170,
+            "like": 173115,
+            "reply": 7365,
+            "share": 1674,
+            "view": 17352105
         }
     },
     {
@@ -2387,13 +2387,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 206695,
-            "dm": 56375,
-            "favorite": 28075,
-            "like": 167421,
-            "reply": 5064,
-            "share": 1691,
-            "view": 16678365
+            "coin": 206625,
+            "dm": 56324,
+            "favorite": 28062,
+            "like": 167329,
+            "reply": 5063,
+            "share": 1688,
+            "view": 16655693
         }
     },
     {
@@ -2404,13 +2404,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 216310,
-            "dm": 223403,
-            "favorite": 29933,
-            "like": 170767,
-            "reply": 7322,
+            "coin": 216230,
+            "dm": 223095,
+            "favorite": 29922,
+            "like": 170677,
+            "reply": 7321,
             "share": 1794,
-            "view": 15685603
+            "view": 15663887
         }
     },
     {
@@ -2421,13 +2421,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 219080,
-            "dm": 74198,
-            "favorite": 28555,
-            "like": 169142,
+            "coin": 218987,
+            "dm": 74133,
+            "favorite": 28549,
+            "like": 169049,
             "reply": 5384,
             "share": 1429,
-            "view": 15047286
+            "view": 15025371
         }
     },
     {
@@ -2438,13 +2438,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 248937,
-            "dm": 165252,
-            "favorite": 32942,
-            "like": 188525,
-            "reply": 10645,
+            "coin": 248835,
+            "dm": 165061,
+            "favorite": 32937,
+            "like": 188413,
+            "reply": 10642,
             "share": 1930,
-            "view": 15885690
+            "view": 15862454
         }
     },
     {
@@ -2455,13 +2455,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 286487,
-            "dm": 222163,
-            "favorite": 41274,
-            "like": 217250,
-            "reply": 12007,
-            "share": 2444,
-            "view": 17870240
+            "coin": 286380,
+            "dm": 221809,
+            "favorite": 41266,
+            "like": 217131,
+            "reply": 12004,
+            "share": 2441,
+            "view": 17844561
         }
     },
     {
@@ -2472,13 +2472,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 436528,
-            "dm": 437705,
-            "favorite": 73889,
-            "like": 314938,
-            "reply": 38681,
-            "share": 5325,
-            "view": 17497346
+            "coin": 436309,
+            "dm": 437066,
+            "favorite": 73847,
+            "like": 314742,
+            "reply": 38630,
+            "share": 5321,
+            "view": 17470688
         }
     },
     {
@@ -2489,13 +2489,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 292883,
-            "dm": 184533,
-            "favorite": 42628,
-            "like": 221571,
+            "coin": 292758,
+            "dm": 184219,
+            "favorite": 42614,
+            "like": 221433,
             "reply": 10889,
-            "share": 2491,
-            "view": 17210023
+            "share": 2488,
+            "view": 17183809
         }
     },
     {
@@ -2506,13 +2506,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 290844,
-            "dm": 64434,
-            "favorite": 42310,
-            "like": 220466,
-            "reply": 7991,
-            "share": 1942,
-            "view": 16082192
+            "coin": 290702,
+            "dm": 64375,
+            "favorite": 42297,
+            "like": 220333,
+            "reply": 7995,
+            "share": 1941,
+            "view": 16056705
         }
     },
     {
@@ -2523,13 +2523,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 244557,
-            "dm": 97517,
-            "favorite": 35741,
-            "like": 185096,
-            "reply": 10267,
+            "coin": 244432,
+            "dm": 97401,
+            "favorite": 35732,
+            "like": 184985,
+            "reply": 10266,
             "share": 1716,
-            "view": 16522908
+            "view": 16498528
         }
     },
     {
@@ -2540,13 +2540,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 276921,
-            "dm": 265617,
-            "favorite": 40157,
-            "like": 213156,
-            "reply": 9089,
-            "share": 1979,
-            "view": 16772376
+            "coin": 276766,
+            "dm": 265244,
+            "favorite": 40142,
+            "like": 212985,
+            "reply": 9090,
+            "share": 1972,
+            "view": 16745185
         }
     },
     {
@@ -2557,13 +2557,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 297561,
-            "dm": 176403,
-            "favorite": 40311,
-            "like": 223218,
+            "coin": 297392,
+            "dm": 176117,
+            "favorite": 40297,
+            "like": 223070,
             "reply": 9426,
             "share": 2088,
-            "view": 16382161
+            "view": 16355613
         }
     },
     {
@@ -2574,13 +2574,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 263023,
-            "dm": 135703,
-            "favorite": 37210,
-            "like": 201648,
+            "coin": 262872,
+            "dm": 135437,
+            "favorite": 37198,
+            "like": 201471,
             "reply": 8270,
-            "share": 1940,
-            "view": 17338702
+            "share": 1939,
+            "view": 17310557
         }
     },
     {
@@ -2591,13 +2591,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 540852,
-            "dm": 282675,
-            "favorite": 75046,
-            "like": 382840,
-            "reply": 15194,
-            "share": 3265,
-            "view": 19341288
+            "coin": 540511,
+            "dm": 282297,
+            "favorite": 75017,
+            "like": 382543,
+            "reply": 15189,
+            "share": 3262,
+            "view": 19309530
         }
     },
     {
@@ -2608,13 +2608,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 457123,
-            "dm": 139087,
-            "favorite": 59846,
-            "like": 325161,
+            "coin": 456866,
+            "dm": 138978,
+            "favorite": 59818,
+            "like": 324918,
             "reply": 12214,
-            "share": 2480,
-            "view": 17862470
+            "share": 2478,
+            "view": 17831223
         }
     },
     {
@@ -2625,13 +2625,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 482707,
-            "dm": 188069,
-            "favorite": 64991,
-            "like": 348610,
-            "reply": 15273,
+            "coin": 482459,
+            "dm": 187838,
+            "favorite": 64963,
+            "like": 348362,
+            "reply": 15272,
             "share": 3094,
-            "view": 19319072
+            "view": 19285072
         }
     },
     {
@@ -2642,13 +2642,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 1339973,
-            "dm": 2234824,
-            "favorite": 267437,
-            "like": 902791,
-            "reply": 78342,
-            "share": 30292,
-            "view": 30140698
+            "coin": 1339054,
+            "dm": 2232106,
+            "favorite": 267307,
+            "like": 901943,
+            "reply": 78324,
+            "share": 30265,
+            "view": 30087326
         }
     },
     {
@@ -2659,13 +2659,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 813502,
-            "dm": 1253962,
-            "favorite": 127301,
-            "like": 584488,
-            "reply": 37975,
-            "share": 7653,
-            "view": 23275482
+            "coin": 812893,
+            "dm": 1252296,
+            "favorite": 127219,
+            "like": 583928,
+            "reply": 37967,
+            "share": 7648,
+            "view": 23228383
         }
     },
     {
@@ -2676,13 +2676,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 422841,
-            "dm": 296854,
-            "favorite": 57954,
-            "like": 323057,
-            "reply": 14232,
-            "share": 2995,
-            "view": 19134026
+            "coin": 422519,
+            "dm": 296401,
+            "favorite": 57923,
+            "like": 322773,
+            "reply": 14231,
+            "share": 2991,
+            "view": 19091364
         }
     },
     {
@@ -2693,13 +2693,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 414322,
-            "dm": 256032,
-            "favorite": 55374,
-            "like": 311435,
-            "reply": 15316,
-            "share": 3005,
-            "view": 18438342
+            "coin": 414012,
+            "dm": 255593,
+            "favorite": 55336,
+            "like": 311150,
+            "reply": 15315,
+            "share": 3003,
+            "view": 18397384
         }
     },
     {
@@ -2710,13 +2710,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 371071,
-            "dm": 186571,
-            "favorite": 49173,
-            "like": 278111,
-            "reply": 11066,
-            "share": 2820,
-            "view": 17396363
+            "coin": 370770,
+            "dm": 186310,
+            "favorite": 49150,
+            "like": 277840,
+            "reply": 11064,
+            "share": 2819,
+            "view": 17353112
         }
     },
     {
@@ -2727,13 +2727,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 550606,
-            "dm": 303305,
-            "favorite": 89505,
-            "like": 378228,
-            "reply": 23902,
-            "share": 6912,
-            "view": 17011733
+            "coin": 550131,
+            "dm": 302693,
+            "favorite": 89443,
+            "like": 377822,
+            "reply": 23894,
+            "share": 6909,
+            "view": 16970740
         }
     },
     {
@@ -2744,13 +2744,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 330592,
-            "dm": 194274,
-            "favorite": 43995,
-            "like": 249326,
+            "coin": 330242,
+            "dm": 193945,
+            "favorite": 43953,
+            "like": 249014,
             "reply": 10601,
-            "share": 2731,
-            "view": 15041520
+            "share": 2730,
+            "view": 14997922
         }
     },
     {
@@ -2761,13 +2761,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 287814,
-            "dm": 163112,
-            "favorite": 38492,
-            "like": 220435,
-            "reply": 10580,
-            "share": 2615,
-            "view": 14503482
+            "coin": 287474,
+            "dm": 162782,
+            "favorite": 38457,
+            "like": 219988,
+            "reply": 10572,
+            "share": 2610,
+            "view": 14457113
         }
     },
     {
@@ -2778,13 +2778,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 306290,
-            "dm": 130294,
-            "favorite": 44571,
-            "like": 228991,
-            "reply": 8536,
-            "share": 2626,
-            "view": 13797034
+            "coin": 305907,
+            "dm": 129990,
+            "favorite": 44529,
+            "like": 228603,
+            "reply": 8534,
+            "share": 2624,
+            "view": 13751058
         }
     },
     {
@@ -2795,13 +2795,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 343566,
-            "dm": 207917,
-            "favorite": 46397,
-            "like": 254872,
-            "reply": 13313,
-            "share": 3089,
-            "view": 14530621
+            "coin": 343119,
+            "dm": 207511,
+            "favorite": 46363,
+            "like": 254437,
+            "reply": 13309,
+            "share": 3086,
+            "view": 14475395
         }
     },
     {
@@ -2812,13 +2812,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 318314,
-            "dm": 133058,
-            "favorite": 41831,
-            "like": 240203,
-            "reply": 9764,
-            "share": 2434,
-            "view": 13389239
+            "coin": 317861,
+            "dm": 132698,
+            "favorite": 41798,
+            "like": 239828,
+            "reply": 9760,
+            "share": 2432,
+            "view": 13333763
         }
     },
     {
@@ -2829,13 +2829,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 294123,
-            "dm": 157274,
-            "favorite": 37802,
-            "like": 218908,
-            "reply": 9528,
-            "share": 2229,
-            "view": 12464464
+            "coin": 293538,
+            "dm": 156805,
+            "favorite": 37728,
+            "like": 218415,
+            "reply": 9526,
+            "share": 2220,
+            "view": 12391215
         }
     },
     {
@@ -2846,13 +2846,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 362533,
-            "dm": 322596,
-            "favorite": 49340,
-            "like": 264182,
-            "reply": 12427,
-            "share": 3386,
-            "view": 12627109
+            "coin": 361733,
+            "dm": 321377,
+            "favorite": 49242,
+            "like": 263379,
+            "reply": 12422,
+            "share": 3379,
+            "view": 12526868
         }
     },
     {
@@ -2863,13 +2863,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 266836,
-            "dm": 138219,
-            "favorite": 35192,
-            "like": 201060,
-            "reply": 8174,
-            "share": 2134,
-            "view": 11404128
+            "coin": 265755,
+            "dm": 137492,
+            "favorite": 35044,
+            "like": 200149,
+            "reply": 8171,
+            "share": 2116,
+            "view": 11210709
         }
     },
     {
@@ -2880,13 +2880,13 @@
         "type": 0,
         "type_title": "正片",
         "stat": {
-            "coin": 342771,
-            "dm": 153059,
-            "favorite": 45215,
-            "like": 253119,
-            "reply": 15397,
-            "share": 2629,
-            "view": 8873536
+            "coin": 338930,
+            "dm": 151455,
+            "favorite": 44611,
+            "like": 249997,
+            "reply": 15222,
+            "share": 2537,
+            "view": 8446662
         }
     },
     {
@@ -2897,13 +2897,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 13821,
-            "dm": 926,
-            "favorite": 2182,
-            "like": 29095,
-            "reply": 3171,
-            "share": 1249,
-            "view": 3282241
+            "coin": 13699,
+            "dm": 921,
+            "favorite": 2157,
+            "like": 28961,
+            "reply": 3157,
+            "share": 1239,
+            "view": 3223755
         }
     },
     {
@@ -2914,13 +2914,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 5685,
+            "coin": 5653,
             "dm": 95,
-            "favorite": 1004,
-            "like": 8891,
-            "reply": 243,
-            "share": 178,
-            "view": 1990102
+            "favorite": 992,
+            "like": 8847,
+            "reply": 242,
+            "share": 176,
+            "view": 1975881
         }
     },
     {
@@ -2931,13 +2931,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 148506,
-            "dm": 7904,
-            "favorite": 49578,
-            "like": 145876,
-            "reply": 7267,
-            "share": 17427,
-            "view": 29634912
+            "coin": 148430,
+            "dm": 7900,
+            "favorite": 49535,
+            "like": 145786,
+            "reply": 7260,
+            "share": 17406,
+            "view": 29619945
         }
     },
     {
@@ -2948,13 +2948,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 36236,
-            "dm": 3263,
-            "favorite": 7802,
-            "like": 47246,
-            "reply": 2292,
+            "coin": 36228,
+            "dm": 3262,
+            "favorite": 7799,
+            "like": 47233,
+            "reply": 2291,
             "share": 2340,
-            "view": 11515019
+            "view": 11510212
         }
     },
     {
@@ -2965,13 +2965,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 8865,
-            "dm": 2187,
-            "favorite": 3051,
-            "like": 13017,
-            "reply": 787,
+            "coin": 8860,
+            "dm": 2185,
+            "favorite": 3046,
+            "like": 13003,
+            "reply": 786,
             "share": 480,
-            "view": 4022763
+            "view": 4018692
         }
     },
     {
@@ -2982,13 +2982,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 16319,
-            "dm": 856,
-            "favorite": 2723,
-            "like": 25418,
+            "coin": 16315,
+            "dm": 855,
+            "favorite": 2720,
+            "like": 25410,
             "reply": 1313,
             "share": 1412,
-            "view": 2133328
+            "view": 2130434
         }
     },
     {
@@ -2999,13 +2999,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 8048,
-            "dm": 575,
-            "favorite": 1252,
-            "like": 13683,
+            "coin": 8038,
+            "dm": 574,
+            "favorite": 1250,
+            "like": 13669,
             "reply": 569,
             "share": 1059,
-            "view": 1427196
+            "view": 1424532
         }
     },
     {
@@ -3016,13 +3016,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 66954,
-            "dm": 4172,
-            "favorite": 19408,
-            "like": 61932,
-            "reply": 5437,
-            "share": 6090,
-            "view": 10910256
+            "coin": 66927,
+            "dm": 4170,
+            "favorite": 19395,
+            "like": 61902,
+            "reply": 5435,
+            "share": 6086,
+            "view": 10906718
         }
     },
     {
@@ -3033,13 +3033,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 38732,
-            "dm": 1888,
-            "favorite": 11263,
-            "like": 45093,
-            "reply": 2121,
-            "share": 3566,
-            "view": 10530053
+            "coin": 38721,
+            "dm": 1886,
+            "favorite": 11255,
+            "like": 45073,
+            "reply": 2120,
+            "share": 3563,
+            "view": 10527021
         }
     },
     {
@@ -3050,13 +3050,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 11956,
+            "coin": 11954,
             "dm": 2428,
             "favorite": 2684,
-            "like": 17371,
+            "like": 17369,
             "reply": 1185,
             "share": 728,
-            "view": 11240903
+            "view": 11238856
         }
     },
     {
@@ -3067,13 +3067,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 24012,
-            "dm": 1991,
-            "favorite": 5685,
-            "like": 35098,
+            "coin": 23965,
+            "dm": 1990,
+            "favorite": 5671,
+            "like": 35048,
             "reply": 1909,
-            "share": 3244,
-            "view": 2751032
+            "share": 3237,
+            "view": 2746809
         }
     },
     {
@@ -3086,11 +3086,11 @@
         "stat": {
             "coin": 3894,
             "dm": 63,
-            "favorite": 711,
-            "like": 4693,
+            "favorite": 710,
+            "like": 4691,
             "reply": 130,
             "share": 297,
-            "view": 2079165
+            "view": 2077335
         }
     },
     {
@@ -3107,7 +3107,7 @@
             "like": 6757,
             "reply": 436,
             "share": 970,
-            "view": 2262326
+            "view": 2260775
         }
     },
     {
@@ -3118,13 +3118,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 10588,
+            "coin": 10586,
             "dm": 1658,
-            "favorite": 2087,
-            "like": 17334,
+            "favorite": 2086,
+            "like": 17331,
             "reply": 1302,
             "share": 1001,
-            "view": 1984419
+            "view": 1982662
         }
     },
     {
@@ -3135,13 +3135,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 9116,
+            "coin": 9114,
             "dm": 484,
             "favorite": 1703,
-            "like": 14655,
+            "like": 14652,
             "reply": 1423,
             "share": 1030,
-            "view": 1495476
+            "view": 1493830
         }
     },
     {
@@ -3152,13 +3152,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 64489,
+            "coin": 64473,
             "dm": 7905,
-            "favorite": 18562,
-            "like": 76746,
+            "favorite": 18545,
+            "like": 76724,
             "reply": 5422,
-            "share": 4673,
-            "view": 8690344
+            "share": 4671,
+            "view": 8688059
         }
     },
     {
@@ -3169,13 +3169,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 55616,
-            "dm": 4868,
-            "favorite": 14686,
-            "like": 70900,
+            "coin": 55604,
+            "dm": 4862,
+            "favorite": 14681,
+            "like": 70888,
             "reply": 4444,
-            "share": 3157,
-            "view": 5269835
+            "share": 3156,
+            "view": 5267802
         }
     },
     {
@@ -3188,11 +3188,11 @@
         "stat": {
             "coin": 16404,
             "dm": 4888,
-            "favorite": 2520,
+            "favorite": 2519,
             "like": 26347,
-            "reply": 8438,
+            "reply": 8437,
             "share": 622,
-            "view": 4492639
+            "view": 4491150
         }
     },
     {
@@ -3203,13 +3203,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 19048,
+            "coin": 19042,
             "dm": 2664,
-            "favorite": 5334,
-            "like": 27329,
-            "reply": 1681,
-            "share": 988,
-            "view": 2717008
+            "favorite": 5324,
+            "like": 27318,
+            "reply": 1677,
+            "share": 986,
+            "view": 2715155
         }
     },
     {
@@ -3220,13 +3220,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 34149,
-            "dm": 1518,
-            "favorite": 4860,
-            "like": 31778,
+            "coin": 34147,
+            "dm": 1517,
+            "favorite": 4859,
+            "like": 31774,
             "reply": 893,
             "share": 2464,
-            "view": 4890428
+            "view": 4889044
         }
     },
     {
@@ -3240,10 +3240,10 @@
             "coin": 13346,
             "dm": 553,
             "favorite": 2090,
-            "like": 26682,
+            "like": 26679,
             "reply": 2385,
             "share": 2725,
-            "view": 5099497
+            "view": 5098034
         }
     },
     {
@@ -3257,10 +3257,10 @@
             "coin": 5568,
             "dm": 245,
             "favorite": 1142,
-            "like": 12191,
+            "like": 12190,
             "reply": 572,
             "share": 353,
-            "view": 2713190
+            "view": 2711867
         }
     },
     {
@@ -3271,13 +3271,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 3619,
+            "coin": 3617,
             "dm": 88,
-            "favorite": 751,
-            "like": 8654,
+            "favorite": 749,
+            "like": 8652,
             "reply": 320,
-            "share": 140,
-            "view": 1959750
+            "share": 139,
+            "view": 1958477
         }
     },
     {
@@ -3288,13 +3288,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 3396,
+            "coin": 3394,
             "dm": 71,
-            "favorite": 540,
-            "like": 7926,
+            "favorite": 538,
+            "like": 7924,
             "reply": 307,
             "share": 118,
-            "view": 1382340
+            "view": 1381080
         }
     },
     {
@@ -3305,13 +3305,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 2738,
+            "coin": 2736,
             "dm": 69,
-            "favorite": 419,
-            "like": 6880,
+            "favorite": 418,
+            "like": 6879,
             "reply": 251,
             "share": 56,
-            "view": 1352658
+            "view": 1351432
         }
     },
     {
@@ -3322,13 +3322,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 2703,
+            "coin": 2700,
             "dm": 285,
-            "favorite": 623,
-            "like": 7783,
+            "favorite": 621,
+            "like": 7780,
             "reply": 310,
             "share": 132,
-            "view": 1270918
+            "view": 1269676
         }
     },
     {
@@ -3339,13 +3339,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 2617,
+            "coin": 2615,
             "dm": 82,
-            "favorite": 570,
-            "like": 7941,
+            "favorite": 569,
+            "like": 7940,
             "reply": 304,
             "share": 119,
-            "view": 1171659
+            "view": 1170496
         }
     },
     {
@@ -3356,13 +3356,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 2939,
+            "coin": 2934,
             "dm": 179,
-            "favorite": 534,
-            "like": 8389,
+            "favorite": 533,
+            "like": 8384,
             "reply": 349,
             "share": 135,
-            "view": 1139778
+            "view": 1138657
         }
     },
     {
@@ -3373,13 +3373,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 9900,
+            "coin": 9898,
             "dm": 496,
             "favorite": 1456,
-            "like": 17621,
+            "like": 17618,
             "reply": 1715,
             "share": 1241,
-            "view": 1611901
+            "view": 1610857
         }
     },
     {
@@ -3390,13 +3390,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 8574,
+            "coin": 8572,
             "dm": 821,
             "favorite": 1156,
-            "like": 16477,
+            "like": 16475,
             "reply": 1595,
             "share": 998,
-            "view": 1308041
+            "view": 1307082
         }
     },
     {
@@ -3407,13 +3407,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 14644,
+            "coin": 14641,
             "dm": 170,
-            "favorite": 2485,
-            "like": 18549,
+            "favorite": 2486,
+            "like": 18546,
             "reply": 521,
             "share": 505,
-            "view": 8424731
+            "view": 8423591
         }
     },
     {
@@ -3424,13 +3424,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 21758,
+            "coin": 21756,
             "dm": 737,
-            "favorite": 4046,
-            "like": 41842,
+            "favorite": 4045,
+            "like": 41841,
             "reply": 1062,
-            "share": 1023,
-            "view": 17349453
+            "share": 1022,
+            "view": 17348431
         }
     },
     {
@@ -3441,13 +3441,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 15502,
+            "coin": 15501,
             "dm": 2333,
-            "favorite": 3553,
-            "like": 25540,
+            "favorite": 3554,
+            "like": 25539,
             "reply": 1012,
             "share": 1156,
-            "view": 4824130
+            "view": 4823209
         }
     },
     {
@@ -3458,13 +3458,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 4489,
+            "coin": 4487,
             "dm": 404,
             "favorite": 909,
-            "like": 15111,
+            "like": 15106,
             "reply": 386,
             "share": 190,
-            "view": 2344093
+            "view": 2342871
         }
     },
     {
@@ -3475,13 +3475,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 17959,
+            "coin": 17955,
             "dm": 2122,
-            "favorite": 3580,
-            "like": 27584,
+            "favorite": 3578,
+            "like": 27578,
             "reply": 1960,
             "share": 1887,
-            "view": 6980778
+            "view": 6979726
         }
     },
     {
@@ -3492,13 +3492,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 12220,
+            "coin": 12218,
             "dm": 1464,
             "favorite": 2358,
-            "like": 20644,
+            "like": 20642,
             "reply": 1864,
             "share": 1961,
-            "view": 3818828
+            "view": 3817895
         }
     },
     {
@@ -3509,13 +3509,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 4881,
+            "coin": 4879,
             "dm": 514,
             "favorite": 759,
-            "like": 14498,
+            "like": 14497,
             "reply": 933,
             "share": 419,
-            "view": 2874592
+            "view": 2873734
         }
     },
     {
@@ -3526,13 +3526,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 36148,
-            "dm": 2304,
-            "favorite": 4358,
-            "like": 43818,
+            "coin": 36146,
+            "dm": 2303,
+            "favorite": 4360,
+            "like": 43815,
             "reply": 3025,
             "share": 3094,
-            "view": 5469534
+            "view": 5468679
         }
     },
     {
@@ -3543,13 +3543,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 16140,
+            "coin": 16138,
             "dm": 1434,
-            "favorite": 2309,
-            "like": 23881,
+            "favorite": 2310,
+            "like": 23880,
             "reply": 2515,
             "share": 2059,
-            "view": 3044814
+            "view": 3044003
         }
     },
     {
@@ -3560,13 +3560,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 12496,
+            "coin": 12494,
             "dm": 474,
             "favorite": 2323,
-            "like": 24262,
+            "like": 24261,
             "reply": 1629,
             "share": 552,
-            "view": 3443831
+            "view": 3443034
         }
     },
     {
@@ -3577,13 +3577,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 7866,
+            "coin": 7864,
             "dm": 386,
             "favorite": 1307,
-            "like": 17001,
+            "like": 16998,
             "reply": 1041,
             "share": 305,
-            "view": 2285275
+            "view": 2284507
         }
     },
     {
@@ -3594,13 +3594,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 10641,
+            "coin": 10639,
             "dm": 1536,
             "favorite": 1086,
-            "like": 21267,
+            "like": 21266,
             "reply": 1176,
             "share": 455,
-            "view": 2173540
+            "view": 2172767
         }
     },
     {
@@ -3617,7 +3617,7 @@
             "like": 14415,
             "reply": 958,
             "share": 169,
-            "view": 1773034
+            "view": 1772314
         }
     },
     {
@@ -3628,13 +3628,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 32766,
+            "coin": 32764,
             "dm": 1680,
-            "favorite": 4447,
-            "like": 57906,
+            "favorite": 4446,
+            "like": 57905,
             "reply": 1082,
             "share": 1199,
-            "view": 7819741
+            "view": 7818954
         }
     },
     {
@@ -3648,10 +3648,10 @@
             "coin": 19217,
             "dm": 1398,
             "favorite": 2356,
-            "like": 37965,
+            "like": 37964,
             "reply": 1307,
             "share": 705,
-            "view": 3166938
+            "view": 3166206
         }
     },
     {
@@ -3664,11 +3664,11 @@
         "stat": {
             "coin": 22455,
             "dm": 4828,
-            "favorite": 3944,
+            "favorite": 3945,
             "like": 53454,
             "reply": 3127,
             "share": 902,
-            "view": 5238740
+            "view": 5237940
         }
     },
     {
@@ -3681,11 +3681,11 @@
         "stat": {
             "coin": 72260,
             "dm": 9926,
-            "favorite": 12141,
+            "favorite": 12140,
             "like": 85701,
             "reply": 5350,
             "share": 3135,
-            "view": 2935434
+            "view": 2934713
         }
     },
     {
@@ -3696,13 +3696,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 33747,
+            "coin": 33745,
             "dm": 1536,
             "favorite": 4391,
-            "like": 40104,
+            "like": 40103,
             "reply": 1228,
             "share": 1755,
-            "view": 2475952
+            "view": 2475211
         }
     },
     {
@@ -3719,7 +3719,7 @@
             "like": 34246,
             "reply": 1514,
             "share": 755,
-            "view": 2537487
+            "view": 2536841
         }
     },
     {
@@ -3736,7 +3736,7 @@
             "like": 16909,
             "reply": 934,
             "share": 441,
-            "view": 1812625
+            "view": 1811984
         }
     },
     {
@@ -3750,10 +3750,10 @@
             "coin": 11080,
             "dm": 446,
             "favorite": 1103,
-            "like": 16249,
+            "like": 16248,
             "reply": 1113,
             "share": 388,
-            "view": 1598400
+            "view": 1597761
         }
     },
     {
@@ -3770,7 +3770,7 @@
             "like": 17613,
             "reply": 1692,
             "share": 374,
-            "view": 1883895
+            "view": 1883264
         }
     },
     {
@@ -3787,7 +3787,7 @@
             "like": 16768,
             "reply": 1483,
             "share": 376,
-            "view": 1470546
+            "view": 1469874
         }
     },
     {
@@ -3804,7 +3804,7 @@
             "like": 18320,
             "reply": 1829,
             "share": 391,
-            "view": 1451556
+            "view": 1450910
         }
     },
     {
@@ -3818,10 +3818,10 @@
             "coin": 8153,
             "dm": 466,
             "favorite": 656,
-            "like": 18209,
+            "like": 18205,
             "reply": 722,
             "share": 280,
-            "view": 1853645
+            "view": 1852884
         }
     },
     {
@@ -3835,10 +3835,10 @@
             "coin": 7942,
             "dm": 424,
             "favorite": 561,
-            "like": 16420,
+            "like": 16419,
             "reply": 565,
             "share": 272,
-            "view": 1911748
+            "view": 1911037
         }
     },
     {
@@ -3852,10 +3852,10 @@
             "coin": 10459,
             "dm": 2048,
             "favorite": 1547,
-            "like": 38308,
-            "reply": 1145,
+            "like": 38303,
+            "reply": 1144,
             "share": 536,
-            "view": 3018693
+            "view": 3017797
         }
     },
     {
@@ -3869,10 +3869,10 @@
             "coin": 7172,
             "dm": 933,
             "favorite": 640,
-            "like": 18090,
+            "like": 18085,
             "reply": 767,
             "share": 301,
-            "view": 1877311
+            "view": 1876542
         }
     },
     {
@@ -3889,7 +3889,7 @@
             "like": 17023,
             "reply": 869,
             "share": 375,
-            "view": 2384463
+            "view": 2383798
         }
     },
     {
@@ -3906,7 +3906,7 @@
             "like": 11165,
             "reply": 506,
             "share": 213,
-            "view": 1759079
+            "view": 1758447
         }
     },
     {
@@ -3923,7 +3923,7 @@
             "like": 10122,
             "reply": 401,
             "share": 172,
-            "view": 1632444
+            "view": 1631747
         }
     },
     {
@@ -3935,12 +3935,12 @@
         "type_title": "预告",
         "stat": {
             "coin": 7740,
-            "dm": 2376,
+            "dm": 2375,
             "favorite": 1099,
-            "like": 26771,
+            "like": 26768,
             "reply": 1607,
             "share": 375,
-            "view": 1974562
+            "view": 1973671
         }
     },
     {
@@ -3951,13 +3951,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 7611,
-            "dm": 1628,
-            "favorite": 924,
-            "like": 16254,
+            "coin": 7607,
+            "dm": 1626,
+            "favorite": 921,
+            "like": 16244,
             "reply": 752,
             "share": 353,
-            "view": 1930855
+            "view": 1928752
         }
     },
     {
@@ -3969,12 +3969,12 @@
         "type_title": "预告",
         "stat": {
             "coin": 4673,
-            "dm": 262,
-            "favorite": 405,
-            "like": 9360,
-            "reply": 342,
+            "dm": 261,
+            "favorite": 404,
+            "like": 9359,
+            "reply": 339,
             "share": 165,
-            "view": 1191029
+            "view": 1190194
         }
     },
     {
@@ -3988,10 +3988,10 @@
             "coin": 5271,
             "dm": 487,
             "favorite": 475,
-            "like": 11058,
+            "like": 11057,
             "reply": 567,
-            "share": 188,
-            "view": 1550689
+            "share": 187,
+            "view": 1549663
         }
     },
     {
@@ -4008,7 +4008,7 @@
             "like": 9601,
             "reply": 387,
             "share": 183,
-            "view": 1515128
+            "view": 1514478
         }
     },
     {
@@ -4019,13 +4019,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 9208,
+            "coin": 9206,
             "dm": 1277,
             "favorite": 436,
-            "like": 12787,
+            "like": 12786,
             "reply": 769,
             "share": 343,
-            "view": 2132600
+            "view": 2131928
         }
     },
     {
@@ -4039,10 +4039,10 @@
             "coin": 7466,
             "dm": 817,
             "favorite": 455,
-            "like": 11026,
+            "like": 11025,
             "reply": 492,
             "share": 305,
-            "view": 1984288
+            "view": 1983332
         }
     },
     {
@@ -4059,7 +4059,7 @@
             "like": 11060,
             "reply": 448,
             "share": 261,
-            "view": 1875540
+            "view": 1874781
         }
     },
     {
@@ -4072,11 +4072,11 @@
         "stat": {
             "coin": 12642,
             "dm": 1811,
-            "favorite": 750,
-            "like": 14691,
+            "favorite": 751,
+            "like": 14688,
             "reply": 2567,
             "share": 469,
-            "view": 2639385
+            "view": 2638519
         }
     },
     {
@@ -4087,13 +4087,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 21577,
+            "coin": 21576,
             "dm": 3480,
-            "favorite": 4055,
-            "like": 27959,
+            "favorite": 4053,
+            "like": 27955,
             "reply": 4615,
             "share": 1127,
-            "view": 2570277
+            "view": 2569577
         }
     },
     {
@@ -4104,13 +4104,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 10725,
-            "dm": 1468,
-            "favorite": 1283,
-            "like": 11322,
+            "coin": 10723,
+            "dm": 1467,
+            "favorite": 1282,
+            "like": 11320,
             "reply": 1348,
             "share": 413,
-            "view": 1684522
+            "view": 1683939
         }
     },
     {
@@ -4127,7 +4127,7 @@
             "like": 118,
             "reply": 4,
             "share": 0,
-            "view": 113283
+            "view": 112720
         }
     },
     {
@@ -4144,7 +4144,7 @@
             "like": 170,
             "reply": 14,
             "share": 0,
-            "view": 113977
+            "view": 113390
         }
     },
     {
@@ -4158,10 +4158,10 @@
             "coin": 8412,
             "dm": 1180,
             "favorite": 414,
-            "like": 10131,
+            "like": 10130,
             "reply": 2246,
             "share": 324,
-            "view": 1907392
+            "view": 1906838
         }
     },
     {
@@ -4172,13 +4172,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 18658,
+            "coin": 18654,
             "dm": 3798,
             "favorite": 2662,
-            "like": 17172,
-            "reply": 3961,
+            "like": 17165,
+            "reply": 3960,
             "share": 888,
-            "view": 2205632
+            "view": 2204959
         }
     },
     {
@@ -4189,13 +4189,13 @@
         "type": 1,
         "type_title": "预告",
         "stat": {
-            "coin": 15463,
+            "coin": 15461,
             "dm": 1893,
-            "favorite": 1881,
-            "like": 15936,
+            "favorite": 1880,
+            "like": 15934,
             "reply": 3132,
             "share": 625,
-            "view": 1873877
+            "view": 1873261
         }
     },
     {
@@ -4207,12 +4207,12 @@
         "type_title": "预告",
         "stat": {
             "coin": 34746,
-            "dm": 20503,
+            "dm": 20502,
             "favorite": 974,
-            "like": 13889,
+            "like": 13888,
             "reply": 20214,
             "share": 2916,
-            "view": 5792960
+            "view": 5792318
         }
     },
     {
@@ -4223,13 +4223,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 15090,
+            "coin": 15072,
             "dm": 6124,
-            "favorite": 784,
-            "like": 12197,
+            "favorite": 783,
+            "like": 12182,
             "reply": 8659,
-            "share": 756,
-            "view": 4201618
+            "share": 755,
+            "view": 4195094
         }
     },
     {
@@ -4240,13 +4240,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 14811,
+            "coin": 14809,
             "dm": 257,
-            "favorite": 2397,
+            "favorite": 2399,
             "like": 19359,
             "reply": 1499,
             "share": 421,
-            "view": 7186813
+            "view": 7185439
         }
     },
     {
@@ -4259,11 +4259,11 @@
         "stat": {
             "coin": 7658,
             "dm": 207,
-            "favorite": 859,
-            "like": 12701,
+            "favorite": 860,
+            "like": 12700,
             "reply": 970,
             "share": 253,
-            "view": 2605556
+            "view": 2604543
         }
     },
     {
@@ -4280,7 +4280,7 @@
             "like": 10588,
             "reply": 1035,
             "share": 189,
-            "view": 1775514
+            "view": 1774705
         }
     },
     {
@@ -4291,13 +4291,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 5070,
+            "coin": 5069,
             "dm": 135,
             "favorite": 411,
-            "like": 10066,
+            "like": 10065,
             "reply": 905,
             "share": 169,
-            "view": 1560195
+            "view": 1559444
         }
     },
     {
@@ -4308,13 +4308,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 5487,
+            "coin": 5486,
             "dm": 299,
             "favorite": 396,
-            "like": 13118,
+            "like": 13117,
             "reply": 954,
             "share": 162,
-            "view": 1523690
+            "view": 1522971
         }
     },
     {
@@ -4325,13 +4325,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 6771,
+            "coin": 6770,
             "dm": 448,
             "favorite": 363,
-            "like": 11656,
+            "like": 11655,
             "reply": 848,
             "share": 220,
-            "view": 2053903
+            "view": 2053205
         }
     },
     {
@@ -4342,13 +4342,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 8141,
+            "coin": 8140,
             "dm": 273,
             "favorite": 367,
-            "like": 12754,
+            "like": 12753,
             "reply": 1014,
             "share": 270,
-            "view": 2224784
+            "view": 2224126
         }
     },
     {
@@ -4359,13 +4359,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 7995,
+            "coin": 7994,
             "dm": 232,
             "favorite": 348,
-            "like": 12973,
+            "like": 12972,
             "reply": 1022,
             "share": 261,
-            "view": 2241872
+            "view": 2241220
         }
     },
     {
@@ -4382,7 +4382,7 @@
             "like": 13610,
             "reply": 1478,
             "share": 269,
-            "view": 2187160
+            "view": 2186534
         }
     },
     {
@@ -4399,7 +4399,7 @@
             "like": 14811,
             "reply": 1853,
             "share": 257,
-            "view": 2378815
+            "view": 2378192
         }
     },
     {
@@ -4413,10 +4413,10 @@
             "coin": 7079,
             "dm": 184,
             "favorite": 335,
-            "like": 12434,
+            "like": 12432,
             "reply": 1262,
             "share": 234,
-            "view": 2298593
+            "view": 2297973
         }
     },
     {
@@ -4427,13 +4427,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 7761,
+            "coin": 7757,
             "dm": 297,
             "favorite": 329,
-            "like": 14098,
+            "like": 14096,
             "reply": 1454,
             "share": 257,
-            "view": 2310338
+            "view": 2309735
         }
     },
     {
@@ -4450,7 +4450,7 @@
             "like": 24596,
             "reply": 2791,
             "share": 413,
-            "view": 2124178
+            "view": 2123570
         }
     },
     {
@@ -4467,7 +4467,7 @@
             "like": 30305,
             "reply": 4403,
             "share": 760,
-            "view": 3055911
+            "view": 3055325
         }
     },
     {
@@ -4478,13 +4478,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 21851,
+            "coin": 21849,
             "dm": 2372,
             "favorite": 1545,
             "like": 38524,
             "reply": 4346,
             "share": 1124,
-            "view": 4412530
+            "view": 4411900
         }
     },
     {
@@ -4501,7 +4501,7 @@
             "like": 11529,
             "reply": 264,
             "share": 187,
-            "view": 1454511
+            "view": 1453964
         }
     },
     {
@@ -4518,7 +4518,7 @@
             "like": 15956,
             "reply": 1236,
             "share": 371,
-            "view": 1806207
+            "view": 1805664
         }
     },
     {
@@ -4535,7 +4535,7 @@
             "like": 16356,
             "reply": 1796,
             "share": 279,
-            "view": 2150952
+            "view": 2150411
         }
     },
     {
@@ -4546,13 +4546,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 26408,
+            "coin": 26406,
             "dm": 4574,
             "favorite": 3086,
-            "like": 46592,
+            "like": 46590,
             "reply": 8207,
             "share": 1380,
-            "view": 2493016
+            "view": 2492484
         }
     },
     {
@@ -4563,13 +4563,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 25225,
+            "coin": 25223,
             "dm": 1295,
             "favorite": 2755,
-            "like": 32853,
+            "like": 32852,
             "reply": 3421,
             "share": 923,
-            "view": 2198220
+            "view": 2197693
         }
     },
     {
@@ -4586,7 +4586,7 @@
             "like": 15126,
             "reply": 2517,
             "share": 266,
-            "view": 2248750
+            "view": 2248235
         }
     },
     {
@@ -4597,13 +4597,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 7793,
+            "coin": 7792,
             "dm": 67,
             "favorite": 673,
-            "like": 9550,
+            "like": 9549,
             "reply": 184,
             "share": 247,
-            "view": 1784287
+            "view": 1783768
         }
     },
     {
@@ -4620,7 +4620,7 @@
             "like": 11115,
             "reply": 223,
             "share": 280,
-            "view": 1806489
+            "view": 1805976
         }
     },
     {
@@ -4637,7 +4637,7 @@
             "like": 19086,
             "reply": 1680,
             "share": 550,
-            "view": 2647519
+            "view": 2647005
         }
     },
     {
@@ -4648,13 +4648,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 21201,
+            "coin": 21199,
             "dm": 867,
             "favorite": 1887,
-            "like": 24890,
+            "like": 24889,
             "reply": 2743,
             "share": 737,
-            "view": 2738282
+            "view": 2737788
         }
     },
     {
@@ -4665,13 +4665,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 20464,
+            "coin": 20462,
             "dm": 656,
             "favorite": 1641,
-            "like": 22645,
+            "like": 22644,
             "reply": 2697,
             "share": 706,
-            "view": 2743041
+            "view": 2742551
         }
     },
     {
@@ -4682,13 +4682,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 13332,
+            "coin": 13331,
             "dm": 687,
             "favorite": 1109,
-            "like": 19124,
+            "like": 19123,
             "reply": 3955,
-            "share": 447,
-            "view": 2273199
+            "share": 446,
+            "view": 2272703
         }
     },
     {
@@ -4705,7 +4705,7 @@
             "like": 17271,
             "reply": 2246,
             "share": 402,
-            "view": 2389972
+            "view": 2389495
         }
     },
     {
@@ -4722,7 +4722,7 @@
             "like": 18460,
             "reply": 2282,
             "share": 442,
-            "view": 2619398
+            "view": 2618916
         }
     },
     {
@@ -4739,7 +4739,7 @@
             "like": 17082,
             "reply": 1364,
             "share": 384,
-            "view": 2557085
+            "view": 2556618
         }
     },
     {
@@ -4756,7 +4756,7 @@
             "like": 16475,
             "reply": 1113,
             "share": 370,
-            "view": 2408789
+            "view": 2408324
         }
     },
     {
@@ -4773,7 +4773,7 @@
             "like": 17922,
             "reply": 1336,
             "share": 421,
-            "view": 2392844
+            "view": 2392369
         }
     },
     {
@@ -4790,7 +4790,7 @@
             "like": 15037,
             "reply": 1580,
             "share": 312,
-            "view": 2229883
+            "view": 2229419
         }
     },
     {
@@ -4807,7 +4807,7 @@
             "like": 14327,
             "reply": 1088,
             "share": 287,
-            "view": 2298212
+            "view": 2297744
         }
     },
     {
@@ -4824,7 +4824,7 @@
             "like": 15325,
             "reply": 932,
             "share": 324,
-            "view": 2323993
+            "view": 2323517
         }
     },
     {
@@ -4841,7 +4841,7 @@
             "like": 21613,
             "reply": 1547,
             "share": 744,
-            "view": 2357947
+            "view": 2357482
         }
     },
     {
@@ -4858,7 +4858,7 @@
             "like": 15896,
             "reply": 1532,
             "share": 351,
-            "view": 2260863
+            "view": 2260409
         }
     },
     {
@@ -4869,13 +4869,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 9892,
+            "coin": 9890,
             "dm": 493,
             "favorite": 886,
-            "like": 15032,
+            "like": 15031,
             "reply": 1075,
             "share": 330,
-            "view": 2146450
+            "view": 2145995
         }
     },
     {
@@ -4886,13 +4886,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 13130,
+            "coin": 13128,
             "dm": 629,
             "favorite": 1105,
-            "like": 17559,
+            "like": 17558,
             "reply": 1844,
             "share": 451,
-            "view": 2196924
+            "view": 2196471
         }
     },
     {
@@ -4903,13 +4903,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 13924,
+            "coin": 13923,
             "dm": 478,
             "favorite": 1124,
             "like": 17673,
             "reply": 1509,
             "share": 477,
-            "view": 1913082
+            "view": 1912639
         }
     },
     {
@@ -4926,7 +4926,7 @@
             "like": 15878,
             "reply": 1733,
             "share": 397,
-            "view": 1875357
+            "view": 1874909
         }
     },
     {
@@ -4943,7 +4943,7 @@
             "like": 20014,
             "reply": 1664,
             "share": 535,
-            "view": 2338803
+            "view": 2338368
         }
     },
     {
@@ -4960,7 +4960,7 @@
             "like": 18840,
             "reply": 2814,
             "share": 461,
-            "view": 2504327
+            "view": 2503898
         }
     },
     {
@@ -4977,7 +4977,7 @@
             "like": 21862,
             "reply": 2700,
             "share": 642,
-            "view": 2368654
+            "view": 2368222
         }
     },
     {
@@ -4994,7 +4994,7 @@
             "like": 20620,
             "reply": 2222,
             "share": 578,
-            "view": 3248144
+            "view": 3247711
         }
     },
     {
@@ -5011,7 +5011,7 @@
             "like": 24369,
             "reply": 3017,
             "share": 628,
-            "view": 3385869
+            "view": 3385429
         }
     },
     {
@@ -5028,7 +5028,7 @@
             "like": 21676,
             "reply": 2433,
             "share": 553,
-            "view": 3474380
+            "view": 3473938
         }
     },
     {
@@ -5039,13 +5039,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 17538,
+            "coin": 17537,
             "dm": 507,
             "favorite": 1457,
-            "like": 23447,
+            "like": 23446,
             "reply": 3170,
             "share": 618,
-            "view": 2771712
+            "view": 2771283
         }
     },
     {
@@ -5058,11 +5058,11 @@
         "stat": {
             "coin": 18719,
             "dm": 544,
-            "favorite": 1516,
+            "favorite": 1517,
             "like": 23328,
             "reply": 2560,
             "share": 655,
-            "view": 2094957
+            "view": 2094542
         }
     },
     {
@@ -5079,7 +5079,7 @@
             "like": 27519,
             "reply": 2425,
             "share": 822,
-            "view": 2562313
+            "view": 2561899
         }
     },
     {
@@ -5096,7 +5096,7 @@
             "like": 25960,
             "reply": 4209,
             "share": 847,
-            "view": 2548704
+            "view": 2548298
         }
     },
     {
@@ -5113,7 +5113,7 @@
             "like": 31513,
             "reply": 2437,
             "share": 1173,
-            "view": 2583583
+            "view": 2583177
         }
     },
     {
@@ -5130,7 +5130,7 @@
             "like": 23526,
             "reply": 2209,
             "share": 661,
-            "view": 2937697
+            "view": 2937301
         }
     },
     {
@@ -5147,7 +5147,7 @@
             "like": 21585,
             "reply": 2088,
             "share": 601,
-            "view": 2766974
+            "view": 2766581
         }
     },
     {
@@ -5158,13 +5158,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 15603,
+            "coin": 15601,
             "dm": 490,
             "favorite": 1343,
-            "like": 20732,
+            "like": 20731,
             "reply": 2807,
             "share": 537,
-            "view": 2826745
+            "view": 2826352
         }
     },
     {
@@ -5175,13 +5175,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 13688,
+            "coin": 13686,
             "dm": 699,
             "favorite": 1210,
-            "like": 19591,
+            "like": 19590,
             "reply": 6596,
             "share": 468,
-            "view": 2663782
+            "view": 2663392
         }
     },
     {
@@ -5192,13 +5192,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 10936,
+            "coin": 10934,
             "dm": 3450,
             "favorite": 1008,
-            "like": 17054,
+            "like": 17053,
             "reply": 8430,
             "share": 373,
-            "view": 2727944
+            "view": 2727556
         }
     },
     {
@@ -5209,13 +5209,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 11415,
+            "coin": 11413,
             "dm": 1032,
-            "favorite": 1183,
-            "like": 18811,
+            "favorite": 1184,
+            "like": 18810,
             "reply": 2589,
             "share": 389,
-            "view": 3264020
+            "view": 3263636
         }
     },
     {
@@ -5226,13 +5226,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 11724,
+            "coin": 11722,
             "dm": 819,
             "favorite": 1288,
-            "like": 24569,
+            "like": 24568,
             "reply": 2121,
             "share": 403,
-            "view": 2232320
+            "view": 2231940
         }
     },
     {
@@ -5243,13 +5243,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 13106,
+            "coin": 13104,
             "dm": 1786,
             "favorite": 1218,
-            "like": 22298,
+            "like": 22297,
             "reply": 2964,
             "share": 456,
-            "view": 3124389
+            "view": 3124009
         }
     },
     {
@@ -5260,13 +5260,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 11018,
+            "coin": 11015,
             "dm": 991,
             "favorite": 1031,
-            "like": 19125,
+            "like": 19124,
             "reply": 2208,
             "share": 372,
-            "view": 2992330
+            "view": 2991959
         }
     },
     {
@@ -5277,13 +5277,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 11617,
+            "coin": 11613,
             "dm": 1112,
-            "favorite": 1039,
-            "like": 18665,
+            "favorite": 1038,
+            "like": 18663,
             "reply": 2115,
             "share": 402,
-            "view": 3167042
+            "view": 3166677
         }
     },
     {
@@ -5294,13 +5294,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 11525,
+            "coin": 11521,
             "dm": 807,
-            "favorite": 1007,
-            "like": 18351,
+            "favorite": 1006,
+            "like": 18349,
             "reply": 1558,
             "share": 392,
-            "view": 2995209
+            "view": 2994841
         }
     },
     {
@@ -5311,13 +5311,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 10636,
+            "coin": 10633,
             "dm": 584,
             "favorite": 990,
-            "like": 16977,
+            "like": 16975,
             "reply": 1130,
             "share": 364,
-            "view": 2943113
+            "view": 2942749
         }
     },
     {
@@ -5328,13 +5328,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 10571,
+            "coin": 10569,
             "dm": 755,
             "favorite": 1010,
-            "like": 17776,
+            "like": 17775,
             "reply": 1178,
             "share": 356,
-            "view": 3061087
+            "view": 3060719
         }
     },
     {
@@ -5345,13 +5345,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 10321,
+            "coin": 10319,
             "dm": 691,
             "favorite": 1020,
-            "like": 17110,
+            "like": 17109,
             "reply": 1613,
             "share": 348,
-            "view": 2983956
+            "view": 2983581
         }
     },
     {
@@ -5362,13 +5362,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 10031,
+            "coin": 10028,
             "dm": 666,
             "favorite": 955,
-            "like": 16776,
+            "like": 16775,
             "reply": 1400,
             "share": 340,
-            "view": 2846095
+            "view": 2845723
         }
     },
     {
@@ -5379,13 +5379,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 10380,
+            "coin": 10377,
             "dm": 257,
             "favorite": 912,
-            "like": 16870,
+            "like": 16869,
             "reply": 1249,
             "share": 351,
-            "view": 2787687
+            "view": 2787323
         }
     },
     {
@@ -5396,13 +5396,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 10530,
+            "coin": 10528,
             "dm": 275,
             "favorite": 973,
-            "like": 16357,
+            "like": 16356,
             "reply": 1083,
             "share": 351,
-            "view": 2818881
+            "view": 2818518
         }
     },
     {
@@ -5413,13 +5413,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 10976,
+            "coin": 10974,
             "dm": 452,
             "favorite": 995,
-            "like": 17637,
+            "like": 17636,
             "reply": 1491,
             "share": 369,
-            "view": 2967100
+            "view": 2966739
         }
     },
     {
@@ -5430,13 +5430,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 11342,
+            "coin": 11340,
             "dm": 495,
             "favorite": 1116,
-            "like": 18455,
+            "like": 18454,
             "reply": 1455,
             "share": 389,
-            "view": 3072938
+            "view": 3072583
         }
     },
     {
@@ -5447,13 +5447,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 13368,
+            "coin": 13366,
             "dm": 1343,
             "favorite": 1350,
-            "like": 27188,
+            "like": 27187,
             "reply": 3009,
             "share": 511,
-            "view": 2403243
+            "view": 2402888
         }
     },
     {
@@ -5464,13 +5464,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 3090,
+            "coin": 3087,
             "dm": 247,
             "favorite": 397,
-            "like": 9935,
+            "like": 9934,
             "reply": 1483,
             "share": 88,
-            "view": 1290502
+            "view": 1290142
         }
     },
     {
@@ -5481,13 +5481,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 1923,
+            "coin": 1921,
             "dm": 30,
             "favorite": 221,
-            "like": 4617,
+            "like": 4616,
             "reply": 65,
             "share": 49,
-            "view": 564180
+            "view": 563838
         }
     },
     {
@@ -5498,13 +5498,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 3174,
+            "coin": 3172,
             "dm": 65,
             "favorite": 362,
-            "like": 6551,
+            "like": 6550,
             "reply": 228,
             "share": 93,
-            "view": 1216872
+            "view": 1216531
         }
     },
     {
@@ -5521,7 +5521,7 @@
             "like": 2892,
             "reply": 104,
             "share": 68,
-            "view": 1105196
+            "view": 1104860
         }
     },
     {
@@ -5538,7 +5538,7 @@
             "like": 5710,
             "reply": 77,
             "share": 89,
-            "view": 1082664
+            "view": 1082333
         }
     },
     {
@@ -5555,7 +5555,7 @@
             "like": 5307,
             "reply": 87,
             "share": 67,
-            "view": 1129318
+            "view": 1128986
         }
     },
     {
@@ -5572,7 +5572,7 @@
             "like": 5248,
             "reply": 96,
             "share": 62,
-            "view": 1038374
+            "view": 1038044
         }
     },
     {
@@ -5589,7 +5589,7 @@
             "like": 5215,
             "reply": 113,
             "share": 65,
-            "view": 1119781
+            "view": 1119454
         }
     },
     {
@@ -5606,7 +5606,7 @@
             "like": 5260,
             "reply": 72,
             "share": 63,
-            "view": 1042722
+            "view": 1042396
         }
     },
     {
@@ -5623,7 +5623,7 @@
             "like": 4680,
             "reply": 79,
             "share": 62,
-            "view": 1109792
+            "view": 1109468
         }
     },
     {
@@ -5640,7 +5640,7 @@
             "like": 6849,
             "reply": 103,
             "share": 109,
-            "view": 3027004
+            "view": 3026678
         }
     },
     {
@@ -5657,7 +5657,7 @@
             "like": 5949,
             "reply": 88,
             "share": 88,
-            "view": 2281464
+            "view": 2281144
         }
     },
     {
@@ -5674,7 +5674,7 @@
             "like": 5250,
             "reply": 76,
             "share": 71,
-            "view": 1903132
+            "view": 1902813
         }
     },
     {
@@ -5691,7 +5691,7 @@
             "like": 5197,
             "reply": 81,
             "share": 68,
-            "view": 1694669
+            "view": 1694349
         }
     },
     {
@@ -5708,7 +5708,7 @@
             "like": 5573,
             "reply": 132,
             "share": 90,
-            "view": 1690675
+            "view": 1690361
         }
     },
     {
@@ -5725,7 +5725,7 @@
             "like": 5337,
             "reply": 78,
             "share": 71,
-            "view": 1610026
+            "view": 1609717
         }
     },
     {
@@ -5742,7 +5742,7 @@
             "like": 5445,
             "reply": 100,
             "share": 68,
-            "view": 1591764
+            "view": 1591455
         }
     },
     {
@@ -5759,7 +5759,7 @@
             "like": 5282,
             "reply": 92,
             "share": 72,
-            "view": 1552401
+            "view": 1552090
         }
     },
     {
@@ -5776,7 +5776,7 @@
             "like": 4874,
             "reply": 66,
             "share": 63,
-            "view": 1521885
+            "view": 1521579
         }
     },
     {
@@ -5793,7 +5793,7 @@
             "like": 4683,
             "reply": 55,
             "share": 50,
-            "view": 1425175
+            "view": 1424873
         }
     },
     {
@@ -5810,7 +5810,7 @@
             "like": 7232,
             "reply": 180,
             "share": 70,
-            "view": 1812817
+            "view": 1812513
         }
     },
     {
@@ -5827,7 +5827,7 @@
             "like": 33347,
             "reply": 1957,
             "share": 683,
-            "view": 2456751
+            "view": 2456436
         }
     },
     {
@@ -5844,7 +5844,7 @@
             "like": 41434,
             "reply": 7476,
             "share": 1540,
-            "view": 3700718
+            "view": 3700407
         }
     },
     {
@@ -5861,7 +5861,7 @@
             "like": 14757,
             "reply": 2163,
             "share": 1225,
-            "view": 1421874
+            "view": 1421570
         }
     },
     {
@@ -5878,7 +5878,7 @@
             "like": 16662,
             "reply": 1112,
             "share": 296,
-            "view": 2124574
+            "view": 2124280
         }
     },
     {
@@ -5895,7 +5895,7 @@
             "like": 20938,
             "reply": 1304,
             "share": 265,
-            "view": 3158773
+            "view": 3158480
         }
     },
     {
@@ -5912,7 +5912,7 @@
             "like": 13686,
             "reply": 1636,
             "share": 570,
-            "view": 1978060
+            "view": 1977760
         }
     },
     {
@@ -5929,7 +5929,7 @@
             "like": 33388,
             "reply": 4065,
             "share": 3890,
-            "view": 3156368
+            "view": 3156061
         }
     },
     {
@@ -5946,7 +5946,7 @@
             "like": 32334,
             "reply": 3491,
             "share": 5337,
-            "view": 3244223
+            "view": 3243921
         }
     },
     {
@@ -5963,7 +5963,7 @@
             "like": 32868,
             "reply": 784,
             "share": 816,
-            "view": 19402702
+            "view": 19402389
         }
     },
     {
@@ -5974,13 +5974,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 14513,
+            "coin": 14509,
             "dm": 809,
-            "favorite": 2284,
-            "like": 20203,
+            "favorite": 2285,
+            "like": 20199,
             "reply": 1825,
             "share": 1143,
-            "view": 5584333
+            "view": 5578329
         }
     },
     {
@@ -5991,13 +5991,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 16074,
+            "coin": 16070,
             "dm": 415,
-            "favorite": 1747,
-            "like": 20033,
+            "favorite": 1745,
+            "like": 20030,
             "reply": 950,
             "share": 253,
-            "view": 4604134
+            "view": 4600487
         }
     },
     {
@@ -6008,13 +6008,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 14297,
+            "coin": 14295,
             "dm": 607,
-            "favorite": 1594,
-            "like": 18738,
+            "favorite": 1592,
+            "like": 18734,
             "reply": 1210,
-            "share": 206,
-            "view": 4405440
+            "share": 205,
+            "view": 4402991
         }
     },
     {
@@ -6028,10 +6028,10 @@
             "coin": 12351,
             "dm": 168,
             "favorite": 1299,
-            "like": 15847,
+            "like": 15845,
             "reply": 626,
             "share": 156,
-            "view": 3530291
+            "view": 3528522
         }
     },
     {
@@ -6045,10 +6045,10 @@
             "coin": 12802,
             "dm": 339,
             "favorite": 1295,
-            "like": 16754,
+            "like": 16750,
             "reply": 1225,
             "share": 153,
-            "view": 3371427
+            "view": 3369988
         }
     },
     {
@@ -6059,13 +6059,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 11719,
+            "coin": 11717,
             "dm": 203,
             "favorite": 1186,
-            "like": 15804,
+            "like": 15801,
             "reply": 732,
             "share": 126,
-            "view": 3154418
+            "view": 3153124
         }
     },
     {
@@ -6079,10 +6079,10 @@
             "coin": 14999,
             "dm": 188,
             "favorite": 1370,
-            "like": 17340,
+            "like": 17337,
             "reply": 970,
             "share": 148,
-            "view": 3031841
+            "view": 3030694
         }
     },
     {
@@ -6096,10 +6096,10 @@
             "coin": 12515,
             "dm": 258,
             "favorite": 1243,
-            "like": 16329,
+            "like": 16325,
             "reply": 991,
             "share": 142,
-            "view": 2879414
+            "view": 2878326
         }
     },
     {
@@ -6113,10 +6113,10 @@
             "coin": 13653,
             "dm": 447,
             "favorite": 1276,
-            "like": 17792,
+            "like": 17789,
             "reply": 1091,
             "share": 151,
-            "view": 2855087
+            "view": 2854052
         }
     },
     {
@@ -6130,10 +6130,10 @@
             "coin": 12154,
             "dm": 288,
             "favorite": 1199,
-            "like": 15771,
+            "like": 15768,
             "reply": 713,
             "share": 143,
-            "view": 2416973
+            "view": 2415976
         }
     },
     {
@@ -6147,10 +6147,10 @@
             "coin": 15215,
             "dm": 328,
             "favorite": 1388,
-            "like": 19101,
+            "like": 19098,
             "reply": 1060,
             "share": 180,
-            "view": 2963602
+            "view": 2962636
         }
     },
     {
@@ -6164,10 +6164,10 @@
             "coin": 13787,
             "dm": 251,
             "favorite": 1331,
-            "like": 17950,
+            "like": 17947,
             "reply": 809,
             "share": 151,
-            "view": 2927542
+            "view": 2926584
         }
     },
     {
@@ -6181,10 +6181,10 @@
             "coin": 10815,
             "dm": 187,
             "favorite": 1191,
-            "like": 15307,
+            "like": 15304,
             "reply": 613,
             "share": 127,
-            "view": 2656512
+            "view": 2655583
         }
     },
     {
@@ -6198,10 +6198,10 @@
             "coin": 12292,
             "dm": 494,
             "favorite": 1230,
-            "like": 17002,
+            "like": 16999,
             "reply": 1201,
             "share": 250,
-            "view": 2819518
+            "view": 2818598
         }
     },
     {
@@ -6215,10 +6215,10 @@
             "coin": 13080,
             "dm": 282,
             "favorite": 1230,
-            "like": 17165,
+            "like": 17162,
             "reply": 981,
             "share": 139,
-            "view": 2852821
+            "view": 2851935
         }
     },
     {
@@ -6229,13 +6229,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 12353,
+            "coin": 12351,
             "dm": 215,
             "favorite": 1172,
-            "like": 17283,
+            "like": 17279,
             "reply": 802,
             "share": 133,
-            "view": 2886430
+            "view": 2885551
         }
     },
     {
@@ -6246,13 +6246,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 14424,
+            "coin": 14418,
             "dm": 869,
-            "favorite": 1376,
-            "like": 19494,
+            "favorite": 1374,
+            "like": 19487,
             "reply": 2935,
             "share": 326,
-            "view": 3193684
+            "view": 3192803
         }
     },
     {
@@ -6263,13 +6263,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 16160,
+            "coin": 16154,
             "dm": 399,
-            "favorite": 1490,
-            "like": 21540,
+            "favorite": 1488,
+            "like": 21533,
             "reply": 2161,
             "share": 249,
-            "view": 3261376
+            "view": 3260516
         }
     },
     {
@@ -6280,13 +6280,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 19486,
+            "coin": 19484,
             "dm": 1033,
             "favorite": 1698,
-            "like": 25043,
+            "like": 25038,
             "reply": 3080,
             "share": 527,
-            "view": 3158830
+            "view": 3157978
         }
     },
     {
@@ -6297,13 +6297,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 14907,
+            "coin": 14905,
             "dm": 444,
             "favorite": 1379,
-            "like": 20545,
+            "like": 20541,
             "reply": 1502,
             "share": 198,
-            "view": 3356277
+            "view": 3355452
         }
     },
     {
@@ -6314,13 +6314,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 13511,
+            "coin": 13509,
             "dm": 248,
             "favorite": 1283,
-            "like": 17831,
+            "like": 17827,
             "reply": 943,
             "share": 130,
-            "view": 2806372
+            "view": 2805544
         }
     },
     {
@@ -6331,13 +6331,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 14882,
+            "coin": 14880,
             "dm": 755,
             "favorite": 1342,
-            "like": 19154,
+            "like": 19150,
             "reply": 1071,
             "share": 165,
-            "view": 2873396
+            "view": 2872597
         }
     },
     {
@@ -6351,10 +6351,10 @@
             "coin": 15303,
             "dm": 451,
             "favorite": 1612,
-            "like": 20050,
+            "like": 20046,
             "reply": 903,
             "share": 172,
-            "view": 2954429
+            "view": 2953594
         }
     },
     {
@@ -6365,13 +6365,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 15307,
+            "coin": 15305,
             "dm": 337,
             "favorite": 1646,
-            "like": 20485,
+            "like": 20480,
             "reply": 952,
             "share": 193,
-            "view": 3086522
+            "view": 3085715
         }
     },
     {
@@ -6382,13 +6382,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 13616,
+            "coin": 13613,
             "dm": 272,
             "favorite": 1528,
-            "like": 18469,
+            "like": 18465,
             "reply": 842,
-            "share": 145,
-            "view": 2951457
+            "share": 144,
+            "view": 2950664
         }
     },
     {
@@ -6399,13 +6399,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 13457,
+            "coin": 13452,
             "dm": 296,
             "favorite": 1479,
-            "like": 19602,
+            "like": 19596,
             "reply": 1496,
             "share": 189,
-            "view": 3235124
+            "view": 3234333
         }
     },
     {
@@ -6416,13 +6416,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 13404,
+            "coin": 13400,
             "dm": 419,
             "favorite": 1441,
-            "like": 18684,
+            "like": 18679,
             "reply": 1092,
             "share": 135,
-            "view": 2866984
+            "view": 2866217
         }
     },
     {
@@ -6433,13 +6433,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 12455,
+            "coin": 12453,
             "dm": 246,
             "favorite": 1354,
-            "like": 18141,
+            "like": 18136,
             "reply": 947,
             "share": 128,
-            "view": 2771422
+            "view": 2770651
         }
     },
     {
@@ -6453,10 +6453,10 @@
             "coin": 12495,
             "dm": 374,
             "favorite": 1278,
-            "like": 17707,
+            "like": 17703,
             "reply": 902,
             "share": 151,
-            "view": 2566326
+            "view": 2565571
         }
     },
     {
@@ -6470,10 +6470,10 @@
             "coin": 13845,
             "dm": 900,
             "favorite": 1481,
-            "like": 19698,
+            "like": 19694,
             "reply": 1379,
             "share": 165,
-            "view": 3073441
+            "view": 3072680
         }
     },
     {
@@ -6487,10 +6487,10 @@
             "coin": 13104,
             "dm": 198,
             "favorite": 1382,
-            "like": 18301,
+            "like": 18297,
             "reply": 1172,
             "share": 142,
-            "view": 2830307
+            "view": 2829571
         }
     },
     {
@@ -6504,10 +6504,10 @@
             "coin": 13437,
             "dm": 378,
             "favorite": 1435,
-            "like": 19230,
+            "like": 19226,
             "reply": 961,
             "share": 140,
-            "view": 2983338
+            "view": 2982598
         }
     },
     {
@@ -6521,10 +6521,10 @@
             "coin": 13095,
             "dm": 530,
             "favorite": 1385,
-            "like": 18664,
+            "like": 18660,
             "reply": 1181,
             "share": 241,
-            "view": 2920158
+            "view": 2919427
         }
     },
     {
@@ -6537,11 +6537,11 @@
         "stat": {
             "coin": 14922,
             "dm": 293,
-            "favorite": 1633,
-            "like": 20368,
+            "favorite": 1634,
+            "like": 20364,
             "reply": 896,
             "share": 168,
-            "view": 2920157
+            "view": 2919433
         }
     },
     {
@@ -6555,10 +6555,10 @@
             "coin": 14001,
             "dm": 288,
             "favorite": 1574,
-            "like": 19012,
+            "like": 19005,
             "reply": 919,
             "share": 194,
-            "view": 2876105
+            "view": 2875387
         }
     },
     {
@@ -6572,10 +6572,10 @@
             "coin": 14266,
             "dm": 283,
             "favorite": 1661,
-            "like": 20672,
+            "like": 20668,
             "reply": 977,
             "share": 169,
-            "view": 3206319
+            "view": 3205597
         }
     },
     {
@@ -6586,13 +6586,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 19191,
+            "coin": 19189,
             "dm": 550,
             "favorite": 1929,
-            "like": 24657,
+            "like": 24651,
             "reply": 1795,
             "share": 480,
-            "view": 3353373
+            "view": 3352638
         }
     },
     {
@@ -6606,10 +6606,10 @@
             "coin": 21758,
             "dm": 548,
             "favorite": 2118,
-            "like": 26185,
+            "like": 26181,
             "reply": 1559,
             "share": 218,
-            "view": 3365971
+            "view": 3365250
         }
     },
     {
@@ -6623,10 +6623,10 @@
             "coin": 17415,
             "dm": 503,
             "favorite": 1778,
-            "like": 23829,
+            "like": 23825,
             "reply": 1182,
             "share": 222,
-            "view": 3427929
+            "view": 3427224
         }
     },
     {
@@ -6640,10 +6640,10 @@
             "coin": 16488,
             "dm": 591,
             "favorite": 1790,
-            "like": 23035,
+            "like": 23031,
             "reply": 1777,
             "share": 240,
-            "view": 3449678
+            "view": 3448984
         }
     },
     {
@@ -6656,11 +6656,11 @@
         "stat": {
             "coin": 19553,
             "dm": 914,
-            "favorite": 2053,
-            "like": 25551,
+            "favorite": 2052,
+            "like": 25547,
             "reply": 2034,
             "share": 347,
-            "view": 3637160
+            "view": 3636470
         }
     },
     {
@@ -6674,10 +6674,10 @@
             "coin": 16719,
             "dm": 1270,
             "favorite": 1829,
-            "like": 24147,
+            "like": 24143,
             "reply": 1820,
             "share": 345,
-            "view": 3626505
+            "view": 3625806
         }
     },
     {
@@ -6691,10 +6691,10 @@
             "coin": 16668,
             "dm": 566,
             "favorite": 1684,
-            "like": 22815,
+            "like": 22811,
             "reply": 1406,
             "share": 161,
-            "view": 3255720
+            "view": 3255044
         }
     },
     {
@@ -6705,13 +6705,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 14285,
+            "coin": 14283,
             "dm": 790,
             "favorite": 1595,
-            "like": 20061,
+            "like": 20056,
             "reply": 2024,
             "share": 176,
-            "view": 3164099
+            "view": 3163413
         }
     },
     {
@@ -6725,10 +6725,10 @@
             "coin": 14652,
             "dm": 533,
             "favorite": 1550,
-            "like": 20663,
+            "like": 20659,
             "reply": 1674,
             "share": 154,
-            "view": 3067748
+            "view": 3067056
         }
     },
     {
@@ -6742,10 +6742,10 @@
             "coin": 15956,
             "dm": 682,
             "favorite": 1753,
-            "like": 23225,
+            "like": 23221,
             "reply": 1257,
             "share": 186,
-            "view": 3988932
+            "view": 3988241
         }
     },
     {
@@ -6759,10 +6759,10 @@
             "coin": 14873,
             "dm": 207,
             "favorite": 1810,
-            "like": 20820,
+            "like": 20817,
             "reply": 797,
             "share": 153,
-            "view": 3907383
+            "view": 3906672
         }
     },
     {
@@ -6775,11 +6775,11 @@
         "stat": {
             "coin": 17177,
             "dm": 434,
-            "favorite": 1995,
-            "like": 22817,
+            "favorite": 1994,
+            "like": 22813,
             "reply": 1125,
             "share": 191,
-            "view": 4000432
+            "view": 3999582
         }
     },
     {
@@ -6790,13 +6790,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 26729,
+            "coin": 26727,
             "dm": 7041,
             "favorite": 3419,
-            "like": 42715,
+            "like": 42714,
             "reply": 4747,
             "share": 6146,
-            "view": 2045576
+            "view": 2045266
         }
     },
     {
@@ -6813,7 +6813,7 @@
             "like": 13087,
             "reply": 2063,
             "share": 980,
-            "view": 1247997
+            "view": 1247734
         }
     },
     {
@@ -6830,7 +6830,7 @@
             "like": 6002,
             "reply": 101,
             "share": 38,
-            "view": 512225
+            "view": 511971
         }
     },
     {
@@ -6847,7 +6847,7 @@
             "like": 29087,
             "reply": 4027,
             "share": 370,
-            "view": 3821568
+            "view": 3821307
         }
     },
     {
@@ -6864,7 +6864,7 @@
             "like": 19826,
             "reply": 1527,
             "share": 214,
-            "view": 3389498
+            "view": 3389241
         }
     },
     {
@@ -6875,13 +6875,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 16404,
+            "coin": 16401,
             "dm": 206,
-            "favorite": 2035,
-            "like": 22247,
+            "favorite": 2036,
+            "like": 22243,
             "reply": 1296,
             "share": 232,
-            "view": 4356963
+            "view": 4355939
         }
     },
     {
@@ -6892,13 +6892,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 15662,
+            "coin": 15660,
             "dm": 194,
-            "favorite": 1826,
-            "like": 21463,
+            "favorite": 1827,
+            "like": 21458,
             "reply": 1099,
             "share": 200,
-            "view": 3820553
+            "view": 3819823
         }
     },
     {
@@ -6909,13 +6909,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 17690,
+            "coin": 17687,
             "dm": 932,
-            "favorite": 2014,
-            "like": 24349,
+            "favorite": 2013,
+            "like": 24344,
             "reply": 2806,
-            "share": 427,
-            "view": 3721325
+            "share": 426,
+            "view": 3720732
         }
     },
     {
@@ -6926,13 +6926,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 20596,
+            "coin": 20592,
             "dm": 823,
             "favorite": 2363,
-            "like": 27363,
+            "like": 27360,
             "reply": 3205,
             "share": 351,
-            "view": 4047993
+            "view": 4047434
         }
     },
     {
@@ -6943,13 +6943,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 19249,
+            "coin": 19247,
             "dm": 611,
             "favorite": 2189,
-            "like": 25999,
+            "like": 25996,
             "reply": 2374,
             "share": 212,
-            "view": 3892630
+            "view": 3892098
         }
     },
     {
@@ -6960,13 +6960,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 19284,
+            "coin": 19282,
             "dm": 1260,
             "favorite": 2136,
-            "like": 27454,
+            "like": 27451,
             "reply": 4073,
             "share": 446,
-            "view": 3861336
+            "view": 3860850
         }
     },
     {
@@ -6977,13 +6977,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 20602,
+            "coin": 20599,
             "dm": 910,
-            "favorite": 2302,
-            "like": 28263,
+            "favorite": 2301,
+            "like": 28259,
             "reply": 3331,
             "share": 252,
-            "view": 3989906
+            "view": 3989423
         }
     },
     {
@@ -6994,13 +6994,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 20610,
+            "coin": 20608,
             "dm": 967,
             "favorite": 2306,
-            "like": 27489,
-            "reply": 3782,
+            "like": 27484,
+            "reply": 3781,
             "share": 416,
-            "view": 3923799
+            "view": 3923267
         }
     },
     {
@@ -7011,13 +7011,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 24582,
+            "coin": 24578,
             "dm": 1055,
             "favorite": 2585,
-            "like": 31386,
+            "like": 31381,
             "reply": 4710,
             "share": 652,
-            "view": 4142208
+            "view": 4141739
         }
     },
     {
@@ -7028,13 +7028,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 29957,
+            "coin": 29955,
             "dm": 1191,
             "favorite": 3041,
-            "like": 35609,
+            "like": 35605,
             "reply": 5040,
             "share": 402,
-            "view": 4335511
+            "view": 4335054
         }
     },
     {
@@ -7048,10 +7048,10 @@
             "coin": 23321,
             "dm": 4805,
             "favorite": 2446,
-            "like": 28589,
+            "like": 28586,
             "reply": 3956,
             "share": 296,
-            "view": 3682019
+            "view": 3681585
         }
     },
     {
@@ -7065,10 +7065,10 @@
             "coin": 24097,
             "dm": 631,
             "favorite": 2507,
-            "like": 31028,
+            "like": 31024,
             "reply": 3425,
             "share": 255,
-            "view": 3895431
+            "view": 3894991
         }
     },
     {
@@ -7082,10 +7082,10 @@
             "coin": 23406,
             "dm": 490,
             "favorite": 2345,
-            "like": 28596,
+            "like": 28593,
             "reply": 2727,
             "share": 214,
-            "view": 3598740
+            "view": 3598342
         }
     },
     {
@@ -7098,11 +7098,11 @@
         "stat": {
             "coin": 19787,
             "dm": 726,
-            "favorite": 2188,
-            "like": 26919,
+            "favorite": 2189,
+            "like": 26915,
             "reply": 2873,
             "share": 267,
-            "view": 3803491
+            "view": 3803074
         }
     },
     {
@@ -7116,10 +7116,10 @@
             "coin": 20951,
             "dm": 525,
             "favorite": 2342,
-            "like": 27609,
+            "like": 27606,
             "reply": 2802,
             "share": 289,
-            "view": 4196271
+            "view": 4195887
         }
     },
     {
@@ -7130,13 +7130,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 21300,
+            "coin": 21298,
             "dm": 901,
             "favorite": 2316,
-            "like": 27772,
+            "like": 27768,
             "reply": 4080,
             "share": 287,
-            "view": 3916844
+            "view": 3916452
         }
     },
     {
@@ -7147,13 +7147,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 30297,
+            "coin": 30294,
             "dm": 3686,
-            "favorite": 3421,
-            "like": 37316,
+            "favorite": 3420,
+            "like": 37312,
             "reply": 10793,
             "share": 767,
-            "view": 4450721
+            "view": 4450291
         }
     },
     {
@@ -7164,13 +7164,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 59593,
+            "coin": 59589,
             "dm": 1720,
-            "favorite": 8105,
-            "like": 53302,
+            "favorite": 8106,
+            "like": 53298,
             "reply": 6556,
             "share": 506,
-            "view": 4861404
+            "view": 4860953
         }
     },
     {
@@ -7181,13 +7181,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 64619,
+            "coin": 64617,
             "dm": 1020,
             "favorite": 8733,
-            "like": 55212,
+            "like": 55208,
             "reply": 5602,
             "share": 374,
-            "view": 4331310
+            "view": 4330893
         }
     },
     {
@@ -7201,10 +7201,10 @@
             "coin": 45870,
             "dm": 1433,
             "favorite": 6039,
-            "like": 44087,
+            "like": 44084,
             "reply": 4772,
             "share": 330,
-            "view": 4825548
+            "view": 4825143
         }
     },
     {
@@ -7217,11 +7217,11 @@
         "stat": {
             "coin": 37711,
             "dm": 874,
-            "favorite": 4969,
-            "like": 39400,
+            "favorite": 4970,
+            "like": 39397,
             "reply": 4708,
             "share": 388,
-            "view": 4783105
+            "view": 4782703
         }
     },
     {
@@ -7234,11 +7234,11 @@
         "stat": {
             "coin": 37352,
             "dm": 1814,
-            "favorite": 4868,
-            "like": 40344,
+            "favorite": 4869,
+            "like": 40340,
             "reply": 5043,
             "share": 414,
-            "view": 4923520
+            "view": 4923106
         }
     },
     {
@@ -7251,11 +7251,11 @@
         "stat": {
             "coin": 37058,
             "dm": 1066,
-            "favorite": 4717,
-            "like": 38515,
+            "favorite": 4718,
+            "like": 38512,
             "reply": 3001,
             "share": 272,
-            "view": 4718283
+            "view": 4717789
         }
     },
     {
@@ -7269,10 +7269,10 @@
             "coin": 36437,
             "dm": 773,
             "favorite": 4520,
-            "like": 38507,
+            "like": 38504,
             "reply": 2921,
             "share": 326,
-            "view": 4521940
+            "view": 4521456
         }
     },
     {
@@ -7283,13 +7283,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 37072,
+            "coin": 37070,
             "dm": 1107,
-            "favorite": 4648,
-            "like": 39156,
-            "reply": 3124,
+            "favorite": 4647,
+            "like": 39152,
+            "reply": 3125,
             "share": 304,
-            "view": 4660208
+            "view": 4659702
         }
     },
     {
@@ -7303,10 +7303,10 @@
             "coin": 42339,
             "dm": 849,
             "favorite": 5382,
-            "like": 43701,
+            "like": 43698,
             "reply": 4532,
             "share": 320,
-            "view": 4974800
+            "view": 4974314
         }
     },
     {
@@ -7320,10 +7320,10 @@
             "coin": 45913,
             "dm": 1356,
             "favorite": 6060,
-            "like": 48072,
+            "like": 48068,
             "reply": 5477,
             "share": 455,
-            "view": 6154851
+            "view": 6154346
         }
     },
     {
@@ -7334,13 +7334,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 131704,
-            "dm": 23642,
+            "coin": 131702,
+            "dm": 23641,
             "favorite": 18643,
-            "like": 116135,
+            "like": 116131,
             "reply": 28011,
             "share": 6616,
-            "view": 8353616
+            "view": 8352991
         }
     },
     {
@@ -7351,13 +7351,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 111935,
+            "coin": 111931,
             "dm": 3272,
-            "favorite": 16557,
-            "like": 102385,
+            "favorite": 16555,
+            "like": 102381,
             "reply": 13380,
             "share": 912,
-            "view": 10153325
+            "view": 10152681
         }
     },
     {
@@ -7368,13 +7368,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 76687,
+            "coin": 76683,
             "dm": 3213,
             "favorite": 11159,
-            "like": 77649,
+            "like": 77645,
             "reply": 11530,
             "share": 687,
-            "view": 8310307
+            "view": 8309688
         }
     },
     {
@@ -7385,13 +7385,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 47667,
+            "coin": 47661,
             "dm": 6063,
-            "favorite": 6651,
-            "like": 56238,
+            "favorite": 6652,
+            "like": 56230,
             "reply": 9097,
             "share": 479,
-            "view": 7452535
+            "view": 7451833
         }
     },
     {
@@ -7402,13 +7402,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 45800,
+            "coin": 45793,
             "dm": 1451,
-            "favorite": 6171,
-            "like": 50763,
+            "favorite": 6169,
+            "like": 50756,
             "reply": 7304,
             "share": 440,
-            "view": 7075519
+            "view": 7074786
         }
     },
     {
@@ -7419,13 +7419,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 51185,
+            "coin": 51179,
             "dm": 2116,
-            "favorite": 6742,
-            "like": 55667,
+            "favorite": 6743,
+            "like": 55662,
             "reply": 7051,
             "share": 663,
-            "view": 6551715
+            "view": 6551000
         }
     },
     {
@@ -7436,13 +7436,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 55507,
+            "coin": 55504,
             "dm": 1877,
-            "favorite": 7340,
-            "like": 60130,
+            "favorite": 7337,
+            "like": 60127,
             "reply": 6249,
             "share": 478,
-            "view": 7250346
+            "view": 7249564
         }
     },
     {
@@ -7453,13 +7453,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 44590,
+            "coin": 44588,
             "dm": 2384,
-            "favorite": 5883,
-            "like": 52033,
+            "favorite": 5882,
+            "like": 52029,
             "reply": 6941,
             "share": 534,
-            "view": 6639828
+            "view": 6639144
         }
     },
     {
@@ -7470,13 +7470,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 40915,
+            "coin": 40913,
             "dm": 1515,
-            "favorite": 5460,
-            "like": 50369,
+            "favorite": 5463,
+            "like": 50364,
             "reply": 5709,
             "share": 416,
-            "view": 7533735
+            "view": 7532888
         }
     },
     {
@@ -7487,13 +7487,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 41881,
+            "coin": 41880,
             "dm": 1267,
             "favorite": 5499,
-            "like": 49523,
+            "like": 49522,
             "reply": 6239,
             "share": 443,
-            "view": 6806372
+            "view": 6805471
         }
     },
     {
@@ -7504,13 +7504,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 47428,
+            "coin": 47426,
             "dm": 1252,
             "favorite": 5957,
-            "like": 53802,
+            "like": 53799,
             "reply": 5927,
             "share": 421,
-            "view": 6402481
+            "view": 6401266
         }
     },
     {
@@ -7521,13 +7521,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 45808,
+            "coin": 45804,
             "dm": 2148,
             "favorite": 5779,
-            "like": 51791,
+            "like": 51789,
             "reply": 7068,
             "share": 490,
-            "view": 6082173
+            "view": 6080886
         }
     },
     {
@@ -7538,13 +7538,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 46193,
-            "dm": 1711,
-            "favorite": 5835,
-            "like": 53251,
+            "coin": 46191,
+            "dm": 1710,
+            "favorite": 5837,
+            "like": 53247,
             "reply": 8829,
             "share": 636,
-            "view": 7182024
+            "view": 7180025
         }
     },
     {
@@ -7555,13 +7555,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 50209,
+            "coin": 50203,
             "dm": 1457,
-            "favorite": 6269,
-            "like": 53926,
-            "reply": 7902,
+            "favorite": 6270,
+            "like": 53920,
+            "reply": 7901,
             "share": 397,
-            "view": 6695634
+            "view": 6692202
         }
     },
     {
@@ -7572,13 +7572,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 40083,
+            "coin": 40073,
             "dm": 995,
-            "favorite": 5137,
-            "like": 46224,
+            "favorite": 5139,
+            "like": 46212,
             "reply": 4269,
             "share": 325,
-            "view": 6363051
+            "view": 6355109
         }
     },
     {
@@ -7589,13 +7589,13 @@
         "type": 2,
         "type_title": "特别花絮",
         "stat": {
-            "coin": 40072,
-            "dm": 2298,
-            "favorite": 5007,
-            "like": 46871,
-            "reply": 3897,
-            "share": 478,
-            "view": 3982770
+            "coin": 39430,
+            "dm": 2272,
+            "favorite": 4896,
+            "like": 46190,
+            "reply": 3803,
+            "share": 446,
+            "view": 3830885
         }
     },
     {
@@ -7606,13 +7606,13 @@
         "type": 10,
         "type_title": "虚天战纪",
         "stat": {
-            "coin": 111414,
-            "dm": 49746,
-            "favorite": 24660,
-            "like": 113905,
+            "coin": 111325,
+            "dm": 49726,
+            "favorite": 24609,
+            "like": 113740,
             "reply": 7166,
-            "share": 9251,
-            "view": 8872439
+            "share": 9235,
+            "view": 8860241
         }
     },
     {
@@ -7623,13 +7623,13 @@
         "type": 10,
         "type_title": "虚天战纪",
         "stat": {
-            "coin": 28627,
+            "coin": 28609,
             "dm": 7695,
-            "favorite": 6681,
-            "like": 35029,
+            "favorite": 6668,
+            "like": 34892,
             "reply": 1343,
-            "share": 1132,
-            "view": 3261767
+            "share": 1127,
+            "view": 3253430
         }
     },
     {
@@ -7640,13 +7640,13 @@
         "type": 2020,
         "type_title": "2020版",
         "stat": {
-            "coin": 392302,
-            "dm": 319540,
+            "coin": 392300,
+            "dm": 319535,
             "favorite": 2165,
-            "like": 462019,
-            "reply": 45142,
+            "like": 462017,
+            "reply": 45140,
             "share": 15947,
-            "view": 123245428
+            "view": 123244696
         }
     },
     {
@@ -7657,13 +7657,13 @@
         "type": 2020,
         "type_title": "2020版",
         "stat": {
-            "coin": 182259,
+            "coin": 182257,
             "dm": 111402,
             "favorite": 670,
-            "like": 157512,
-            "reply": 7880,
+            "like": 157509,
+            "reply": 7879,
             "share": 6768,
-            "view": 26438289
+            "view": 26438093
         }
     },
     {
@@ -7674,13 +7674,13 @@
         "type": 2020,
         "type_title": "2020版",
         "stat": {
-            "coin": 160051,
+            "coin": 160050,
             "dm": 115590,
             "favorite": 607,
-            "like": 133958,
+            "like": 133956,
             "reply": 6698,
             "share": 5928,
-            "view": 21947066
+            "view": 21946922
         }
     },
     {
@@ -7697,7 +7697,7 @@
             "like": 121929,
             "reply": 19908,
             "share": 7024,
-            "view": 20555339
+            "view": 20555240
         }
     },
     {
@@ -7711,10 +7711,10 @@
             "coin": 172511,
             "dm": 105628,
             "favorite": 472,
-            "like": 131199,
+            "like": 131198,
             "reply": 13919,
             "share": 6392,
-            "view": 21895131
+            "view": 21895029
         }
     },
     {
@@ -7731,7 +7731,7 @@
             "like": 127978,
             "reply": 14303,
             "share": 4905,
-            "view": 20284432
+            "view": 20284339
         }
     },
     {
@@ -7748,7 +7748,7 @@
             "like": 127688,
             "reply": 16083,
             "share": 4772,
-            "view": 23215063
+            "view": 23214983
         }
     },
     {
@@ -7761,11 +7761,11 @@
         "stat": {
             "coin": 134053,
             "dm": 57461,
-            "favorite": 433,
+            "favorite": 432,
             "like": 132813,
             "reply": 12596,
             "share": 4914,
-            "view": 19011089
+            "view": 19011020
         }
     },
     {
@@ -7782,7 +7782,7 @@
             "like": 160854,
             "reply": 6521,
             "share": 4543,
-            "view": 18746326
+            "view": 18746262
         }
     },
     {
@@ -7796,10 +7796,10 @@
             "coin": 117614,
             "dm": 73573,
             "favorite": 510,
-            "like": 157997,
+            "like": 157996,
             "reply": 6841,
-            "share": 4294,
-            "view": 18790641
+            "share": 4293,
+            "view": 18790532
         }
     },
     {
@@ -7816,7 +7816,7 @@
             "like": 178437,
             "reply": 8046,
             "share": 5550,
-            "view": 18645588
+            "view": 18645522
         }
     },
     {
@@ -7832,8 +7832,8 @@
             "favorite": 439,
             "like": 166961,
             "reply": 8585,
-            "share": 5637,
-            "view": 16599968
+            "share": 5636,
+            "view": 16599919
         }
     },
     {
@@ -7844,13 +7844,13 @@
         "type": 2020,
         "type_title": "2020版",
         "stat": {
-            "coin": 124719,
+            "coin": 124717,
             "dm": 107825,
             "favorite": 427,
-            "like": 167579,
+            "like": 167577,
             "reply": 6078,
             "share": 4557,
-            "view": 17937079
+            "view": 17936936
         }
     },
     {
@@ -7861,13 +7861,13 @@
         "type": 2020,
         "type_title": "2020版",
         "stat": {
-            "coin": 121570,
+            "coin": 121568,
             "dm": 111852,
             "favorite": 423,
-            "like": 157756,
+            "like": 157755,
             "reply": 8268,
             "share": 4440,
-            "view": 17293692
+            "view": 17293622
         }
     },
     {
@@ -7881,10 +7881,10 @@
             "coin": 138776,
             "dm": 192487,
             "favorite": 478,
-            "like": 183855,
+            "like": 183853,
             "reply": 9740,
             "share": 5173,
-            "view": 18076265
+            "view": 18076033
         }
     },
     {
@@ -7898,10 +7898,10 @@
             "coin": 116285,
             "dm": 86723,
             "favorite": 410,
-            "like": 166192,
+            "like": 166193,
             "reply": 6731,
             "share": 4229,
-            "view": 17273020
+            "view": 17272950
         }
     },
     {
@@ -7914,11 +7914,11 @@
         "stat": {
             "coin": 136541,
             "dm": 82282,
-            "favorite": 438,
-            "like": 190103,
+            "favorite": 437,
+            "like": 190092,
             "reply": 10444,
             "share": 4969,
-            "view": 18859126
+            "view": 18858618
         }
     },
     {
@@ -7932,10 +7932,10 @@
             "coin": 121383,
             "dm": 78448,
             "favorite": 444,
-            "like": 164334,
+            "like": 164335,
             "reply": 5349,
             "share": 4420,
-            "view": 17473270
+            "view": 17473182
         }
     },
     {
@@ -7946,13 +7946,13 @@
         "type": 2020,
         "type_title": "2020版",
         "stat": {
-            "coin": 125744,
+            "coin": 125742,
             "dm": 78113,
             "favorite": 399,
             "like": 164650,
             "reply": 6262,
             "share": 4572,
-            "view": 16644438
+            "view": 16644376
         }
     },
     {
@@ -7966,10 +7966,10 @@
             "coin": 169211,
             "dm": 91895,
             "favorite": 427,
-            "like": 193255,
+            "like": 193256,
             "reply": 9215,
             "share": 6188,
-            "view": 17188529
+            "view": 17188447
         }
     },
     {
@@ -7983,10 +7983,10 @@
             "coin": 238934,
             "dm": 207142,
             "favorite": 477,
-            "like": 267726,
+            "like": 267727,
             "reply": 28425,
             "share": 8789,
-            "view": 19990172
+            "view": 19990023
         }
     }
 ]

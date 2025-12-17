@@ -62,8 +62,10 @@ jobs:
     - name: Commit to the repo
       run: |
         echo 'Commit to the repo'
-        git config --global user.name "yansheng836/bilibili-Fanrenpc"
-        git config --global user.email "bilibili-Fanrenpc[bot]@yansheng836.github.io"
+        #git config --global user.name "yansheng836/bilibili-Fanrenpc"
+        #git config --global user.email "bilibili-Fanrenpc[bot]@yansheng836.github.io"
+        git config --global user.name "yansheng836bot"
+        git config --global user.email "yansheng836bot@163.com"
         # 兼容git status中文乱码问题
         git config --global core.quotepath false
 
@@ -71,4 +73,5 @@ jobs:
         git add .
         # Force the build to succeed, even if no files were changed
         git commit -m 'Update generated files' || true
+
         git push

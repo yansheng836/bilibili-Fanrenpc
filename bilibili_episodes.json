@@ -1400,10 +1400,26 @@
         "type_title": "正片"
     },
     {
-        "id": 2366022,
-        "long_title": "第二季度与诸君重逢",
-        "share_url": "https://www.bilibili.com/bangumi/play/ep2366022",
-        "title": "2026年",
+        "id": 1231584,
+        "long_title": "重返天南24",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep1231584",
+        "title": "176",
+        "type": 0,
+        "type_title": "正片"
+    },
+    {
+        "id": 2656260,
+        "long_title": "",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep2656260",
+        "title": "元婴大战动捕花絮",
+        "type": 1,
+        "type_title": "预告"
+    },
+    {
+        "id": 2656190,
+        "long_title": "",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep2656190",
+        "title": "感谢万名道友与凡人同行！",
         "type": 1,
         "type_title": "预告"
     },
@@ -1412,6 +1428,14 @@
         "long_title": "",
         "share_url": "https://www.bilibili.com/bangumi/play/ep2647121",
         "title": "凡人动画视听音乐会南京站现场回顾",
+        "type": 1,
+        "type_title": "预告"
+    },
+    {
+        "id": 2366022,
+        "long_title": "第二季度与诸君重逢",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep2366022",
+        "title": "2026年",
         "type": 1,
         "type_title": "预告"
     },

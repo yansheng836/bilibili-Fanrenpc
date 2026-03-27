@@ -71,7 +71,14 @@ jobs:
 
         git status
         git add .
+        
         # Force the build to succeed, even if no files were changed
-        git commit -m 'Update generated files' || true
-
-        git push
+        #git commit -m 'Update generated files' || true
+        # 如果文件没有更新时
+        if [[ -n $(git status --porcelain) ]]; then
+            git commit -m "Update generated files on $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+        else
+            echo '没改变，不提交'
+            #git commit --allow-empty -m 'Update generated files(no file change)'
+        fi

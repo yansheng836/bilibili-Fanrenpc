@@ -125,25 +125,25 @@ body {
   margin: 16px 0;
   font-size: 13px;
   border: 1px solid var(--border-light);
-  display: block;
+  display: table;
+  table-layout: fixed;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   border-radius: 8px;
   box-shadow: var(--shadow-sm);
-  table-layout: fixed;
 }
 
 /* 列宽固定，让表格铺满 */
 .main-content th:nth-child(1) { width: 6%; }
-.main-content th:nth-child(2) { width: 5%; }
-.main-content th:nth-child(3) { width: 32%; }
-.main-content th:nth-child(4) { width: 10%; }
-.main-content th:nth-child(5) { width: 8%; }
-.main-content th:nth-child(6) { width: 8%; }
-.main-content th:nth-child(7) { width: 7%; }
-.main-content th:nth-child(8) { width: 9%; }
-.main-content th:nth-child(9) { width: 7%; }
-.main-content th:nth-child(10) { width: 7%; }
+.main-content th:nth-child(2) { width: 18%; }  /* 部分数据集的title较长，需更多宽度 */
+.main-content th:nth-child(3) { width: 28%; }
+.main-content th:nth-child(4) { width: 9%; }
+.main-content th:nth-child(5) { width: 7%; }
+.main-content th:nth-child(6) { width: 7%; }
+.main-content th:nth-child(7) { width: 6%; }
+.main-content th:nth-child(8) { width: 8%; }
+.main-content th:nth-child(9) { width: 6%; }
+.main-content th:nth-child(10) { width: 6%; }
 
 .main-content thead {
   background: var(--primary-gradient);

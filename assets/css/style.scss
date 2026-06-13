@@ -1,19 +1,14 @@
 ---
 ---
 
-@import "jekyll-theme-minimal";
+@import "jekyll-theme-cayman";
 
-/* ===== 动漫国风主题 =====
- * 融合 Bilibili 品牌色与国风水墨元素
- * 宽屏布局, 卡片化设计
- */
+/* ===== 动漫国风主题 ===== */
 :root {
   --bili-pink: #FB7299;
   --bili-blue: #00A1D6;
-  --bili-pink-dark: #F25A8A;
   --primary-gradient: linear-gradient(135deg, #FB7299, #00A1D6);
   --accent-gold: #D4A84B;
-  --ink-light: #F5F5F5;
   --ink-white: #FAFAFA;
   --text-primary: #222;
   --text-secondary: #666;
@@ -29,95 +24,79 @@ body {
   color: var(--text-primary);
 }
 
-/* 覆盖 Minimal 主题的窄容器 */
-.wrapper {
+.main-content {
   max-width: 95% !important;
   width: 95% !important;
-  margin: 0 auto !important;
+  padding: 2rem 0 !important;
 }
 
 @media (min-width: 1400px) {
-  .wrapper {
+  .main-content {
     max-width: 1320px !important;
-    width: 1320px !important;
   }
 }
 
-/* ===== 顶部横幅 ===== */
-header {
+/* ===== 顶部渐变横幅 ===== */
+.page-header {
   background: var(--primary-gradient);
-  margin: 0;
-  padding: 48px 0 36px;
-  border-bottom: none;
+  padding: 3rem 0 !important;
   position: relative;
   overflow: hidden;
 }
 
-/* 水墨纹理背景装饰 */
-header::before {
+/* 水墨装饰圆 */
+.page-header::before {
   content: "";
   position: absolute;
-  top: -50%;
-  right: -10%;
+  top: -40%;
+  right: -8%;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
   border-radius: 50%;
+  pointer-events: none;
 }
 
-header::after {
+.page-header::after {
   content: "";
   position: absolute;
-  bottom: -30%;
+  bottom: -25%;
   left: -5%;
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, transparent 70%);
   border-radius: 50%;
+  pointer-events: none;
 }
 
-header h1 {
-  font-size: 32px;
-  border-bottom: none;
-  margin: 0;
-}
-
-header h1::after {
-  display: none;
-}
-
-header h1 a {
+.project-name {
   color: #fff !important;
   text-shadow: 0 2px 4px rgba(0,0,0,0.15);
-  font-weight: 700;
+  font-weight: 700 !important;
+  position: relative;
+  z-index: 1;
 }
 
-header h1 a:hover {
-  color: rgba(255,255,255,0.85) !important;
-  text-decoration: none;
+.project-tagline {
+  color: rgba(255,255,255,0.9) !important;
+  font-style: normal !important;
+  position: relative;
+  z-index: 1;
 }
 
-header p {
-  color: rgba(255,255,255,0.9);
-  font-size: 15px;
-  margin-top: 8px;
-  font-style: normal;
-}
-
-/* 查看站点链接 */
 .btn {
-  display: none;
+  display: none !important;
 }
 
 /* ===== 标题 ===== */
-h1 {
+.main-content h1 {
   font-size: 26px;
   color: var(--text-primary);
   border-bottom: 2px solid var(--bili-pink);
   padding-bottom: 8px;
 }
 
-h2 {
+.main-content h2 {
   font-size: 20px;
   color: var(--text-primary);
   border-left: 4px solid var(--bili-pink);
@@ -125,24 +104,23 @@ h2 {
   margin-top: 28px;
 }
 
-h3 {
+.main-content h3 {
   font-size: 17px;
   color: var(--text-primary);
 }
 
 /* ===== 链接 ===== */
-a {
+.main-content a {
   color: var(--bili-blue);
-  text-decoration: none;
 }
 
-a:hover {
+.main-content a:hover {
   color: var(--bili-pink);
   text-decoration: underline;
 }
 
 /* ===== 表格 ===== */
-table {
+.main-content table {
   border-collapse: collapse;
   width: 100%;
   margin: 16px 0;
@@ -155,12 +133,12 @@ table {
   box-shadow: var(--shadow-sm);
 }
 
-thead {
+.main-content thead {
   background: var(--primary-gradient);
   color: #fff;
 }
 
-th {
+.main-content th {
   font-weight: 600;
   padding: 10px 8px;
   border: 1px solid rgba(255,255,255,0.15);
@@ -169,26 +147,29 @@ th {
   font-size: 13px;
 }
 
-td {
+.main-content td {
   padding: 8px;
   border: 1px solid var(--border-light);
 }
 
-tr:nth-child(even) {
+.main-content tbody tr:nth-child(even) {
   background-color: rgba(251, 114, 153, 0.04);
 }
 
-tr:hover {
+.main-content tbody tr:hover {
   background: linear-gradient(135deg, rgba(251,114,153,0.08), rgba(0,161,214,0.04));
 }
 
 /* ===== 代码块 ===== */
-code, pre {
-  font-family: "Cascadia Code", "Fira Code", "JetBrains Mono", "Consolas", monospace;
+.main-content code {
+  background: rgba(251, 114, 153, 0.1);
+  color: var(--bili-pink);
+  padding: 2px 6px;
+  border-radius: 4px;
   font-size: 13px;
 }
 
-pre {
+.main-content pre {
   background: #2d2d2d;
   color: #ccc;
   border: none;
@@ -197,21 +178,14 @@ pre {
   box-shadow: var(--shadow-sm);
 }
 
-code {
-  background: rgba(251, 114, 153, 0.1);
-  color: var(--bili-pink-dark);
-  padding: 2px 6px;
-  border-radius: 4px;
-}
-
-pre code {
+.main-content pre code {
   background: none;
   color: #ccc;
   padding: 0;
 }
 
 /* ===== 图片（图表） ===== */
-img {
+.main-content img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
@@ -221,7 +195,7 @@ img {
 }
 
 /* ===== 引用块 ===== */
-blockquote {
+.main-content blockquote {
   border-left: 4px solid var(--bili-pink);
   background: rgba(251, 114, 153, 0.05);
   padding: 12px 18px;
@@ -230,7 +204,7 @@ blockquote {
 }
 
 /* ===== 分割线 ===== */
-hr {
+.main-content hr {
   border: none;
   height: 1px;
   background: linear-gradient(to right, transparent, var(--accent-gold), transparent);
@@ -238,10 +212,10 @@ hr {
 }
 
 /* ===== 底部 ===== */
-footer {
+.site-footer {
   border-top: 1px solid var(--border-light);
-  padding-top: 20px;
-  margin-top: 40px;
+  padding: 20px 0;
+  margin-top: 0;
   text-align: center;
   color: var(--text-secondary);
   font-size: 13px;
@@ -249,24 +223,26 @@ footer {
 
 /* ===== 响应式 ===== */
 @media (max-width: 768px) {
-  .wrapper {
+  .main-content {
     max-width: 98% !important;
     width: 98% !important;
+    padding: 1rem 0 !important;
   }
 
-  header {
-    padding: 32px 0 24px;
+  .page-header {
+    padding: 2rem 0 !important;
   }
 
-  header h1 {
-    font-size: 24px;
+  .project-name {
+    font-size: 1.5rem !important;
   }
 
-  table {
+  .main-content table {
     font-size: 12px;
   }
 
-  th, td {
+  .main-content th,
+  .main-content td {
     padding: 6px 4px;
   }
 }

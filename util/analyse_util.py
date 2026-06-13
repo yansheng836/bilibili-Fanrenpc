@@ -27,14 +27,60 @@ def format_number_string(number_str):
     return formatted[::-1]  # 整体反转回正常顺序
 
 
-def get_md_content_table(data, title):
+def format_number_human_readable(number):
+    """
+    将数字转换为人类可读的格式，使用万/亿单位并保留2位小数
+
+    参数:
+        number: 数字（int 或 float）
+
+    返回:
+        格式化后的字符串，如 '65.15亿', '607.47万', '123'
+    """
+    if number >= 100_000_000:
+        return f'{number / 100_000_000:.2f}亿'
+    elif number >= 10_000:
+        return f'{number / 10_000:.2f}万'
+    else:
+        return str(number)
+
+
+def get_md_content_table(data, title, type_counts=None):
     """
     将数组数据转成markdown格式的表格数据
     :param data: 数组
     :param title: 表头
+    :param type_counts: 各类型数量字典，用于生成数据汇总模块
     :return:
     """
     content = '## ' + title + '\n\n'
+
+    # 数据汇总模块
+    if type_counts:
+        content += '### 数据汇总\n\n'
+
+        content += '**集数统计**\n\n'
+        for type_title, count in type_counts.items():
+            content += f'- {type_title}: {count} 集\n'
+        content += '\n'
+
+        content += '**数据汇总**\n\n'
+        def safe_sum(key):
+            return sum((item.get('stat') or {}).get(key, 0) for item in data)
+        metrics = [
+            ('播放量', 'view'),
+            ('点赞数', 'like'),
+            ('投币数', 'coin'),
+            ('收藏数', 'favorite'),
+            ('弹幕数', 'dm'),
+            ('分享数', 'share'),
+            ('评论数', 'reply'),
+        ]
+        for label, key in metrics:
+            total = safe_sum(key)
+            content += f'- {label}: {format_number_string(total)}（{format_number_human_readable(total)}）\n'
+        content += '\n'
+
     content = content + '### 表格数据\n\n'
     content = content + '|类型|集数|名称|播放量|点赞数|投币数|收藏数|弹幕数|分享数|评论数|\n'
     content = content + '| :--: | :--: | :-------------: | --------: | :----: | -----: | -----: | -----: | -----: | -----: |\n'

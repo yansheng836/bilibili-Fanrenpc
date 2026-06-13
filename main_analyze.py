@@ -61,7 +61,9 @@ if __name__ == "__main__":
     project_title = 'B站《凡人修仙传》动漫总数据统计'
     # 添加更新时间，方便知道数据是什么时候更新的
     mtime = (datetime.datetime.fromtimestamp(os.path.getmtime(json_file))).strftime('%Y-%m-%d %H:%M:%S')
-    md_content = analyse_util.get_md_content_table(lists_filtered, project_title + '(更新时间：%s)' % mtime)
+    # 筛选后各类型数量（仅显示参与统计的类型）
+    filtered_type_counts = {k: v for k, v in type_counts.items() if k in DEFAULT_STAT_TYPES}
+    md_content = analyse_util.get_md_content_table(lists_filtered, project_title + '(更新时间：%s)' % mtime, filtered_type_counts)
 
     # 2. 计算数据的TOP10
     key_values = [

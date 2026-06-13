@@ -61,7 +61,7 @@ B站API → main.py(爬取) → bilibili_episodes_infos.json → main_analyze.py
 
 ## 注意事项
 
-- Python 版本需兼容 3.8（CI环境限制）
+- Python 版本使用 3.12（CI环境）
 - matplotlib 需要中文字体支持（SimHei/WenQuanYi Zen Hei）
 - CI每天北京时间00:00自动运行（UTC 16:00），通过 `.github/workflows/main.yml` 配置
 - `bilibili_episodes_manual.json` 已废弃，虚天战纪和2020版现在可从API获取

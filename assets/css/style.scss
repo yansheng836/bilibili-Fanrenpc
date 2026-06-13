@@ -1,0 +1,191 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+/* ===== 国风配色主题 ===== */
+:root {
+  --ink-black: #2c2c2c;
+  --cinnabar: #B22222;
+  --cinnabar-light: #D4433B;
+  --gold: #B8860B;
+  --rice-paper: #F8F5EE;
+  --rice-paper-dark: #EFE8DA;
+  --sage-green: #5B7B5A;
+  --slate-gray: #4A4A4A;
+  --light-gray: #E5E0D6;
+  --border-color: #D4C9B3;
+}
+
+/* 背景 */
+body {
+  font-family: "Noto Serif SC", "Source Han Serif SC", "SimSun", "STSong", serif;
+  background-color: var(--rice-paper);
+  color: var(--ink-black);
+}
+
+/* 将无衬线字体改为衬线字体 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Noto Serif SC", "Source Han Serif SC", "SimSun", "STSong", serif;
+  color: var(--ink-black);
+}
+
+/* 标题装饰 */
+h1 {
+  border-bottom: 2px solid var(--cinnabar);
+  padding-bottom: 8px;
+  position: relative;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: var(--gold);
+  margin-top: 6px;
+}
+
+h2 {
+  border-left: 4px solid var(--cinnabar);
+  padding-left: 12px;
+}
+
+/* 链接 */
+a {
+  color: var(--cinnabar);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--cinnabar-light);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* 表格 - 国风边框 */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 16px 0;
+  font-size: 14px;
+  border: 1px solid var(--border-color);
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+thead {
+  background: linear-gradient(135deg, var(--cinnabar), #8B0000);
+  color: #fff;
+}
+
+th {
+  font-weight: 600;
+  padding: 10px 8px;
+  border: 1px solid #8B0000;
+  text-align: center;
+  white-space: nowrap;
+}
+
+td {
+  padding: 8px;
+  border: 1px solid var(--border-color);
+}
+
+tr:nth-child(even) {
+  background-color: rgba(184, 134, 11, 0.05);
+}
+
+tr:hover {
+  background-color: rgba(178, 34, 34, 0.06);
+}
+
+/* 代码块 - 仿古籍 */
+code, pre {
+  font-family: "Cascadia Code", "Fira Code", "JetBrains Mono", monospace;
+  background-color: var(--rice-paper-dark);
+  border: 1px solid var(--border-color);
+}
+
+pre {
+  border-radius: 4px;
+  border-left: 3px solid var(--cinnabar);
+}
+
+code {
+  color: var(--cinnabar);
+  padding: 2px 6px;
+}
+
+pre code {
+  color: var(--ink-black);
+}
+
+/* 分割线 - 装饰 */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--gold), transparent);
+  margin: 24px 0;
+}
+
+/* 引用块 - 水墨风格 */
+blockquote {
+  border-left: 4px solid var(--sage-green);
+  background: rgba(91, 123, 90, 0.06);
+  padding: 8px 16px;
+  color: var(--slate-gray);
+  font-style: italic;
+}
+
+/* 内联图片 */
+img {
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* 顶栏站点标题和描述 */
+header h1 {
+  font-size: 28px;
+  border-bottom: none;
+}
+
+header h1::after {
+  display: none;
+}
+
+header h1 a {
+  color: var(--ink-black);
+}
+
+header h1 a:hover {
+  color: var(--cinnabar);
+}
+
+header p {
+  color: var(--slate-gray);
+  font-style: italic;
+}
+
+/* 页脚 */
+footer {
+  border-top: 1px solid var(--border-color);
+  padding-top: 16px;
+  margin-top: 32px;
+  text-align: center;
+  color: var(--slate-gray);
+  font-size: 13px;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  table {
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 6px 4px;
+  }
+}

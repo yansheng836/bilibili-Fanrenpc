@@ -3,153 +3,83 @@
 
 @import "jekyll-theme-minimal";
 
-/* ===== 国风配色主题 ===== */
+/* ===== 动漫国风主题 =====
+ * 融合 Bilibili 品牌色与国风水墨元素
+ * 宽屏布局, 卡片化设计
+ */
 :root {
-  --ink-black: #2c2c2c;
-  --cinnabar: #B22222;
-  --cinnabar-light: #D4433B;
-  --gold: #B8860B;
-  --rice-paper: #F8F5EE;
-  --rice-paper-dark: #EFE8DA;
-  --sage-green: #5B7B5A;
-  --slate-gray: #4A4A4A;
-  --light-gray: #E5E0D6;
-  --border-color: #D4C9B3;
+  --bili-pink: #FB7299;
+  --bili-blue: #00A1D6;
+  --bili-pink-dark: #F25A8A;
+  --primary-gradient: linear-gradient(135deg, #FB7299, #00A1D6);
+  --accent-gold: #D4A84B;
+  --ink-light: #F5F5F5;
+  --ink-white: #FAFAFA;
+  --text-primary: #222;
+  --text-secondary: #666;
+  --border-light: #E8E8E8;
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.08);
 }
 
-/* 背景 */
+/* ===== 宽屏布局 ===== */
 body {
-  font-family: "Noto Serif SC", "Source Han Serif SC", "SimSun", "STSong", serif;
-  background-color: var(--rice-paper);
-  color: var(--ink-black);
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  background: var(--ink-white);
+  color: var(--text-primary);
 }
 
-/* 将无衬线字体改为衬线字体 */
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Noto Serif SC", "Source Han Serif SC", "SimSun", "STSong", serif;
-  color: var(--ink-black);
+/* 覆盖 Minimal 主题的窄容器 */
+.wrapper {
+  max-width: 95% !important;
+  width: 95% !important;
+  margin: 0 auto !important;
 }
 
-/* 标题装饰 */
-h1 {
-  border-bottom: 2px solid var(--cinnabar);
-  padding-bottom: 8px;
-  position: relative;
+@media (min-width: 1400px) {
+  .wrapper {
+    max-width: 1320px !important;
+    width: 1320px !important;
+  }
 }
 
-h1::after {
-  content: "";
-  display: block;
-  width: 40px;
-  height: 3px;
-  background: var(--gold);
-  margin-top: 6px;
-}
-
-h2 {
-  border-left: 4px solid var(--cinnabar);
-  padding-left: 12px;
-}
-
-/* 链接 */
-a {
-  color: var(--cinnabar);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--cinnabar-light);
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-/* 表格 - 国风边框 */
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 16px 0;
-  font-size: 14px;
-  border: 1px solid var(--border-color);
-  display: block;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
-thead {
-  background: linear-gradient(135deg, var(--cinnabar), #8B0000);
-  color: #fff;
-}
-
-th {
-  font-weight: 600;
-  padding: 10px 8px;
-  border: 1px solid #8B0000;
-  text-align: center;
-  white-space: nowrap;
-}
-
-td {
-  padding: 8px;
-  border: 1px solid var(--border-color);
-}
-
-tr:nth-child(even) {
-  background-color: rgba(184, 134, 11, 0.05);
-}
-
-tr:hover {
-  background-color: rgba(178, 34, 34, 0.06);
-}
-
-/* 代码块 - 仿古籍 */
-code, pre {
-  font-family: "Cascadia Code", "Fira Code", "JetBrains Mono", monospace;
-  background-color: var(--rice-paper-dark);
-  border: 1px solid var(--border-color);
-}
-
-pre {
-  border-radius: 4px;
-  border-left: 3px solid var(--cinnabar);
-}
-
-code {
-  color: var(--cinnabar);
-  padding: 2px 6px;
-}
-
-pre code {
-  color: var(--ink-black);
-}
-
-/* 分割线 - 装饰 */
-hr {
-  border: none;
-  height: 1px;
-  background: linear-gradient(to right, transparent, var(--gold), transparent);
-  margin: 24px 0;
-}
-
-/* 引用块 - 水墨风格 */
-blockquote {
-  border-left: 4px solid var(--sage-green);
-  background: rgba(91, 123, 90, 0.06);
-  padding: 8px 16px;
-  color: var(--slate-gray);
-  font-style: italic;
-}
-
-/* 内联图片 */
-img {
-  border-radius: 4px;
-  border: 1px solid var(--border-color);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-}
-
-/* 顶栏站点标题和描述 */
-header h1 {
-  font-size: 28px;
+/* ===== 顶部横幅 ===== */
+header {
+  background: var(--primary-gradient);
+  margin: 0;
+  padding: 48px 0 36px;
   border-bottom: none;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 水墨纹理背景装饰 */
+header::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  bottom: -30%;
+  left: -5%;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+header h1 {
+  font-size: 32px;
+  border-bottom: none;
+  margin: 0;
 }
 
 header h1::after {
@@ -157,30 +87,181 @@ header h1::after {
 }
 
 header h1 a {
-  color: var(--ink-black);
+  color: #fff !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  font-weight: 700;
 }
 
 header h1 a:hover {
-  color: var(--cinnabar);
+  color: rgba(255,255,255,0.85) !important;
+  text-decoration: none;
 }
 
 header p {
-  color: var(--slate-gray);
-  font-style: italic;
+  color: rgba(255,255,255,0.9);
+  font-size: 15px;
+  margin-top: 8px;
+  font-style: normal;
 }
 
-/* 页脚 */
-footer {
-  border-top: 1px solid var(--border-color);
-  padding-top: 16px;
-  margin-top: 32px;
+/* 查看站点链接 */
+.btn {
+  display: none;
+}
+
+/* ===== 标题 ===== */
+h1 {
+  font-size: 26px;
+  color: var(--text-primary);
+  border-bottom: 2px solid var(--bili-pink);
+  padding-bottom: 8px;
+}
+
+h2 {
+  font-size: 20px;
+  color: var(--text-primary);
+  border-left: 4px solid var(--bili-pink);
+  padding-left: 12px;
+  margin-top: 28px;
+}
+
+h3 {
+  font-size: 17px;
+  color: var(--text-primary);
+}
+
+/* ===== 链接 ===== */
+a {
+  color: var(--bili-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--bili-pink);
+  text-decoration: underline;
+}
+
+/* ===== 表格 ===== */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 16px 0;
+  font-size: 13px;
+  border: 1px solid var(--border-light);
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+}
+
+thead {
+  background: var(--primary-gradient);
+  color: #fff;
+}
+
+th {
+  font-weight: 600;
+  padding: 10px 8px;
+  border: 1px solid rgba(255,255,255,0.15);
   text-align: center;
-  color: var(--slate-gray);
+  white-space: nowrap;
   font-size: 13px;
 }
 
-/* 响应式调整 */
+td {
+  padding: 8px;
+  border: 1px solid var(--border-light);
+}
+
+tr:nth-child(even) {
+  background-color: rgba(251, 114, 153, 0.04);
+}
+
+tr:hover {
+  background: linear-gradient(135deg, rgba(251,114,153,0.08), rgba(0,161,214,0.04));
+}
+
+/* ===== 代码块 ===== */
+code, pre {
+  font-family: "Cascadia Code", "Fira Code", "JetBrains Mono", "Consolas", monospace;
+  font-size: 13px;
+}
+
+pre {
+  background: #2d2d2d;
+  color: #ccc;
+  border: none;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: var(--shadow-sm);
+}
+
+code {
+  background: rgba(251, 114, 153, 0.1);
+  color: var(--bili-pink-dark);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+pre code {
+  background: none;
+  color: #ccc;
+  padding: 0;
+}
+
+/* ===== 图片（图表） ===== */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-md);
+  margin: 12px 0;
+}
+
+/* ===== 引用块 ===== */
+blockquote {
+  border-left: 4px solid var(--bili-pink);
+  background: rgba(251, 114, 153, 0.05);
+  padding: 12px 18px;
+  color: var(--text-secondary);
+  border-radius: 0 4px 4px 0;
+}
+
+/* ===== 分割线 ===== */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--accent-gold), transparent);
+  margin: 28px 0;
+}
+
+/* ===== 底部 ===== */
+footer {
+  border-top: 1px solid var(--border-light);
+  padding-top: 20px;
+  margin-top: 40px;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+/* ===== 响应式 ===== */
 @media (max-width: 768px) {
+  .wrapper {
+    max-width: 98% !important;
+    width: 98% !important;
+  }
+
+  header {
+    padding: 32px 0 24px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
   table {
     font-size: 12px;
   }

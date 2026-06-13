@@ -13,6 +13,26 @@ import datetime
 from util import fileutil
 from util import analyse_util
 
+# 默认参与统计的类型（排除修仙之旅等大量非正片内容）
+DEFAULT_STAT_TYPES = ['正片', '预告', '特别花絮', 'UP论道', '虚天战纪', '2020版', '修仙之旅']
+
+
+def filter_by_type(data, type_titles=None):
+    """
+    按 type_title 筛选数据
+
+    Args:
+        data: 原始数据列表
+        type_titles: 要保留的 type_title 列表，None 表示全部保留
+
+    Returns:
+        筛选后的数据列表
+    """
+    if type_titles is None:
+        return data
+    return [item for item in data if item.get('type_title') in type_titles]
+
+
 if __name__ == "__main__":
     print('程序开始了……\n')
     # 数据文件
@@ -22,36 +42,28 @@ if __name__ == "__main__":
     with open(json_file, 'r', encoding='utf-8') as f:
         lists = json.load(f)
 
-    # print(lists)
+    # 统计各类型数量
+    type_counts = {}
+    for item in lists:
+        type_title = item.get('type_title', '未知')
+        type_counts[type_title] = type_counts.get(type_title, 0) + 1
+
+    print('各类型数量:')
+    for type_title, count in type_counts.items():
+        print(f'  {type_title}: {count}')
+
+    # 筛选参与统计的类型
+    lists_filtered = filter_by_type(lists, DEFAULT_STAT_TYPES)
+    print(f'\n参与统计的类型: {DEFAULT_STAT_TYPES}')
+    print(f'筛选后数量: {len(lists_filtered)}')
+
     # 1. 总数据转成md
     project_title = 'B站《凡人修仙传》动漫总数据统计'
-    # 添加更新时间，方便知道数据是什么是否更新的
-    mtime = time_suffix = (datetime.datetime.fromtimestamp(os.path.getmtime(json_file))).strftime('%Y-%m-%d %H:%M:%S')
-    md_content = analyse_util.get_md_content_table(lists, project_title + '(更新时间：%s)' % mtime)
-    # print(md_content)
-    # analyse_util.draw_bar(lists, '总数据统计')
-
-    # with open('./temp.md', 'w', encoding='utf-8') as f:
-    #     f.write(md_content)
+    # 添加更新时间，方便知道数据是什么时候更新的
+    mtime = (datetime.datetime.fromtimestamp(os.path.getmtime(json_file))).strftime('%Y-%m-%d %H:%M:%S')
+    md_content = analyse_util.get_md_content_table(lists_filtered, project_title + '(更新时间：%s)' % mtime)
 
     # 2. 计算数据的TOP10
-    # 单个，后面改用for
-    # 测试按 view 排序
-    # print("按 view 排序结果:")
-    # lists_by_view = fileutil.process_bilibili_data(lists, ['stat.view'], 10)
-    # # for item in lists_by_view:
-    # #     print(f"ID: {item['id']}, view: {item['stat']['view']}")
-    # lists_by_view_md_content = analyse_util.get_md_content_table(lists_by_view, '播放量TOP10')
-    # print(lists_by_view_md_content)
-    # # 画图
-    # analyse_util.draw_bar(lists_by_view, 'view', '播放量TOP10')
-
-    # 测试按多个属性排序
-    # print("\n按coin和dm排序结果:")
-    # result = fileutil.process_bilibili_data(lists, ['stat.coin', 'stat.dm'])
-    # for item in result:
-    #     print(f"ID: {item['id']}, Coin: {item['stat']['coin']}, DM: {item['stat']['dm']}")
-
     key_values = [
         {'value_type': 'view', 'title': '播放量TOP10'},
         {'value_type': 'like', 'title': '点赞数TOP10'},
@@ -63,13 +75,10 @@ if __name__ == "__main__":
     ]
     all_md_content = ''
     for item in key_values:
-        # break
         print('处理数据类型为 %s 的数据' % item['value_type'])
-        # print("按 view 排序结果:")
         # 转成md格式
-        lists_by_temp = fileutil.process_bilibili_data(lists, ['stat.' + str(item['value_type'])], 10)
+        lists_by_temp = fileutil.process_bilibili_data(list(lists_filtered), ['stat.' + str(item['value_type'])], 10)
         lists_by_temp_md_content = analyse_util.get_md_content_table(lists_by_temp, item['title'])
-        # print(lists_by_view_md_content)
 
         # 3.数据可视化，画图
         analyse_util.draw_bar(lists_by_temp, item['value_type'], item['title'])
@@ -86,13 +95,11 @@ if __name__ == "__main__":
     readme_path = 'README.md'
     with open(readme_path, 'r', encoding='utf-8') as f:
         readme_md_content = f.read()
-    # print(readme_md_content)
 
     # 替换关键字之间的数据
     pattern = r'<!-- START_TOC_GENERATED -->\n\n.*?<!-- END_TOC_GENERATED -->'
     replacement = '<!-- START_TOC_GENERATED -->\n\n' + last_md_content + '<!-- END_TOC_GENERATED -->'
     readme_md_content = re.sub(pattern, replacement, readme_md_content, count=1, flags=re.DOTALL)
-    # print(readme_md_content)
 
     with open(readme_path, 'w', encoding='utf-8') as f:
         f.write(readme_md_content)

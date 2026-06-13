@@ -455,5 +455,7 @@ def process_bilibili_data(data, sort_attributes, top_n=10):
 def get_nested_value(obj, keys):
     """获取嵌套字典中的值"""
     for key in keys:
+        if obj is None:
+            return 0
         obj = obj.get(key, {})
     return obj if isinstance(obj, (int, float)) else 0

@@ -162,6 +162,100 @@ def get_bilibili_episodes(season_id: int, types=[0, 1, 2, 10, 2020],
         return []
 
 
+def get_bilibili_sections_by_ep_id(ep_id: int, headers=HEADERS) -> List[Dict[str, Any]]:
+    """
+    通过 ep_id 获取所有 section 数据（预告、花絮、UP论道等）
+
+    Args:
+        ep_id: 任意一个正片的 ep_id
+
+    Returns:
+        section 数据列表，每个 section 包含 title、type、episodes 等字段
+    """
+    url = f"https://api.bilibili.com/pgc/view/web/season?ep_id={ep_id}"
+
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+
+        if data.get("code") != 0:
+            print(f"API返回错误: {data.get('message', '未知错误')}")
+            return []
+
+        sections = data.get("result", {}).get("section", [])
+        return sections
+
+    except requests.exceptions.RequestException as e:
+        print(f"请求失败: {e}")
+        return []
+    except json.JSONDecodeError as e:
+        print(f"JSON解析失败: {e}")
+        return []
+    except Exception as e:
+        print(f"未知错误: {e}")
+        return []
+
+
+def get_bilibili_episodes_old_preview(season_id: int, headers=HEADERS) -> List[Dict[str, Any]]:
+    """
+    从旧API获取完整的预告数据
+
+    旧API返回207集预告，新API仅返回109集（缺了98集，导致播放量少约5亿）。
+
+    Args:
+        season_id: 番剧季节ID
+
+    Returns:
+        预告episodes列表（207集），已补全 long_title 等字段
+    """
+    url = f"https://api.bilibili.com/pgc/web/season/section?season_id={season_id}"
+
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+
+        if data.get("code") != 0:
+            print(f"旧API返回错误: {data.get('message', '未知错误')}")
+            return []
+
+        sections = data.get("result", {}).get("section", [])
+        if not sections:
+            print("旧API未返回section数据")
+            return []
+
+        # 找到标题为"预告"的section（旧API中section[0]是特别花絮，section[1]才是预告）
+        preview_section = None
+        for sec in sections:
+            if sec.get('title') == '预告':
+                preview_section = sec
+                break
+        if not preview_section:
+            print("旧API未找到预告section")
+            return []
+        episodes = preview_section.get("episodes", [])
+        # 旧API的预告没有 long_title，用 title 补全
+        for ep in episodes:
+            ep['type'] = 1
+            ep['type_title'] = '预告'
+            if 'long_title' not in ep or not ep.get('long_title'):
+                ep['long_title'] = ep.get('title', '')
+
+        print(f"旧API获取预告: {len(episodes)} 集")
+        return episodes
+
+    except requests.exceptions.RequestException as e:
+        print(f"请求旧API失败: {e}")
+        return []
+    except json.JSONDecodeError as e:
+        print(f"JSON解析失败: {e}")
+        return []
+    except Exception as e:
+        print(f"未知错误: {e}")
+        return []
+
+
 def get_bilibili_episode_info(ep_id: int, url="https://api.bilibili.com/pgc/season/episode/web/info", headers=HEADERS,
                               buvid3: str = BUVID3) -> List[Dict[str, Any]]:
     """
@@ -214,6 +308,61 @@ def get_bilibili_episode_info(ep_id: int, url="https://api.bilibili.com/pgc/seas
         return None
     except json.JSONDecodeError as e:
         print(f"JSON解析失败: {e}")
+        return None
+
+
+def get_bilibili_video_info(video_id: str, headers=HEADERS) -> dict:
+    """
+    通过视频ID（BVID或AVID）获取 B站普通视频的统计数据（用于UP论道等非番剧类型）
+
+    Args:
+        video_id: B站视频标识，如 "BV1wEVo6eEYv" 或 "av114317617861872"
+
+    Returns:
+        stat 字典，包含 view、like、coin、favorite、dm、share、reply 等字段
+    """
+    # 自动识别 BVID 或 AVID
+    if video_id.startswith('BV') or video_id.startswith('bv'):
+        param = f"bvid={video_id}"
+    else:
+        # 移除 'av' 前缀（如有），使用 aid 参数
+        aid = video_id[2:] if video_id.startswith('av') else video_id
+        param = f"aid={aid}"
+
+    url = f"https://api.bilibili.com/x/web-interface/view?{param}"
+
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+
+        if data.get("code") != 0:
+            print(f"API返回错误: {data.get('message', '未知错误')}")
+            return None
+
+        stat = data.get("data", {}).get("stat", {})
+        if not stat:
+            return None
+
+        # 视频API字段名映射为统一格式
+        return {
+            'view': stat.get('view', 0),
+            'like': stat.get('like', 0),
+            'coin': stat.get('coin', 0),
+            'favorite': stat.get('favorite', 0),
+            'dm': stat.get('danmaku', 0),
+            'share': stat.get('share', 0),
+            'reply': stat.get('reply', 0),
+        }
+
+    except requests.exceptions.RequestException as e:
+        print(f"请求失败: {e}")
+        return None
+    except json.JSONDecodeError as e:
+        print(f"JSON解析失败: {e}")
+        return None
+    except Exception as e:
+        print(f"未知错误: {e}")
         return None
 
 

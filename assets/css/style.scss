@@ -134,9 +134,22 @@ body {
 }
 
 /* 列宽固定，让表格铺满 */
+/* 第一个表格（总数据统计）的集数列含长文本，需更多宽度 */
+.main-content table:first-of-type th:nth-child(1) { width: 5%; }
+.main-content table:first-of-type th:nth-child(2) { width: 18%; }
+.main-content table:first-of-type th:nth-child(3) { width: 27%; }
+.main-content table:first-of-type th:nth-child(4) { width: 9%; }
+.main-content table:first-of-type th:nth-child(5) { width: 7%; }
+.main-content table:first-of-type th:nth-child(6) { width: 7%; }
+.main-content table:first-of-type th:nth-child(7) { width: 6%; }
+.main-content table:first-of-type th:nth-child(8) { width: 8%; }
+.main-content table:first-of-type th:nth-child(9) { width: 6%; }
+.main-content table:first-of-type th:nth-child(10) { width: 6%; }
+
+/* TOP10 等子表格的集数列仅是数字，窄一些 */
 .main-content th:nth-child(1) { width: 6%; }
-.main-content th:nth-child(2) { width: 18%; }  /* 部分数据集的title较长，需更多宽度 */
-.main-content th:nth-child(3) { width: 28%; }
+.main-content th:nth-child(2) { width: 6%; }
+.main-content th:nth-child(3) { width: 34%; }
 .main-content th:nth-child(4) { width: 9%; }
 .main-content th:nth-child(5) { width: 7%; }
 .main-content th:nth-child(6) { width: 7%; }

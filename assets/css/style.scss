@@ -241,8 +241,10 @@ body {
   user-select: none;
   font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
   transition: box-shadow 0.2s;
-  line-height: 1.2;
-  text-align: center;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .toc-nav-btn:active {
@@ -257,9 +259,9 @@ body {
   bottom: 0;
   z-index: 1002;
   width: 240px;
-  background: rgba(255, 255, 255, 0.94);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   box-shadow: var(--shadow-md);
   padding: 20px 0 16px;
   overflow-y: auto;
@@ -366,8 +368,11 @@ body {
     writing-mode: horizontal-tb;
     letter-spacing: 2px;
     font-size: 13px;
-    line-height: 28px;
+    line-height: 1;
     box-shadow: var(--shadow-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .toc-nav-panel {

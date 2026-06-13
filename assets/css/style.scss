@@ -130,6 +130,7 @@ body {
   -webkit-overflow-scrolling: touch;
   border-radius: 8px;
   box-shadow: var(--shadow-sm);
+  table-layout: fixed;
 }
 
 /* 列宽固定，让表格铺满 */
@@ -161,6 +162,7 @@ body {
 .main-content td {
   padding: 8px;
   border: 1px solid var(--border-light);
+  word-break: break-word;
 }
 
 .main-content tbody tr:nth-child(even) {
@@ -197,12 +199,17 @@ body {
 
 /* ===== 图片（图表） ===== */
 .main-content img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   border-radius: 8px;
   border: 1px solid var(--border-light);
   box-shadow: var(--shadow-md);
   margin: 12px 0;
+}
+
+/* 只有独立占行的图片（图表）才撑满，不影响行内 shields 徽章 */
+.main-content p:has(> img:only-child) img {
+  width: 100%;
 }
 
 /* ===== 引用块 ===== */

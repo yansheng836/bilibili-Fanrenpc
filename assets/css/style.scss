@@ -27,7 +27,7 @@ body {
 .main-content {
   max-width: 95% !important;
   width: 95% !important;
-  padding: 2rem 0 !important;
+  padding: 2rem 1rem !important;
 }
 
 @media (min-width: 1400px) {
@@ -39,12 +39,11 @@ body {
 /* ===== 顶部渐变横幅 ===== */
 .page-header {
   background: var(--primary-gradient);
-  padding: 3rem 0 !important;
+  padding: 3rem 1rem !important;
   position: relative;
   overflow: hidden;
 }
 
-/* 水墨装饰圆 */
 .page-header::before {
   content: "";
   position: absolute;
@@ -214,124 +213,179 @@ body {
 /* ===== 底部 ===== */
 .site-footer {
   border-top: 1px solid var(--border-light);
-  padding: 20px 0;
+  padding: 20px 1rem;
   margin-top: 0;
   text-align: center;
   color: var(--text-secondary);
   font-size: 13px;
 }
 
-/* ===== 左侧悬浮导航 ===== */
-.toc-nav-trigger {
+/* ===== 左侧导航按钮 ===== */
+.toc-nav-btn {
   position: fixed;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-}
-
-.toc-nav-btn {
-  writing-mode: vertical-rl;
+  z-index: 1001;
   background: var(--primary-gradient);
   color: #fff;
   border: none;
   border-radius: 0 8px 8px 0;
-  padding: 16px 6px;
-  font-size: 13px;
+  width: 28px;
+  padding: 16px 0;
+  font-size: 14px;
   cursor: pointer;
-  letter-spacing: 4px;
   box-shadow: var(--shadow-md);
-  transition: padding 0.2s;
+  writing-mode: vertical-rl;
+  letter-spacing: 4px;
   user-select: none;
   font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  transition: box-shadow 0.2s;
 }
 
-.toc-nav-btn:hover {
-  padding-left: 10px;
+.toc-nav-btn:active {
+  box-shadow: var(--shadow-sm);
 }
 
+/* 导航面板 */
 .toc-nav-panel {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1002;
+  width: 240px;
   background: #fff;
-  border: 1px solid var(--border-light);
-  border-left: none;
-  border-radius: 0 12px 12px 0;
   box-shadow: var(--shadow-md);
-  padding: 16px 0;
-  max-height: 70vh;
+  padding: 20px 0 16px;
   overflow-y: auto;
-  opacity: 0;
-  visibility: hidden;
   transform: translateX(-100%);
-  transition: all 0.25s ease;
-  min-width: 200px;
-  max-width: 260px;
+  transition: transform 0.25s ease;
 }
 
-.toc-nav-trigger:hover .toc-nav-panel {
-  opacity: 1;
-  visibility: visible;
+.toc-nav-panel.open {
   transform: translateX(0);
 }
 
+/* 遮罩层 */
+.toc-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.25s ease;
+}
+
+.toc-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
 .toc-nav-panel .toc-title {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   color: var(--bili-pink);
-  padding: 0 16px 10px;
+  padding: 0 20px 12px;
   border-bottom: 1px solid var(--border-light);
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .toc-nav-panel a {
   display: block;
-  padding: 6px 16px;
+  padding: 8px 20px;
   font-size: 13px;
   color: var(--text-secondary);
   text-decoration: none;
   transition: all 0.15s;
   border-left: 3px solid transparent;
   line-height: 1.4;
+  word-break: break-all;
 }
 
-.toc-nav-panel a:hover {
+.toc-nav-panel a:hover,
+.toc-nav-panel a:active {
   color: var(--bili-pink);
   background: rgba(251, 114, 153, 0.05);
   border-left-color: var(--bili-pink);
 }
 
 .toc-nav-panel a.toc-h3 {
-  padding-left: 28px;
+  padding-left: 32px;
   font-size: 12px;
 }
 
 /* ===== 响应式 ===== */
 @media (max-width: 768px) {
   .main-content {
-    max-width: 98% !important;
-    width: 98% !important;
-    padding: 1rem 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 1rem 12px !important;
   }
 
   .page-header {
-    padding: 2rem 0 !important;
+    padding: 2rem 12px !important;
   }
 
   .project-name {
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
+  }
+
+  .project-tagline {
+    font-size: 1rem !important;
   }
 
   .main-content table {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .main-content th,
   .main-content td {
-    padding: 6px 4px;
+    padding: 5px 3px;
   }
 
-  .toc-nav-trigger {
+  .site-footer {
+    padding: 16px 12px;
+    font-size: 12px;
+  }
+
+  .toc-nav-btn {
+    width: 24px;
+    padding: 12px 0;
+    font-size: 12px;
+    top: auto;
+    bottom: 20px;
+    transform: none;
+    border-radius: 8px 8px 0 0;
+    writing-mode: horizontal-tb;
+    letter-spacing: 2px;
+  }
+
+  .toc-nav-panel {
+    width: 75%;
+    max-width: 280px;
+  }
+
+  .toc-nav-btn .btn-label-desktop {
+    display: none;
+  }
+
+  .toc-nav-btn .btn-label-mobile {
+    display: inline;
+  }
+}
+
+.toc-nav-btn .btn-label-mobile {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .toc-nav-btn .btn-label-desktop {
+    display: inline;
+  }
+
+  .toc-nav-btn .btn-label-mobile {
     display: none;
   }
 }

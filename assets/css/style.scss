@@ -134,29 +134,29 @@ body {
 }
 
 /* 列宽固定，让表格铺满 */
-/* 第一个表格（总数据统计）的集数列含长文本，需更多宽度 */
-.main-content table:first-of-type th:nth-child(1) { width: 5%; }
-.main-content table:first-of-type th:nth-child(2) { width: 18%; }
-.main-content table:first-of-type th:nth-child(3) { width: 27%; }
-.main-content table:first-of-type th:nth-child(4) { width: 9%; }
+/* 第一个表格（总数据统计）：列1 7%，数据列各7%，列2和列3平分剩余 */
+.main-content table:first-of-type th:nth-child(1) { width: 7%; }
+.main-content table:first-of-type th:nth-child(2) { width: 22%; }
+.main-content table:first-of-type th:nth-child(3) { width: 22%; }
+.main-content table:first-of-type th:nth-child(4) { width: 7%; }
 .main-content table:first-of-type th:nth-child(5) { width: 7%; }
 .main-content table:first-of-type th:nth-child(6) { width: 7%; }
-.main-content table:first-of-type th:nth-child(7) { width: 6%; }
-.main-content table:first-of-type th:nth-child(8) { width: 8%; }
-.main-content table:first-of-type th:nth-child(9) { width: 6%; }
-.main-content table:first-of-type th:nth-child(10) { width: 6%; }
+.main-content table:first-of-type th:nth-child(7) { width: 7%; }
+.main-content table:first-of-type th:nth-child(8) { width: 7%; }
+.main-content table:first-of-type th:nth-child(9) { width: 7%; }
+.main-content table:first-of-type th:nth-child(10) { width: 7%; }
 
-/* TOP10 等子表格的集数列仅是数字，窄一些 */
-.main-content th:nth-child(1) { width: 6%; }
-.main-content th:nth-child(2) { width: 6%; }
-.main-content th:nth-child(3) { width: 34%; }
-.main-content th:nth-child(4) { width: 9%; }
+/* 其他表格统一相同列宽 */
+.main-content th:nth-child(1) { width: 7%; }
+.main-content th:nth-child(2) { width: 22%; }
+.main-content th:nth-child(3) { width: 22%; }
+.main-content th:nth-child(4) { width: 7%; }
 .main-content th:nth-child(5) { width: 7%; }
 .main-content th:nth-child(6) { width: 7%; }
-.main-content th:nth-child(7) { width: 6%; }
-.main-content th:nth-child(8) { width: 8%; }
-.main-content th:nth-child(9) { width: 6%; }
-.main-content th:nth-child(10) { width: 6%; }
+.main-content th:nth-child(7) { width: 7%; }
+.main-content th:nth-child(8) { width: 7%; }
+.main-content th:nth-child(9) { width: 7%; }
+.main-content th:nth-child(10) { width: 7%; }
 
 .main-content thead {
   background: var(--primary-gradient);
@@ -376,6 +376,11 @@ body {
 
   .main-content table {
     font-size: 11px;
+    table-layout: auto;
+  }
+
+  .main-content th:nth-child(n) {
+    width: auto;
   }
 
   .main-content th,

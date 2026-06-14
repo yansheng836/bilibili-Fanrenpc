@@ -83,7 +83,7 @@ def get_md_content_table(data, title, type_counts=None):
 
     content = content + '### 表格数据\n\n'
     content = content + '|类型|集数|名称|播放量|点赞数|投币数|收藏数|弹幕数|分享数|评论数|\n'
-    content = content + '| :--: | :--: | :-------------: | --------: | :----: | -----: | -----: | -----: | -----: | -----: |\n'
+    content = content + '| :--: | :--: | :-------------: | --------: | -----: | -----: | -----: | -----: | -----: | -----: |\n'
 
     for item in data:
         stat = item.get('stat') or {}

@@ -125,38 +125,12 @@ body {
   margin: 16px 0;
   font-size: 13px;
   border: 1px solid var(--border-light);
-  display: table;
-  table-layout: fixed;
+  display: block;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   border-radius: 8px;
   box-shadow: var(--shadow-sm);
 }
-
-/* 列宽固定，让表格铺满 */
-/* 第一个表格（总数据统计）：列1 7%，数据列各7%，列2和列3平分剩余 */
-.main-content table:first-of-type th:nth-child(1) { width: 7%; }
-.main-content table:first-of-type th:nth-child(2) { width: 22%; }
-.main-content table:first-of-type th:nth-child(3) { width: 22%; }
-.main-content table:first-of-type th:nth-child(4) { width: 7%; }
-.main-content table:first-of-type th:nth-child(5) { width: 7%; }
-.main-content table:first-of-type th:nth-child(6) { width: 7%; }
-.main-content table:first-of-type th:nth-child(7) { width: 7%; }
-.main-content table:first-of-type th:nth-child(8) { width: 7%; }
-.main-content table:first-of-type th:nth-child(9) { width: 7%; }
-.main-content table:first-of-type th:nth-child(10) { width: 7%; }
-
-/* 其他表格统一相同列宽 */
-.main-content th:nth-child(1) { width: 7%; }
-.main-content th:nth-child(2) { width: 22%; }
-.main-content th:nth-child(3) { width: 22%; }
-.main-content th:nth-child(4) { width: 7%; }
-.main-content th:nth-child(5) { width: 7%; }
-.main-content th:nth-child(6) { width: 7%; }
-.main-content th:nth-child(7) { width: 7%; }
-.main-content th:nth-child(8) { width: 7%; }
-.main-content th:nth-child(9) { width: 7%; }
-.main-content th:nth-child(10) { width: 7%; }
 
 .main-content thead {
   background: var(--primary-gradient);
@@ -175,7 +149,6 @@ body {
 .main-content td {
   padding: 8px;
   border: 1px solid var(--border-light);
-  word-break: break-word;
 }
 
 .main-content tbody tr:nth-child(even) {
@@ -376,11 +349,6 @@ body {
 
   .main-content table {
     font-size: 11px;
-    table-layout: auto;
-  }
-
-  .main-content th:nth-child(n) {
-    width: auto;
   }
 
   .main-content th,

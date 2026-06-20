@@ -1424,6 +1424,14 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep3854802"
     },
     {
+        "id": 3854803,
+        "title": "179",
+        "long_title": "慕兰之战03",
+        "type": 0,
+        "type_title": "正片",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep3854803"
+    },
+    {
         "id": 4134118,
         "title": "慕兰之战倒计时1天",
         "long_title": "韩立CV钱文青及主创邀你一起追番",
@@ -4025,6 +4033,14 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep4292422"
     },
     {
+        "id": 4292424,
+        "title": "慕兰之战第4集预告",
+        "long_title": "慕兰之战第4集预告",
+        "type": 1,
+        "type_title": "预告",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4292424"
+    },
+    {
         "id": 215048,
         "title": "独家对话：凡人导演带你看人界篇燃点天花板慕兰之战！",
         "type": 5,
@@ -4440,6 +4456,33 @@
         "type_title": "2020版",
         "share_url": "https://www.bilibili.com/bangumi/play/ep734383",
         "link": "https://www.bilibili.com/bangumi/play/ep734383"
+    },
+    {
+        "id": 4389449,
+        "title": "南宫婉询问韩立",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4389449",
+        "link": "https://www.bilibili.com/bangumi/play/ep4389449"
+    },
+    {
+        "id": 4389450,
+        "title": "久违了，南宫婉",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4389450",
+        "link": "https://www.bilibili.com/bangumi/play/ep4389450"
+    },
+    {
+        "id": 4389451,
+        "title": "南宫婉吃栗子糕",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4389451",
+        "link": "https://www.bilibili.com/bangumi/play/ep4389451"
     },
     {
         "id": 4306103,

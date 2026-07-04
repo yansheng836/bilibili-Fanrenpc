@@ -1440,6 +1440,14 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep3854804"
     },
     {
+        "id": 3854805,
+        "title": "181",
+        "long_title": "慕兰之战05",
+        "type": 0,
+        "type_title": "正片",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep3854805"
+    },
+    {
         "id": 4474923,
         "title": "导视PV",
         "long_title": "慕兰之战篇精彩继续",
@@ -4066,6 +4074,14 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep4292425"
     },
     {
+        "id": 4292426,
+        "title": "慕兰之战第6集预告",
+        "long_title": "慕兰之战第6集预告",
+        "type": 1,
+        "type_title": "预告",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4292426"
+    },
+    {
         "id": 215048,
         "title": "独家对话：凡人导演带你看人界篇燃点天花板慕兰之战！",
         "type": 5,
@@ -4481,6 +4497,33 @@
         "type_title": "2020版",
         "share_url": "https://www.bilibili.com/bangumi/play/ep734383",
         "link": "https://www.bilibili.com/bangumi/play/ep734383"
+    },
+    {
+        "id": 4617571,
+        "title": "我不会让任何人阻碍掩月宗的复兴",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4617571",
+        "link": "https://www.bilibili.com/bangumi/play/ep4617571"
+    },
+    {
+        "id": 4617570,
+        "title": "南宫婉施展轮回神光",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4617570",
+        "link": "https://www.bilibili.com/bangumi/play/ep4617570"
+    },
+    {
+        "id": 4617569,
+        "title": "韩立南宫婉再次合作",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4617569",
+        "link": "https://www.bilibili.com/bangumi/play/ep4617569"
     },
     {
         "id": 4511038,

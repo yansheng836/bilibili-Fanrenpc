@@ -1448,6 +1448,14 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep3854805"
     },
     {
+        "id": 3854806,
+        "title": "182",
+        "long_title": "慕兰之战06",
+        "type": 0,
+        "type_title": "正片",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep3854806"
+    },
+    {
         "id": 4712881,
         "title": "掩月宗之战动捕花絮",
         "long_title": "",
@@ -4091,6 +4099,14 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep4292426"
     },
     {
+        "id": 4292427,
+        "title": "慕兰之战第7集预告",
+        "long_title": "慕兰之战第7集预告",
+        "type": 1,
+        "type_title": "预告",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4292427"
+    },
+    {
         "id": 215048,
         "title": "独家对话：凡人导演带你看人界篇燃点天花板慕兰之战！",
         "type": 5,
@@ -4506,6 +4522,33 @@
         "type_title": "2020版",
         "share_url": "https://www.bilibili.com/bangumi/play/ep734383",
         "link": "https://www.bilibili.com/bangumi/play/ep734383"
+    },
+    {
+        "id": 4709203,
+        "title": "慕兰圣女乐上师登场",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4709203",
+        "link": "https://www.bilibili.com/bangumi/play/ep4709203"
+    },
+    {
+        "id": 4709202,
+        "title": "韩立搜魂阴罗宗修士",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4709202",
+        "link": "https://www.bilibili.com/bangumi/play/ep4709202"
+    },
+    {
+        "id": 4709201,
+        "title": "韩立获得血魔剑",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4709201",
+        "link": "https://www.bilibili.com/bangumi/play/ep4709201"
     },
     {
         "id": 4617571,

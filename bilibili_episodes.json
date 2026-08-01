@@ -1472,6 +1472,14 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep3854808"
     },
     {
+        "id": 3854809,
+        "title": "185",
+        "long_title": "慕兰之战09",
+        "type": 0,
+        "type_title": "正片",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep3854809"
+    },
+    {
         "id": 5003270,
         "title": "【大豫园X《凡人》动画】",
         "long_title": "华宝楼畔，灯火阑珊",
@@ -4193,6 +4201,14 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep4292429"
     },
     {
+        "id": 4292430,
+        "title": "慕兰之战第10集预告",
+        "long_title": "慕兰之战第10集预告",
+        "type": 1,
+        "type_title": "预告",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4292430"
+    },
+    {
         "id": 215048,
         "title": "独家对话：凡人导演带你看人界篇燃点天花板慕兰之战！",
         "type": 5,
@@ -4608,6 +4624,33 @@
         "type_title": "2020版",
         "share_url": "https://www.bilibili.com/bangumi/play/ep734383",
         "link": "https://www.bilibili.com/bangumi/play/ep734383"
+    },
+    {
+        "id": 5050514,
+        "title": "南陇侯邀请韩立前往坠魔谷",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep5050514",
+        "link": "https://www.bilibili.com/bangumi/play/ep5050514"
+    },
+    {
+        "id": 5050515,
+        "title": "韩立追忆李化元",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep5050515",
+        "link": "https://www.bilibili.com/bangumi/play/ep5050515"
+    },
+    {
+        "id": 5050516,
+        "title": "令狐邀请韩立重回黄枫谷",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep5050516",
+        "link": "https://www.bilibili.com/bangumi/play/ep5050516"
     },
     {
         "id": 4937063,

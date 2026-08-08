@@ -1480,6 +1480,14 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep3854809"
     },
     {
+        "id": 3854810,
+        "title": "186",
+        "long_title": "慕兰之战10",
+        "type": 0,
+        "type_title": "正片",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep3854810"
+    },
+    {
         "id": 5003270,
         "title": "【大豫园X《凡人》动画】",
         "long_title": "华宝楼畔，灯火阑珊",
@@ -4209,6 +4217,14 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep4292430"
     },
     {
+        "id": 4292431,
+        "title": "慕兰之战第11集预告",
+        "long_title": "慕兰之战第11集预告",
+        "type": 1,
+        "type_title": "预告",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4292431"
+    },
+    {
         "id": 215048,
         "title": "独家对话：凡人导演带你看人界篇燃点天花板慕兰之战！",
         "type": 5,
@@ -4624,6 +4640,33 @@
         "type_title": "2020版",
         "share_url": "https://www.bilibili.com/bangumi/play/ep734383",
         "link": "https://www.bilibili.com/bangumi/play/ep734383"
+    },
+    {
+        "id": 5177848,
+        "title": "韩立主动请缨前往黄龙山",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep5177848",
+        "link": "https://www.bilibili.com/bangumi/play/ep5177848"
+    },
+    {
+        "id": 5177849,
+        "title": "韩立点破慕兰特使诡计",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep5177849",
+        "link": "https://www.bilibili.com/bangumi/play/ep5177849"
+    },
+    {
+        "id": 5177850,
+        "title": "公子，一路平安",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep5177850",
+        "link": "https://www.bilibili.com/bangumi/play/ep5177850"
     },
     {
         "id": 5050514,

@@ -22,7 +22,7 @@ jobs:
 
     # Check out repository under $GITHUB_WORKSPACE, so the job can access it
     - name: Checkout code
-      uses: actions/checkout@v6.0.3
+      uses: actions/checkout@v7.0.1
 
     # Run using Python 3.12 for compatibility with latest dependencies
     - name: Set up Python 3.12

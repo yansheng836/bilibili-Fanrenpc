@@ -1488,6 +1488,14 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep3854810"
     },
     {
+        "id": 3854811,
+        "title": "187",
+        "long_title": "慕兰之战11",
+        "type": 0,
+        "type_title": "正片",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep3854811"
+    },
+    {
         "id": 5406521,
         "title": "663位学子已收到道友帮助！",
         "long_title": "",
@@ -4234,6 +4242,14 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep4292431"
     },
     {
+        "id": 4292432,
+        "title": "黄龙山前瞻PV",
+        "long_title": "黄龙山前瞻PV",
+        "type": 1,
+        "type_title": "预告",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4292432"
+    },
+    {
         "id": 215048,
         "title": "独家对话：凡人导演带你看人界篇燃点天花板慕兰之战！",
         "type": 5,
@@ -4649,6 +4665,33 @@
         "type_title": "2020版",
         "share_url": "https://www.bilibili.com/bangumi/play/ep734383",
         "link": "https://www.bilibili.com/bangumi/play/ep734383"
+    },
+    {
+        "id": 5461920,
+        "title": "韩立炼制紫罗极火",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep5461920",
+        "link": "https://www.bilibili.com/bangumi/play/ep5461920"
+    },
+    {
+        "id": 5461919,
+        "title": "韩立问起李缨宁胥国往事",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep5461919",
+        "link": "https://www.bilibili.com/bangumi/play/ep5461919"
+    },
+    {
+        "id": 5461918,
+        "title": "李缨宁迎接韩立三人",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep5461918",
+        "link": "https://www.bilibili.com/bangumi/play/ep5461918"
     },
     {
         "id": 5177848,

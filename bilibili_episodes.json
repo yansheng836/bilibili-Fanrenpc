@@ -1504,6 +1504,23 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep3854812"
     },
     {
+        "id": 3854813,
+        "title": "189",
+        "long_title": "慕兰之战13",
+        "type": 0,
+        "type_title": "正片",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep3854813"
+    },
+    {
+        "id": 5721809,
+        "title": "凡人动画嘉年华2026",
+        "long_title": "",
+        "type": 2,
+        "type_title": "特别花絮",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep5721809",
+        "link": "https://www.bilibili.com/bangumi/play/ep5721809"
+    },
+    {
         "id": 5406521,
         "title": "663位学子已收到道友帮助！",
         "long_title": "",
@@ -4264,6 +4281,14 @@
         "type": 1,
         "type_title": "预告",
         "share_url": "https://www.bilibili.com/bangumi/play/ep4292433"
+    },
+    {
+        "id": 4292434,
+        "title": "慕兰之战第14集预告",
+        "long_title": "慕兰之战第14集预告",
+        "type": 1,
+        "type_title": "预告",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4292434"
     },
     {
         "id": 215048,

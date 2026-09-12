@@ -1520,6 +1520,14 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep3854814"
     },
     {
+        "id": 3854815,
+        "title": "191",
+        "long_title": "慕兰之战15",
+        "type": 0,
+        "type_title": "正片",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep3854815"
+    },
+    {
         "id": 5721809,
         "title": "凡人动画嘉年华2026",
         "long_title": "",
@@ -4305,6 +4313,14 @@
         "type": 1,
         "type_title": "预告",
         "share_url": "https://www.bilibili.com/bangumi/play/ep4292435"
+    },
+    {
+        "id": 4292436,
+        "title": "慕兰之战第16集预告",
+        "long_title": "慕兰之战第16集预告",
+        "type": 1,
+        "type_title": "预告",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4292436"
     },
     {
         "id": 215048,

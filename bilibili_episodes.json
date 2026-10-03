@@ -1544,6 +1544,14 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep3854817"
     },
     {
+        "id": 3854818,
+        "title": "194",
+        "long_title": "慕兰之战18",
+        "type": 0,
+        "type_title": "正片",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep3854818"
+    },
+    {
         "id": 6547825,
         "title": "2026凡人动画星海天南嘉年华",
         "long_title": "全程回顾",
@@ -4382,6 +4390,14 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep4292438"
     },
     {
+        "id": 4292439,
+        "title": "慕兰之战第19集预告",
+        "long_title": "慕兰之战第19集预告",
+        "type": 1,
+        "type_title": "预告",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4292439"
+    },
+    {
         "id": 215048,
         "title": "独家对话：凡人导演带你看人界篇燃点天花板慕兰之战！",
         "type": 5,
@@ -4797,6 +4813,33 @@
         "type_title": "2020版",
         "share_url": "https://www.bilibili.com/bangumi/play/ep734383",
         "link": "https://www.bilibili.com/bangumi/play/ep734383"
+    },
+    {
+        "id": 6556235,
+        "title": "韩立对战乐上师",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep6556235",
+        "link": "https://www.bilibili.com/bangumi/play/ep6556235"
+    },
+    {
+        "id": 6556234,
+        "title": "陆元镇对战覃上师",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep6556234",
+        "link": "https://www.bilibili.com/bangumi/play/ep6556234"
+    },
+    {
+        "id": 6556233,
+        "title": "马知墨对战窟耀",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep6556233",
+        "link": "https://www.bilibili.com/bangumi/play/ep6556233"
     },
     {
         "id": 6431219,

@@ -1552,6 +1552,23 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep3854818"
     },
     {
+        "id": 3854819,
+        "title": "195",
+        "long_title": "慕兰之战19",
+        "type": 0,
+        "type_title": "正片",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep3854819"
+    },
+    {
+        "id": 6707740,
+        "title": "万年灵乳源头现世！",
+        "long_title": "竟是伊利健康谷",
+        "type": 2,
+        "type_title": "特别花絮",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep6707740",
+        "link": "https://www.bilibili.com/bangumi/play/ep6707740"
+    },
+    {
         "id": 6547825,
         "title": "2026凡人动画星海天南嘉年华",
         "long_title": "全程回顾",
@@ -4398,11 +4415,26 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep4292439"
     },
     {
+        "id": 4292440,
+        "title": "慕兰之战第20集预告",
+        "long_title": "慕兰之战第20集预告",
+        "type": 1,
+        "type_title": "预告",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4292440"
+    },
+    {
         "id": 215048,
         "title": "独家对话：凡人导演带你看人界篇燃点天花板慕兰之战！",
         "type": 5,
         "type_title": "UP论道",
         "link": "https://www.bilibili.com/video/BV18CEY6oEyH"
+    },
+    {
+        "id": 216534,
+        "title": "《沪 人 修 仙 传》",
+        "type": 5,
+        "type_title": "UP论道",
+        "link": "https://www.bilibili.com/video/BV1cBpi6YE8L"
     },
     {
         "id": 215009,
@@ -4599,13 +4631,6 @@
         "type": 5,
         "type_title": "UP论道",
         "link": "https://www.bilibili.com/video/av114323926029241"
-    },
-    {
-        "id": 208188,
-        "title": "炸裂战斗！B站国创巅峰一战！《凡人修仙传》137逐帧解析",
-        "type": 5,
-        "type_title": "UP论道",
-        "link": "https://www.bilibili.com/video/av114284247911955"
     },
     {
         "id": 1396637,
@@ -4813,6 +4838,33 @@
         "type_title": "2020版",
         "share_url": "https://www.bilibili.com/bangumi/play/ep734383",
         "link": "https://www.bilibili.com/bangumi/play/ep734383"
+    },
+    {
+        "id": 6703073,
+        "title": "纵使燃烧精血也在所不惜",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep6703073",
+        "link": "https://www.bilibili.com/bangumi/play/ep6703073"
+    },
+    {
+        "id": 6703072,
+        "title": "仲神师追击韩立四天四夜",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep6703072",
+        "link": "https://www.bilibili.com/bangumi/play/ep6703072"
+    },
+    {
+        "id": 6703071,
+        "title": "韩立银月联手击败乐上师",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep6703071",
+        "link": "https://www.bilibili.com/bangumi/play/ep6703071"
     },
     {
         "id": 6556235,

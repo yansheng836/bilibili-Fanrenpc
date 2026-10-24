@@ -1568,6 +1568,14 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep3854820"
     },
     {
+        "id": 3854821,
+        "title": "197",
+        "long_title": "慕兰之战21",
+        "type": 0,
+        "type_title": "正片",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep3854821"
+    },
+    {
         "id": 6707740,
         "title": "万年灵乳源头现世！",
         "long_title": "竟是伊利健康谷",
@@ -4439,6 +4447,14 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep4292441"
     },
     {
+        "id": 4292442,
+        "title": "慕兰之战第22集预告",
+        "long_title": "慕兰之战第22集预告",
+        "type": 1,
+        "type_title": "预告",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4292442"
+    },
+    {
         "id": 215048,
         "title": "独家对话：凡人导演带你看人界篇燃点天花板慕兰之战！",
         "type": 5,
@@ -4854,6 +4870,33 @@
         "type_title": "2020版",
         "share_url": "https://www.bilibili.com/bangumi/play/ep734383",
         "link": "https://www.bilibili.com/bangumi/play/ep734383"
+    },
+    {
+        "id": 7163993,
+        "title": "银月突破瓶颈",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep7163993",
+        "link": "https://www.bilibili.com/bangumi/play/ep7163993"
+    },
+    {
+        "id": 7163992,
+        "title": "魏无涯守卫阗天城",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep7163992",
+        "link": "https://www.bilibili.com/bangumi/play/ep7163992"
+    },
+    {
+        "id": 7163991,
+        "title": "南宫婉得知韩立消息",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep7163991",
+        "link": "https://www.bilibili.com/bangumi/play/ep7163991"
     },
     {
         "id": 6894698,

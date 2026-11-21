@@ -1600,6 +1600,14 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep3854824"
     },
     {
+        "id": 3854825,
+        "title": "201",
+        "long_title": "慕兰之战25",
+        "type": 0,
+        "type_title": "正片",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep3854825"
+    },
+    {
         "id": 7850443,
         "title": "黄龙山大战动捕实拍",
         "long_title": "",
@@ -4530,6 +4538,14 @@
         "share_url": "https://www.bilibili.com/bangumi/play/ep4292445"
     },
     {
+        "id": 4292446,
+        "title": "慕兰之战第26集预告",
+        "long_title": "慕兰之战第26集预告",
+        "type": 1,
+        "type_title": "预告",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep4292446"
+    },
+    {
         "id": 215048,
         "title": "独家对话：凡人导演带你看人界篇燃点天花板慕兰之战！",
         "type": 5,
@@ -4945,6 +4961,33 @@
         "type_title": "2020版",
         "share_url": "https://www.bilibili.com/bangumi/play/ep734383",
         "link": "https://www.bilibili.com/bangumi/play/ep734383"
+    },
+    {
+        "id": 8020480,
+        "title": "慕兰与阴罗宗达成交易",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep8020480",
+        "link": "https://www.bilibili.com/bangumi/play/ep8020480"
+    },
+    {
+        "id": 8020479,
+        "title": "钟吾为求生机转投仲神师",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep8020479",
+        "link": "https://www.bilibili.com/bangumi/play/ep8020479"
+    },
+    {
+        "id": 8020478,
+        "title": "韩立设法炼化灯焰",
+        "long_title": "",
+        "type": 3000,
+        "type_title": "修仙之旅",
+        "share_url": "https://www.bilibili.com/bangumi/play/ep8020478",
+        "link": "https://www.bilibili.com/bangumi/play/ep8020478"
     },
     {
         "id": 7810610,
